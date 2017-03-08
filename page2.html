@@ -22,6 +22,7 @@
     </script>
     <!--if lt IE 9script(src='./js/html5.min.js')
     -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
       body {background-color: #490F1B !important;}
       .p2-left-box {width: 408px !important; margin-right: 10px}
@@ -63,21 +64,34 @@
           margin-top: 60px;
       }
       .p2-promotion {
-          width: 376px;
+          width: 360px;
           background: url(./static/images/p2_promotion.gif) no-repeat;
       }
+      .p2-promotion .more {
+          width: 100%;
+          text-align: right;
+          padding-top: 1.5em;
+      }
+      .p2-promotion .more a {
+          color: #F39C51;
+          letter-spacing: 3px;
+      }
+      .p2-promotion .more .fa {
+          margin-left: .5em;
+      }
       .p2-promotion ul {
-          margin-top: 60px;
+          margin-top: 40px;
           width: 360px;
       }
       .p2-promotion ul li {
+          margin-bottom: .9em;
       }
       .p2-promotion ul li.minor {
           opacity: 0.5;
       }
       .p2-promotion ul li::before {
           content: ">";
-          margin: 0 1em;
+          margin: 0 1em 0 2em;
           color: white;
       }
       .p2-promotion ul li .date {
@@ -522,7 +536,9 @@
           <div class="index_r p2-right-box">
             <div class="p2-item">
               <div class="p2-block p2-experience"><img src="./static/images/p2_experience_banner.gif"></div>
-              <div class="p2-block p2-promotion"><span class="more">更多優惠</span>
+              <div class="p2-block p2-promotion">
+                <div class="more"> <a href="#">
+                     更多優惠活動<i class="fa fa-caret-right"></i></a></div>
                 <ul>
                   <li> <span>試玩遊戲</span></li>
                   <li class="minor"> <span>下載客戶端</span>

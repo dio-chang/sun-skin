@@ -1,5 +1,6 @@
 extends layout
 block append head
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
     style.
         body {background-color: #490F1B !important;}
         .p2-left-box {width: 408px !important; margin-right: 10px}
@@ -41,21 +42,34 @@ block append head
             margin-top: 60px;
         }
         .p2-promotion {
-            width: 376px;
+            width: 360px;
             background: url(./static/images/p2_promotion.gif) no-repeat;
         }
+        .p2-promotion .more {
+            width: 100%;
+            text-align: right;
+            padding-top: 1.5em;
+        }
+        .p2-promotion .more a {
+            color: #F39C51;
+            letter-spacing: 3px;
+        }
+        .p2-promotion .more .fa {
+            margin-left: .5em;
+        }
         .p2-promotion ul {
-            margin-top: 60px;
+            margin-top: 40px;
             width: 360px;
         }
         .p2-promotion ul li {
+            margin-bottom: .9em;
         }
         .p2-promotion ul li.minor {
             opacity: 0.5;
         }
         .p2-promotion ul li::before {
             content: ">";
-            margin: 0 1em;
+            margin: 0 1em 0 2em;
             color: white;
         }
         .p2-promotion ul li .date {
@@ -91,7 +105,10 @@ block content
                         .p2-block.p2-experience
                             img(src="./static/images/p2_experience_banner.gif")
                         .p2-block.p2-promotion
-                            span.more 更多優惠
+                            .more 
+                                a(href="#") 
+                                    | 更多優惠活動
+                                    i.fa.fa-caret-right
                             ul
                                 li 
                                     span 試玩遊戲
