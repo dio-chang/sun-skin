@@ -74,6 +74,7 @@ var banner = {
         $this.changeImg(next);
     },
     "createKnob": function() {
+
         var $this = this;
         for (var i = 1; i <= $this.size; i++) {
             $("#kb" + i).knob({
@@ -130,6 +131,7 @@ var anmIndex = 0;
 //动画切换
 function changeAnm(index){
     var num = 0;
+
     clearInterval(autoPlayTime);
     for(var i = 1; i <= 3; i++){
         if(index == i){
@@ -153,6 +155,7 @@ function changeAnm(index){
     }
 }
 function autoPlay(){
+
     changeAnm(anmIndex%3+1);
 }
 // 首页数字跳动——动画
@@ -175,6 +178,7 @@ function setNumber(id,type){
 }
 // 首页数字跳动——进度条加载CSS
 function scrollOn(){
+
     var showPosition = $(window).height() + $(window).scrollTop();
     if(showPosition > 800 && depositShow){
         depositShow = false;

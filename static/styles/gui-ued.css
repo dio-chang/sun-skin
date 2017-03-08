@@ -196,7 +196,7 @@ body {
   font-family: "Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","Hiragino Sans GB","Hiragino Sans GB W3",sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  color: #555;
+  color: #FFF;
 }
 
 button,input,select,textarea {
@@ -2162,8 +2162,10 @@ tbody.collapse.in {
 .navbar-collapse {
   width: auto;
   overflow-x: visible;
-  margin-top: -1px;
-  float: right;
+  
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .navbar-collapse:after,.navbar-collapse:before {
