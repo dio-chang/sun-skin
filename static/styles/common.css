@@ -781,7 +781,7 @@ a.tip-scode img {
 }
 
 .header-panel>a,.static-btn {
-  color: #ccc;
+  color: #863d3d;
   margin: 0 10px;
   text-shadow: 0 1px 0 #000;
 }
@@ -853,6 +853,10 @@ a.tip-scode img {
 
 header {
   position: relative;
+    background: url(../images/header-line.png);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
 
 .navbor {
@@ -1125,6 +1129,11 @@ header {
 }
 
 .index-screen-01 {
+  border-bottom: 1px solid #dde1e3;
+  margin-bottom: 40px;
+}
+
+.index-rows-01 {
     height: 198px;
     background-position: center center;
     background: url(../images/screen-01-bg.jpg);
@@ -1153,19 +1162,19 @@ header {
 }
 
 
-.index-screen-01 .link:before {
+.index-rows-01 .link:before {
     content: ' ';
     display: table;
     display: block;
     width: 220px;
     height: 196px;
 }
-.index-screen-01 .link:hover:before {
+.index-rows-01 .link:hover:before {
     background: #fff;
 	opacity: 0.1;
 }
 
-.index-screen-01 .link-1 {
+.index-rows-01 .link-1 {
     background: url(../images/index-s1.png);
     width: 220px;
     height: 200px;
@@ -1176,7 +1185,7 @@ header {
 	margin: 0 35px;
 
 }
-.index-screen-01 .link-2 {
+.index-rows-01 .link-2 {
     background: url(../images/index-s2.png);
     width: 220px;
     height: 200px;
@@ -1186,7 +1195,7 @@ header {
 	float:left;
 	margin: 0 35px;
 }
-.index-screen-01 .link-3 {
+.index-rows-01 .link-3 {
     background: url(../images/index-s3.png);
     width: 220px;
     height: 200px;
@@ -1196,7 +1205,7 @@ header {
 	float:left;
 	margin: 0 35px;
 }
-.index-screen-01 .link-4 {
+.index-rows-01 .link-4 {
     background: url(../images/index-s4.png);
     width: 220px;
     height: 178px;
@@ -1207,7 +1216,7 @@ header {
 	margin: 0 35px;
 }
 
-.index-screen-02 {
+.index-rows-02 {
     height: 217px;
     background-position: center center;
     background: url(../images/screen-02-bg.jpg);
@@ -2897,13 +2906,13 @@ lable.error {
 
 .user-info-box {margin-top:25px;margin-right:5px;}
 .float-left {float:left;}
-.index-screen-02 .float-left{
+.index-rows-02 .float-left{
 	width: 600px;
     display: block;
     height: 217px;
     position: relative;
 }
-.index-screen-02 .float-left .super-money{
+.index-rows-02 .float-left .super-money{
 background: url(../images/super-money.png);
     background-repeat: no-repeat;
     height: 28px;
@@ -2911,7 +2920,7 @@ background: url(../images/super-money.png);
     margin-top: 50px;
     margin-left: 30px;
 }
-.index-screen-02 .float-left .super-number{
+.index-rows-02 .float-left .super-number{
 background: url(../images/super-number.png);
     background-repeat: no-repeat;
     height: 34px;
@@ -2919,7 +2928,7 @@ background: url(../images/super-number.png);
     margin-top: 20px;
     margin-left: 30px;
 }
-.index-screen-02 .float-left .free-play{
+.index-rows-02 .float-left .free-play{
 background: url(../images/free-play.png);
     background-repeat: no-repeat;
     height: 28px;
@@ -2929,7 +2938,7 @@ background: url(../images/free-play.png);
 	margin-bottom: 20px;
 }
 
-.index-screen-02 .float-left .play-1{
+.index-rows-02 .float-left .play-1{
 	background: url(../images/fp1.jpg);
     background-repeat: no-repeat;
     width: 171px;
@@ -2937,17 +2946,17 @@ background: url(../images/free-play.png);
 	display:inline-block;
 	margin-left:30px;
 }
-.index-screen-02 .float-left .play-1:hover{
+.index-rows-02 .float-left .play-1:hover{
 	background: url(../images/fp11.jpg);
 }
-.index-screen-02 .float-left .play-2:hover{
+.index-rows-02 .float-left .play-2:hover{
 	background: url(../images/fp22.jpg);
 }
-.index-screen-02 .float-left .play-3:hover{
+.index-rows-02 .float-left .play-3:hover{
 	background: url(../images/fp33.jpg);
 }
 
-.index-screen-02 .float-left .play-2{
+.index-rows-02 .float-left .play-2{
 	background: url(../images/fp2.jpg);
     background-repeat: no-repeat;
     width: 171px;
@@ -2956,7 +2965,7 @@ background: url(../images/free-play.png);
 	margin-left:10px;
 }
 
-.index-screen-02 .float-left .play-3{
+.index-rows-02 .float-left .play-3{
 	background: url(../images/fp3.jpg);
     background-repeat: no-repeat;
     width: 171px;
@@ -3105,3 +3114,197 @@ background: url(../images/free-play.png);
     background-position: -463px -25px;
 }
 
+
+
+.sub-chess {
+	background: url(../images/menu-chess.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 202px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 573px;
+}
+.sub-chess .link1 {
+    width: 202px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-chess .link1:hover {
+	background: url(../images/menu-chess-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+ 
+
+.sub-lottery {
+	background: url(../images/menu-lottery.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 202px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 722px;
+}
+.sub-lottery .link1 {
+    width: 202px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-lottery .link1:hover {
+	background: url(../images/menu-lottery-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+ 
+.sub-casino {
+	background: url(../images/menu-casino.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 202px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 806px;
+}
+.sub-casino .link1 {
+    width: 202px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-casino .link1:hover {
+	background: url(../images/menu-casino-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+.sub-tiger {
+	background: url(../images/menu-tiger.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 488px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 511px;
+}
+.sub-tiger .link1 {
+    width: 173px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-tiger .link1:hover {
+	background: url(../images/menu-tiger-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+.sub-tiger .link2 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+
+}
+.sub-tiger .link2:hover {
+	background: url(../images/menu-tiger-active.png);
+    background-repeat: no-repeat;
+    background-position: -176px -25px;
+}
+
+
+.sub-tiger .link3 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-tiger .link3:hover {
+	background: url(../images/menu-tiger-active.png);
+    background-repeat: no-repeat;
+    background-position: -320px -25px;
+}
+
+
+
+
+
+
+
+
+
+.sub-tryPlay {
+	background: url(../images/menu-tryplay.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 774px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 460px;
+}
+.sub-tryPlay .link1 {
+    width: 173px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-tryPlay .link1:hover {
+	background: url(../images/menu-tryplay-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+.sub-tryPlay .link2 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+
+}
+.sub-tryPlay .link2:hover {
+	background: url(../images/menu-tryplay-active.png);
+    background-repeat: no-repeat;
+    background-position: -176px -25px;
+}
+
+
+.sub-tryPlay .link3 {
+    width: 139px;
+    height: 186px;
+    display: inline-block;
+	
+}
+.sub-tryPlay .link3:hover {
+	background: url(../images/menu-tryplay-active.png);
+    background-repeat: no-repeat;
+    background-position: -320px -25px;
+}
+
+
+.sub-tryPlay .link4 {
+    width: 139px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-tryPlay .link4:hover {
+	background: url(../images/menu-tryplay-active.png);
+    background-repeat: no-repeat;
+    background-position: -463px -25px;
+}
+
+.sub-tryPlay .link5 {
+    width: 150px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-tryPlay .link5:hover {
+	background: url(../images/menu-tryplay-active.png);
+    background-repeat: no-repeat;
+    background-position: -606px -25px;
+}
