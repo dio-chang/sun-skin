@@ -101,42 +101,43 @@ html(lang='en')
                             a(href='/views/index.html')
                                 img(src='./static/images/logo.png')
                         .navbar-collapse
-                            ul.nav.navbar-nav._vr_nav
-                                li.nav-item
-                                    a(href='/views/index.html') 首页
-                                li.nav-item(rel='sub-sports')
-                                    a(href='/views/sports.html')
-                                        | 体育大厅
-                                        i.triangle
-                                li.nav-item(rel='sub-live')
-                                    a(href='/views/entertainment.html')
-                                        | 真人视讯
-                                        i.triangle
-                                li.nav-item(rel='sub-chess')
-                                    a(href='/views/chess.html')
-                                        | 捕魚王
-                                        i.triangle
-                                li.nav-item(rel='sub-tiger')
-                                    a._vr_mt_check(href='/views/slotMachine.html')
-                                        | 老虎机
-                                        i.triangle
-                                li.nav-item(rel='sub-lottery')
-                                    a(href='/views/lottery.html')
-                                        | 彩票
-                                        i.triangle
-                                li.nav-item(rel='sub-casino')
-                                    a(href='http://www.uedk68.com?d=api&c=game&m=entergame&pid=23&gametype=0', target='_blank')
-                                        | 六合彩
-                                        i.triangle
-                                li.nav-item.tryPlay(rel='sub-tryPlay')
-                                    a(href='javascript:')
-                                        i.triangle
-                                li.nav-item(rel='sub-client')
-                                    a(href='javascript:')
-                                        | 下载中心
-                                        i.triangle
-                                li.nav-item
-                                    a(href='/views/promo.html') 优惠活动
+                            block navbar-list
+                                ul.nav.navbar-nav._vr_nav
+                                    li.nav-item
+                                        a(href='/views/index.html') 首页
+                                    li.nav-item(rel='sub-sports')
+                                        a(href='/views/sports.html')
+                                            | 体育大厅
+                                            i.triangle
+                                    li.nav-item(rel='sub-live')
+                                        a(href='/views/entertainment.html')
+                                            | 真人视讯
+                                            i.triangle
+                                    li.nav-item(rel='sub-chess')
+                                        a(href='/views/chess.html')
+                                            | 捕魚王
+                                            i.triangle
+                                    li.nav-item(rel='sub-tiger')
+                                        a._vr_mt_check(href='/views/slotMachine.html')
+                                            | 老虎机
+                                            i.triangle
+                                    li.nav-item(rel='sub-lottery')
+                                        a(href='/views/lottery.html')
+                                            | 彩票
+                                            i.triangle
+                                    li.nav-item(rel='sub-casino')
+                                        a(href='http://www.uedk68.com?d=api&c=game&m=entergame&pid=23&gametype=0', target='_blank')
+                                            | 六合彩
+                                            i.triangle
+                                    li.nav-item.tryPlay(rel='sub-tryPlay')
+                                        a(href='javascript:')
+                                            i.triangle
+                                    li.nav-item(rel='sub-client')
+                                        a(href='javascript:')
+                                            | 下载中心
+                                            i.triangle
+                                    li.nav-item
+                                        a(href='/views/promo.html') 优惠活动
                     .navbar-sub
                         #sub-sports.sub-content(rel='sub-sports')
                             .container
@@ -603,271 +604,272 @@ html(lang='en')
                                             br
                                             | 地气的个性化本土定制服务。
                                             br
-        section.index-screen-02
-            .container
-                .row
-                    .col-3-1
-                        .screen-item
-                            .ff_title
-                                .fft_img.ffti_about
-                            .tiaogui.show
-                                p UEDbet是注册于菲律宾Manila的合法公司，在进行网站注册或游戏前，请确保您已满18周岁并且遵循当地的法律法规。
-                                a(href='/views/help/duty.html') 18 + 条规
-                            .copyright Copyright ©
-                    .col-3-1.parden
-                        .screen-item
-                            .ff_title
-                                .fft_img.ffti_c
-                            .ff_pt.show
-                                a.ff_pti.ea(href='http://www.entwinetech.com/', target='_blank', style='display:none;')
-                                a.ff_pti.pt(href='http://www.playtech.com/html/', target='_blank')
-                                a.ff_pti.liao(href='/', target='_blank')
-                                a.ff_pti.gd(href='http://www.golddeluxephil.com/', target='_blank')
-                                a.ff_pti.eig
-                                a.ff_pti.gam(href='http://www.gamcare.org.uk/', target='_blank')
-                                a.ff_pti.gicc(target='_blank')
-                                a.ff_pti.tha(href='http://www.thawte.com/', target='_blank')
-                                a.ff_pti.keno(href='/', target='_blank')
-                    .col-3-1.howto
-                        .screen-item
-                            .ff_title
-                                .fft_img.ffti_r
-                            .ff_help.show
-                                a.ffh_item(href='/views/help/deposit.html')
-                                    .ffh_arrow.arr1
-                                    .ffhi_a 如何存款
-                                a.ffh_item(href='/views/help/agent.html', target='_blank')
-                                    .ffh_arrow.arr2
-                                    .ffhi_a 合营伙伴
-                                a.ffh_item(href='/views/help/contactus.html')
-                                    .ffh_arrow.arr3
-                                    .ffhi_a 联系我们
-                                a.ffh_item(href='/views/help/withdrawal.html')
-                                    .ffh_arrow.arr4
-                                    .ffhi_a 如何提款
-                                a.ffh_item(href='/views/help/duty.html')
-                                    .ffh_arrow.arr5
-                                    .ffhi_a 责任条款
-                                a.ffh_item(href='/views/help/conditions.html')
-                                    .ffh_arrow.arr6
-                                    .ffhi_a 规则与条款
-                            .ff_brow
-                                .ffb_title 推荐浏览器：
-                                .ffb_all.show
-                                    a.ffb_item.js(href='http://chrome.360.cn/', target='_blank', title='360急速')
-                                        .ffb_icon
-                                        .ffb_vsion 7.0
-                                    a.ffb_item.ie(href='http://windows.microsoft.com/zh-cn/internet-explorer/download-ie', target='_blank', title='IE9')
-                                        .ffb_icon
-                                        .ffb_vsion 9.0
-                                    a.ffb_item.cm(href='https://www.google.com/intl/zh-CN/chrome/browser/', target='_blank', title='谷歌')
-                                        .ffb_icon
-                                        .ffb_vsion 13.0
-                                    a.ffb_item.fx(href='http://firefox.com.cn/download/', target='_blank', title='火狐')
-                                        .ffb_icon
-                                        .ffb_vsion 12.0
-                            .ff_shall
-                                .ffs_title 喜欢就分享我们：
-                                .ffs_all.show
-                                    a.ffs_item.xl(href='javascript', target='_blank', title='新浪微博')
-                                        .ffs_icon
-                                        .ffs_txt 微博
-                                    a.ffs_item.tx(href='/views/help/contactus', target='_blank', title='腾讯微博')
-                                        .ffs_icon
-                                        .ffs_txt 腾讯
-                                    a.ffs_item.wx(href='/views/help/contactus', title='微信')
-                                        .ffs_icon
-                                        .ffs_txt 微信
-                                    a.ffs_item.qq(href='/views/help/contactus', title='QQ')
-                                        .ffs_icon
-                                        .ffs_txt QQ
-        .loginpob.success.pob
-            h3
-                p 消息
-                span.close
-                .clear
-            dl
-                dt
-                dd
-            a.loginsure.success 确定
-        .pob.accountNumber
-            h3
-                p 找回用户名
-                span.close
-                .clear
-            h5 请按照以下步骤找回用户名：
-            .step
-                ul.stepfont
-                    li.fulfill 联系客服
-                    li 核对资料
-                    li 审核通过
-                    li.stepLast 完成
-                .clear
-                ul.stepbg
-                    li
-                    li
-                    li
-                .clear
-            .toKefu
-                p 客服人员将根据您提供的信息，在核实您身份之后，告知您的账号。
-                a.online_kefu(target='_blank', href='http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&configID=45233&jid=8622492600') 立即联系
-        .pob.findpassword
-            h3
-                p 找回密码
-                span.close
-                .clear
-            h5 请按照以下步骤找回密码：
-            .step
-                ul.stepfont
-                    li.fulfill 输入用户名
-                    li 身份验证
-                    li 修改密码
-                    li.stepLast 完成
-                .clear
-                ul.stepbg
-                    li
-                    li
-                    li
-                .clear
-            .formcont.form1
-                .findusername
-                    span 用户名：
-                    input#findUsername(type='text', name='')
-                    p.clear
-                    span.error
-                .findcode
-                    span 验证码：
-                    input#findCode(type='text', name='')
-                    span#verificationCode
-                        img(src='')
-                    span.noSee 看不清
-                    p.clear
-                    span.error
-                a.nextstep(href='javascript:;') 下一步
-            .formcont.form2
-                p 请选择找回密码的方式：
-                ul.chooseType
-                    li.activeType.emailType
-                        i
-                        span 通过绑定邮箱找回
-                    li.questionType
-                        i
-                        span 通过安全问题找回
-                    li.securitycode
-                        i
-                        span 通过资金密码找回
-                    li.kefu
-                        a(href='http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&configID=45233&jid=8622492600', target='_blank')
-                            i
-                            span 联系在线客服
-                .clear
-                a.nextstep(href='javascript:;') 下一步
-            .formcont.form3
-                .emailBox.formBox
-                    p.emailTips
-                    .safeemail
-                        span 邮箱：
-                        input#emailaddr(type='text', name='')
-                        p.clear
-                    .emailCode
-                        span 验证码：
-                        input#emailCode(type='text', name='')
-                        button#getCode 获取验证码
-                        p.clear
-                        p.err
-                    ul.gostep
-                        li.prestep 返回上一步
-                        li.nextstep 下一步
-                .questionBox.formBox
-                    .forminput
-                        span 安全问题：
-                        select#questionName
-                        p.clear
-                    .forminput
-                        span 答案：
-                        input#answer(placeholder='请输入问题的答案')
-                        p.clear
-                        p.err
-                    ul.gostep
-                        li.prestep 返回上一步
-                        li.nextstep 下一步
-                .securitycodeBox.formBox
-                    .forminput
-                        span 资金密码：
-                        input#securitycode(type='password', name='')
-                        p.clear
-                    ul.gostep
-                        li.prestep 返回上一步
-                        li.nextstep 下一步
-            .formcont.form4
-                .findNewpassword
-                    span 设置新密码：
-                    input#setNeword(type='password', name='')
-                    p.error
-                    p.clear
-                .proNewpassword
-                    span 确认新密码：
-                    input#prosetNeword(type='password', name='')
-                    p.error
-                    p.clear
-                a.nextstep(href='javascript:;') 下一步
-            .formcont.form5
+        block footer
+            section.index-screen-02
+                .container
+                    .row
+                        .col-3-1
+                            .screen-item
+                                .ff_title
+                                    .fft_img.ffti_about
+                                .tiaogui.show
+                                    p UEDbet是注册于菲律宾Manila的合法公司，在进行网站注册或游戏前，请确保您已满18周岁并且遵循当地的法律法规。
+                                    a(href='/views/help/duty.html') 18 + 条规
+                                .copyright Copyright ©
+                        .col-3-1.parden
+                            .screen-item
+                                .ff_title
+                                    .fft_img.ffti_c
+                                .ff_pt.show
+                                    a.ff_pti.ea(href='http://www.entwinetech.com/', target='_blank', style='display:none;')
+                                    a.ff_pti.pt(href='http://www.playtech.com/html/', target='_blank')
+                                    a.ff_pti.liao(href='/', target='_blank')
+                                    a.ff_pti.gd(href='http://www.golddeluxephil.com/', target='_blank')
+                                    a.ff_pti.eig
+                                    a.ff_pti.gam(href='http://www.gamcare.org.uk/', target='_blank')
+                                    a.ff_pti.gicc(target='_blank')
+                                    a.ff_pti.tha(href='http://www.thawte.com/', target='_blank')
+                                    a.ff_pti.keno(href='/', target='_blank')
+                        .col-3-1.howto
+                            .screen-item
+                                .ff_title
+                                    .fft_img.ffti_r
+                                .ff_help.show
+                                    a.ffh_item(href='/views/help/deposit.html')
+                                        .ffh_arrow.arr1
+                                        .ffhi_a 如何存款
+                                    a.ffh_item(href='/views/help/agent.html', target='_blank')
+                                        .ffh_arrow.arr2
+                                        .ffhi_a 合营伙伴
+                                    a.ffh_item(href='/views/help/contactus.html')
+                                        .ffh_arrow.arr3
+                                        .ffhi_a 联系我们
+                                    a.ffh_item(href='/views/help/withdrawal.html')
+                                        .ffh_arrow.arr4
+                                        .ffhi_a 如何提款
+                                    a.ffh_item(href='/views/help/duty.html')
+                                        .ffh_arrow.arr5
+                                        .ffhi_a 责任条款
+                                    a.ffh_item(href='/views/help/conditions.html')
+                                        .ffh_arrow.arr6
+                                        .ffhi_a 规则与条款
+                                .ff_brow
+                                    .ffb_title 推荐浏览器：
+                                    .ffb_all.show
+                                        a.ffb_item.js(href='http://chrome.360.cn/', target='_blank', title='360急速')
+                                            .ffb_icon
+                                            .ffb_vsion 7.0
+                                        a.ffb_item.ie(href='http://windows.microsoft.com/zh-cn/internet-explorer/download-ie', target='_blank', title='IE9')
+                                            .ffb_icon
+                                            .ffb_vsion 9.0
+                                        a.ffb_item.cm(href='https://www.google.com/intl/zh-CN/chrome/browser/', target='_blank', title='谷歌')
+                                            .ffb_icon
+                                            .ffb_vsion 13.0
+                                        a.ffb_item.fx(href='http://firefox.com.cn/download/', target='_blank', title='火狐')
+                                            .ffb_icon
+                                            .ffb_vsion 12.0
+                                .ff_shall
+                                    .ffs_title 喜欢就分享我们：
+                                    .ffs_all.show
+                                        a.ffs_item.xl(href='javascript', target='_blank', title='新浪微博')
+                                            .ffs_icon
+                                            .ffs_txt 微博
+                                        a.ffs_item.tx(href='/views/help/contactus', target='_blank', title='腾讯微博')
+                                            .ffs_icon
+                                            .ffs_txt 腾讯
+                                        a.ffs_item.wx(href='/views/help/contactus', title='微信')
+                                            .ffs_icon
+                                            .ffs_txt 微信
+                                        a.ffs_item.qq(href='/views/help/contactus', title='QQ')
+                                            .ffs_icon
+                                            .ffs_txt QQ
+            .loginpob.success.pob
+                h3
+                    p 消息
+                    span.close
+                    .clear
                 dl
                     dt
                     dd
-                a.closepob(href='javascript:;') 关闭
-        .mask
-        footer.footer-bar
-            .container
-                .row.footer-row
-                    .col-3-1.footer-item
-                        a.bds-jt-logo.pull-left(href='http://www.realbetisbalompie.es/es/', target='_blank')
-                        p 2015-2016赛季西甲联赛赞助商
-                        a.bds-jt-title(href='http://www.realbetisbalompie.es/es/', target='_blank')
-                        ul.list-inline
-                            li
-                                a(href='help/surport.html', target='_blank') 赞助信息
-                            li
-                                a(href='help/odds.html', target='_blank') 赔率收录
-                            li
-                                a(href='http://baike.baidu.com/view/1010521.htm?fromtitle=%E7%9A%87%E5%AE%B6%E8%B4%9D%E8%92%82%E6%96%AF&fromid=1345560&type=syn', target='_blank') 皇家贝蒂斯百科
-                    .col-3-1.footer-item
-                        a.htf-jt-logo.pull-left(href='http://www.getafecf.com/', target='_blank')
-                        p 2014-2015赛季西甲联赛赞助商
-                        a.htf-jt-title(href='http://www.getafecf.com/', target='_blank')
-                        ul.list-inline
-                            li
-                                a(href='help/surport.html', target='_blank') 赞助信息
-                            li
-                                a(href='help/poloshirt.html', target='_blank') 球衣发布
-                            li
-                                a(href='help/banner.html', target='_blank') 祝皇马.巴萨踢出真爱
-                    .col-3-1.footer-item.none-bg
-                        a(href='javascript:void(0);', target='_blank')
-                            .live-jt-logo
-                            .live-jt-title
-                        div
-                            | 提供西甲、西乙、日职联、K联赛等数万场高清体育直播
-                            br
-                            | 唯一有实力赞助西甲并提供手机体育直播的亚洲顶级公司
-                        ul.list-inline
-                            li
-                                a.ft_liveevent(href='help/sports.html', target='_blank') 五大联赛投注
-                            li
-                                a(href='help/sports.html', target='_blank') 欧冠投注
-                            li
-                                a(href='help/sports.html', target='_blank') 世界杯外围预选赛
-            .loadingGif
-                img(src='./static/images/loading.gif')
-        .floatr
-            ul
-                li.right_online
-                    a(target='_blank', href='http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&configID=45233&jid=8622492600') 客服
-                li.right_qq QQ
-                li.right_phone 电话
-                li.qqBox
-                li.phoneBox
-            p.right_line
+                a.loginsure.success 确定
+            .pob.accountNumber
+                h3
+                    p 找回用户名
+                    span.close
+                    .clear
+                h5 请按照以下步骤找回用户名：
+                .step
+                    ul.stepfont
+                        li.fulfill 联系客服
+                        li 核对资料
+                        li 审核通过
+                        li.stepLast 完成
+                    .clear
+                    ul.stepbg
+                        li
+                        li
+                        li
+                    .clear
+                .toKefu
+                    p 客服人员将根据您提供的信息，在核实您身份之后，告知您的账号。
+                    a.online_kefu(target='_blank', href='http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&configID=45233&jid=8622492600') 立即联系
+            .pob.findpassword
+                h3
+                    p 找回密码
+                    span.close
+                    .clear
+                h5 请按照以下步骤找回密码：
+                .step
+                    ul.stepfont
+                        li.fulfill 输入用户名
+                        li 身份验证
+                        li 修改密码
+                        li.stepLast 完成
+                    .clear
+                    ul.stepbg
+                        li
+                        li
+                        li
+                    .clear
+                .formcont.form1
+                    .findusername
+                        span 用户名：
+                        input#findUsername(type='text', name='')
+                        p.clear
+                        span.error
+                    .findcode
+                        span 验证码：
+                        input#findCode(type='text', name='')
+                        span#verificationCode
+                            img(src='')
+                        span.noSee 看不清
+                        p.clear
+                        span.error
+                    a.nextstep(href='javascript:;') 下一步
+                .formcont.form2
+                    p 请选择找回密码的方式：
+                    ul.chooseType
+                        li.activeType.emailType
+                            i
+                            span 通过绑定邮箱找回
+                        li.questionType
+                            i
+                            span 通过安全问题找回
+                        li.securitycode
+                            i
+                            span 通过资金密码找回
+                        li.kefu
+                            a(href='http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&configID=45233&jid=8622492600', target='_blank')
+                                i
+                                span 联系在线客服
+                    .clear
+                    a.nextstep(href='javascript:;') 下一步
+                .formcont.form3
+                    .emailBox.formBox
+                        p.emailTips
+                        .safeemail
+                            span 邮箱：
+                            input#emailaddr(type='text', name='')
+                            p.clear
+                        .emailCode
+                            span 验证码：
+                            input#emailCode(type='text', name='')
+                            button#getCode 获取验证码
+                            p.clear
+                            p.err
+                        ul.gostep
+                            li.prestep 返回上一步
+                            li.nextstep 下一步
+                    .questionBox.formBox
+                        .forminput
+                            span 安全问题：
+                            select#questionName
+                            p.clear
+                        .forminput
+                            span 答案：
+                            input#answer(placeholder='请输入问题的答案')
+                            p.clear
+                            p.err
+                        ul.gostep
+                            li.prestep 返回上一步
+                            li.nextstep 下一步
+                    .securitycodeBox.formBox
+                        .forminput
+                            span 资金密码：
+                            input#securitycode(type='password', name='')
+                            p.clear
+                        ul.gostep
+                            li.prestep 返回上一步
+                            li.nextstep 下一步
+                .formcont.form4
+                    .findNewpassword
+                        span 设置新密码：
+                        input#setNeword(type='password', name='')
+                        p.error
+                        p.clear
+                    .proNewpassword
+                        span 确认新密码：
+                        input#prosetNeword(type='password', name='')
+                        p.error
+                        p.clear
+                    a.nextstep(href='javascript:;') 下一步
+                .formcont.form5
+                    dl
+                        dt
+                        dd
+                    a.closepob(href='javascript:;') 关闭
+            .mask
+            footer.footer-bar
+                .container
+                    .row.footer-row
+                        .col-3-1.footer-item
+                            a.bds-jt-logo.pull-left(href='http://www.realbetisbalompie.es/es/', target='_blank')
+                            p 2015-2016赛季西甲联赛赞助商
+                            a.bds-jt-title(href='http://www.realbetisbalompie.es/es/', target='_blank')
+                            ul.list-inline
+                                li
+                                    a(href='help/surport.html', target='_blank') 赞助信息
+                                li
+                                    a(href='help/odds.html', target='_blank') 赔率收录
+                                li
+                                    a(href='http://baike.baidu.com/view/1010521.htm?fromtitle=%E7%9A%87%E5%AE%B6%E8%B4%9D%E8%92%82%E6%96%AF&fromid=1345560&type=syn', target='_blank') 皇家贝蒂斯百科
+                        .col-3-1.footer-item
+                            a.htf-jt-logo.pull-left(href='http://www.getafecf.com/', target='_blank')
+                            p 2014-2015赛季西甲联赛赞助商
+                            a.htf-jt-title(href='http://www.getafecf.com/', target='_blank')
+                            ul.list-inline
+                                li
+                                    a(href='help/surport.html', target='_blank') 赞助信息
+                                li
+                                    a(href='help/poloshirt.html', target='_blank') 球衣发布
+                                li
+                                    a(href='help/banner.html', target='_blank') 祝皇马.巴萨踢出真爱
+                        .col-3-1.footer-item.none-bg
+                            a(href='javascript:void(0);', target='_blank')
+                                .live-jt-logo
+                                .live-jt-title
+                            div
+                                | 提供西甲、西乙、日职联、K联赛等数万场高清体育直播
+                                br
+                                | 唯一有实力赞助西甲并提供手机体育直播的亚洲顶级公司
+                            ul.list-inline
+                                li
+                                    a.ft_liveevent(href='help/sports.html', target='_blank') 五大联赛投注
+                                li
+                                    a(href='help/sports.html', target='_blank') 欧冠投注
+                                li
+                                    a(href='help/sports.html', target='_blank') 世界杯外围预选赛
+                .loadingGif
+                    img(src='./static/images/loading.gif')
+            .floatr
+                ul
+                    li.right_online
+                        a(target='_blank', href='http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&configID=45233&jid=8622492600') 客服
+                    li.right_qq QQ
+                    li.right_phone 电话
+                    li.qqBox
+                    li.phoneBox
+                p.right_line
         script#question(type='text/template').
             <% _(data).each(function (v, k) { %>
             <option data-id="<%=v.get('id')%>">
