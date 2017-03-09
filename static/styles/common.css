@@ -127,8 +127,8 @@ main {
 }
 
 .navbar-default .navbar-header {
-    padding-bottom: 10px;
-    margin-top: -20px;
+    padding-bottom: 5px;
+    margin-top: -30px;
 }
 .navbar-default .navbar-nav>li>a {
   color: #8b4040;
@@ -136,6 +136,7 @@ main {
   line-height: 65px;
   padding: 0 18px;
   transition: all .6s;
+  min-width: 77px;
 }
 
 .navbar-default .navbar-nav>li>a>.triangle {
@@ -196,14 +197,17 @@ main {
 }
 
 .navbar-sub>.sub-content {
-  height: 200px;
+  height: 130px;
+/*
   background: url(http://www.uedk28.com/static/images/navbar-sub-sprite.png) 0 -1050px repeat-x;
   border-bottom: 1px solid #c9c9c9;
   overflow: hidden;
+*/
 }
 
 .navbar-sub>.sub-content>.container {
-  background: url(http://www.uedk28.com/static/images/sub-item-bg.png) 50% 130px no-repeat;
+  /*background: url(http://www.uedk28.com/static/images/sub-item-bg.png) 50% 130px no-repeat;*/
+ overflow:inherit;
 }
 
 .api-item {
@@ -538,13 +542,12 @@ main {
 }
 
 .navbar-nav>.tryPlay.activenav>a,.tryPlay,.tryPlay.activenav {
-	background: url(../images/tryPlay.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-	width:76px;
 }
 
 .tryPlay a:hover {
+}
+.tryPlay img {
+margin-top:-4px;
 }
 
 .num-decimal,.num-dot,.num-pre,.num-single {
@@ -709,11 +712,10 @@ a.tip-forget,a.tip-scode {
   width: 180px;
   height: 26px;
   line-height: 12px;
-  background-color: #c6c6c6;
-  text-shadow: 0 1px 0 #d6d6d6;
-  box-shadow: 0 1px 0 rgba(255,255,255,.15),0 2px 2px rgba(0,0,0,.2) inset;
-  border-radius: 3px;
-  border: 1px solid #5c5c5e;
+  background-color: #592323;
+  text-shadow: 0 0px 0 #d6d6d6;
+  border-radius: 1px;
+  border: 1px solid #8a3e3e;
   box-sizing: border-box;
 }
 
@@ -722,16 +724,15 @@ a.tip-forget,a.tip-scode {
 }
 
 a.tip-forget {
-  right: 4px;
-  top: 4px;
-  padding: 0 6px;
-  height: 18px;
-  line-height: 16px;
-  text-align: center;
-  border: 1px solid #999;
-  background: #e5e5e5;
-  color: #999;
-  border-radius: 2px;
+    right: 4px;
+    top: 4px;
+    padding: 0 6px;
+    height: 18px;
+    line-height: 16px;
+    text-align: center;
+    color: #eee;
+    border-radius: 2px;
+    text-decoration: underline;
 }
 
 a.tip-scode {
@@ -753,13 +754,20 @@ a.tip-scode img {
 }
 
 .static-right ._vr_login {
-  background-color: #e6e6e6;
-  color: #333;
+    color: #fff;
+    background: url(../images/btn.png);
+    background-size: cover;
+    border: 0px;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 26px;
+	margin-right:7px;
 }
 
 .static-right ._vr_login:hover {
   background-color: #fff;
 }
+
 
 .static-right .kefu {
   width: 89px;
@@ -1117,8 +1125,12 @@ header {
 }
 
 .index-screen-01 {
-  border-bottom: 1px solid #dde1e3;
-  margin-bottom: 40px;
+    height: 198px;
+    background-position: center center;
+    background: url(../images/screen-01-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2px;
 }
 
 .index-screen-01 .screen-item {
@@ -1138,6 +1150,70 @@ header {
 
 .index-screen-01 .screen-item.nonebg {
   background: 0 0;
+}
+
+
+.index-screen-01 .link:before {
+    content: ' ';
+    display: table;
+    display: block;
+    width: 220px;
+    height: 196px;
+}
+.index-screen-01 .link:hover:before {
+    background: #fff;
+	opacity: 0.1;
+}
+
+.index-screen-01 .link-1 {
+    background: url(../images/index-s1.png);
+    width: 220px;
+    height: 200px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+	float:left;
+	margin: 0 35px;
+
+}
+.index-screen-01 .link-2 {
+    background: url(../images/index-s2.png);
+    width: 220px;
+    height: 200px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+	float:left;
+	margin: 0 35px;
+}
+.index-screen-01 .link-3 {
+    background: url(../images/index-s3.png);
+    width: 220px;
+    height: 200px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+	float:left;
+	margin: 0 35px;
+}
+.index-screen-01 .link-4 {
+    background: url(../images/index-s4.png);
+    width: 220px;
+    height: 178px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+	float:left;
+	margin: 0 35px;
+}
+
+.index-screen-02 {
+    height: 217px;
+    background-position: center center;
+    background: url(../images/screen-02-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 2px;
 }
 
 .index-screen-02 .screen-item {
@@ -2788,5 +2864,244 @@ lable.error {
 }
 
 .navbar-collapse {
-  margin: 0;
+  margin: 0 0 5px 0;
 }
+.top-bar-box {
+    line-height: 40px;
+    height: 40px;
+
+}
+.top-bar-box img{
+    margin-top: -4px;
+}
+
+.top-bar-box .top-host{
+	padding-right:30px;
+}
+
+.top-bar-box img,.top-bar-box a{
+	display:inline;
+}
+
+.top-bar-box a{
+    color: #8b4040;
+    padding: 0 10px;
+    transition: all .6s;
+}
+
+.top-bar-box a:hover{
+    color: #EEE;
+}
+
+
+
+.user-info-box {margin-top:25px;margin-right:5px;}
+.float-left {float:left;}
+.index-screen-02 .float-left{
+	width: 600px;
+    display: block;
+    height: 217px;
+    position: relative;
+}
+.index-screen-02 .float-left .super-money{
+background: url(../images/super-money.png);
+    background-repeat: no-repeat;
+    height: 28px;
+    /* line-height: 91px; */
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.index-screen-02 .float-left .super-number{
+background: url(../images/super-number.png);
+    background-repeat: no-repeat;
+    height: 34px;
+    /* line-height: 91px; */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.index-screen-02 .float-left .free-play{
+background: url(../images/free-play.png);
+    background-repeat: no-repeat;
+    height: 28px;
+    /* line-height: 91px; */
+    margin-top: 50px;
+    margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.index-screen-02 .float-left .play-1{
+	background: url(../images/fp1.jpg);
+    background-repeat: no-repeat;
+    width: 171px;
+    height: 89px;
+	display:inline-block;
+	margin-left:30px;
+}
+.index-screen-02 .float-left .play-1:hover{
+	background: url(../images/fp11.jpg);
+}
+.index-screen-02 .float-left .play-2:hover{
+	background: url(../images/fp22.jpg);
+}
+.index-screen-02 .float-left .play-3:hover{
+	background: url(../images/fp33.jpg);
+}
+
+.index-screen-02 .float-left .play-2{
+	background: url(../images/fp2.jpg);
+    background-repeat: no-repeat;
+    width: 171px;
+    height: 89px;
+	display:inline-block;
+	margin-left:10px;
+}
+
+.index-screen-02 .float-left .play-3{
+	background: url(../images/fp3.jpg);
+    background-repeat: no-repeat;
+    width: 171px;
+    height: 89px;
+	display:inline-block;
+	margin-left:10px;
+}
+
+._vr_nav .active {
+    background: url(../images/menu-active.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: inherit;
+}
+
+
+.sub-client {
+	background: url(../images/menu-download.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 336px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    right: 0;
+}
+.sub-client .link1 {
+    width: 172px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-client .link1:hover {
+	background: url(../images/menu-download-active.png);
+    background-repeat: no-repeat;
+    background-position: 9px -25px;
+}
+
+.sub-client .link2 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-client .link2:hover {
+	background: url(../images/menu-download-active.png);
+    background-repeat: no-repeat;
+    background-position: -166px -25px;
+}
+
+
+
+
+.sub-sports {
+	background: url(../images/menu-sport.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 345px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 325px;
+}
+.sub-sports .link1 {
+    width: 172px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-sports .link1:hover {
+	background: url(../images/menu-sport-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+.sub-sports .link2 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-sports .link2:hover {
+	background: url(../images/menu-sport-active.png);
+    background-repeat: no-repeat;
+    background-position: -176px -25px;
+}
+
+
+
+
+
+.sub-live {
+	background: url(../images/menu-live.png);
+    background-repeat: no-repeat;
+    background-position: 0px -19px;
+    width: 627px;
+    height: 180px;
+    margin-top: -18px;
+	position: absolute;
+    left: 275px;
+}
+.sub-live .link1 {
+    width: 172px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-live .link1:hover {
+	background: url(../images/menu-live-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+.sub-live .link2 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-live .link2:hover {
+	background: url(../images/menu-live-active.png);
+    background-repeat: no-repeat;
+    background-position: -174px -25px;
+}
+
+
+.sub-live .link3 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-live .link3:hover {
+	background: url(../images/menu-live-active.png);
+    background-repeat: no-repeat;
+    background-position: -319px -25px;
+}
+
+
+.sub-live .link4 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-live .link4:hover {
+	background: url(../images/menu-live-active.png);
+    background-repeat: no-repeat;
+    background-position: -463px -25px;
+}
+

@@ -518,7 +518,7 @@ function initMenuEvents() {
             $('[rel]').each(function() {
                 $(this)[_rel == $(this).attr('rel') ? 'addClass' : 'removeClass']('active');
             });
-            $('#' + _rel).stop(true, true).slideDown("300");
+            $('#' + _rel).stop(true, true).fadeIn();
         }, 150);
     }, function() {
         var _rel = $(this).attr('rel');
@@ -526,7 +526,7 @@ function initMenuEvents() {
         mega[_rel + '_timer'] = setTimeout(function() {
             $('[rel]').removeClass('active');
             $activeElement.addClass('active');
-            $('#' + _rel).stop(true, true).slideUp(300);
+            $('#' + _rel).stop(true, true).fadeOut(0);
         }, 150);
     });
 }
