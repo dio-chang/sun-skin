@@ -1,0 +1,182 @@
+extends layout
+block body-middle
+    section.index-slide
+        .slide-inner
+            .sl_img._vr_carousels_check.banner1(style='background:url(../static/images/banner1.jpg) 50% 50% no-repeat;', starttime='1474267757000', endtime='33031209599000', showindex='1')
+            .sl_img._vr_carousels_check.banner2(style='background:url(../static/images/banner2.jpg) 50% 50% no-repeat;', starttime='1473861507000', endtime='33032159999000', showindex='2')
+            .sl_img._vr_carousels_check.banner3(style='background:url(../static/images/banner3.jpg) 50% 50% no-repeat;', starttime='1473861614000', endtime='33032159999000', showindex='3')
+        .slide-indicators
+            ._vr_carousels_check.sl_icon(style='background:url(../static/images/index-ban-icon-02.png)', starttime='1482723906000', endtime='33031209599000')
+                input.ctc_btn(type='text')
+            ._vr_carousels_check.sl_icon(style='background:url(../static/images/index-ban-icon-03.png)', starttime='1473861507000', endtime='33032159999000')
+                input.ctc_btn(type='text')
+            ._vr_carousels_check.sl_icon(style='background:url(../static/images/index-ban-icon-01.png)', starttime='1473861614000', endtime='33032159999000')
+                input.ctc_btn(type='text')
+    section.notice.index-notice
+        .container
+            .notice-list
+                ul.list-unstyled.noticeList
+    script#tpl(type='text/template').
+        <% _(data).each(function (v, k) { %>
+        <li class="noticeTit" data-content="<%=v.get('content')%>">
+        <a href="javascript:void(0)">
+        <%=v.get( 'title')%>
+        </a>
+        </li>
+        <% }) %>
+    script(type='text/javascript').
+        window.onload = function() {
+        getNotice()
+        }
+    section.index-rows-01
+        .container
+            a.link.link-1(href='#')
+            a.link.link-2(href='#')
+            a.link.link-3(href='#')
+            a.link.link-4(href='#')
+    section.index-rows-02
+        .container
+            .float-left
+                p.super-money
+                p.super-number
+            .float-left
+                p.free-play
+                a.play-1(href='#')
+                a.play-2(href='#')
+                a.play-3(href='#')
+    .loginpob.success.pob
+        h3
+            p 消息
+            span.close
+            .clear
+        dl
+            dt
+            dd
+        a.loginsure.success 确定
+    .pob.accountNumber
+        h3
+            p 找回用户名
+            span.close
+            .clear
+        h5 请按照以下步骤找回用户名：
+        .step
+            ul.stepfont
+                li.fulfill 联系客服
+                li 核对资料
+                li 审核通过
+                li.stepLast 完成
+            .clear
+            ul.stepbg
+                li
+                li
+                li
+            .clear
+        .toKefu
+            p 客服人员将根据您提供的信息，在核实您身份之后，告知您的账号。
+            a.online_kefu(target='_blank', href='http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&configID=45233&jid=8622492600') 立即联系
+    .pob.findpassword
+        h3
+            p 找回密码
+            span.close
+            .clear
+        h5 请按照以下步骤找回密码：
+        .step
+            ul.stepfont
+                li.fulfill 输入用户名
+                li 身份验证
+                li 修改密码
+                li.stepLast 完成
+            .clear
+            ul.stepbg
+                li
+                li
+                li
+            .clear
+        .formcont.form1
+            .findusername
+                span 用户名：
+                input#findUsername(type='text', name='')
+                p.clear
+                span.error
+            .findcode
+                span 验证码：
+                input#findCode(type='text', name='')
+                span#verificationCode
+                    img(src='')
+                span.noSee 看不清
+                p.clear
+                span.error
+            a.nextstep(href='javascript:;') 下一步
+        .formcont.form2
+            p 请选择找回密码的方式：
+            ul.chooseType
+                li.activeType.emailType
+                    i
+                    span 通过绑定邮箱找回
+                li.questionType
+                    i
+                    span 通过安全问题找回
+                li.securitycode
+                    i
+                    span 通过资金密码找回
+                li.kefu
+                    a(href='http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&configID=45233&jid=8622492600', target='_blank')
+                        i
+                        span 联系在线客服
+            .clear
+            a.nextstep(href='javascript:;') 下一步
+        .formcont.form3
+            .emailBox.formBox
+                p.emailTips
+                .safeemail
+                    span 邮箱：
+                    input#emailaddr(type='text', name='')
+                    p.clear
+                .emailCode
+                    span 验证码：
+                    input#emailCode(type='text', name='')
+                    button#getCode 获取验证码
+                    p.clear
+                    p.err
+                ul.gostep
+                    li.prestep 返回上一步
+                    li.nextstep 下一步
+            .questionBox.formBox
+                .forminput
+                    span 安全问题：
+                    select#questionName
+                    p.clear
+                .forminput
+                    span 答案：
+                    input#answer(placeholder='请输入问题的答案')
+                    p.clear
+                    p.err
+                ul.gostep
+                    li.prestep 返回上一步
+                    li.nextstep 下一步
+            .securitycodeBox.formBox
+                .forminput
+                    span 资金密码：
+                    input#securitycode(type='password', name='')
+                    p.clear
+                ul.gostep
+                    li.prestep 返回上一步
+                    li.nextstep 下一步
+        .formcont.form4
+            .findNewpassword
+                span 设置新密码：
+                input#setNeword(type='password', name='')
+                p.error
+                p.clear
+            .proNewpassword
+                span 确认新密码：
+                input#prosetNeword(type='password', name='')
+                p.error
+                p.clear
+            a.nextstep(href='javascript:;') 下一步
+        .formcont.form5
+            dl
+                dt
+                dd
+            a.closepob(href='javascript:;') 关闭
+    .mask

@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>首页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="bookmark" href="./static/images/favicon.ico">
+    <link rel="shortcut Icon" href="./static/images/favicon.ico">
+    <link rel="stylesheet" href="./static/styles/gui-ued.css">
+    <link rel="stylesheet" href="./static/styles/gui-skin-ued.css">
+    <link rel="stylesheet" href="./static/styles/common.css">
+    <link rel="stylesheet" href="./static/styles/keyframes.css">
+    <link rel="stylesheet" href="./static/styles/bootstrap-dialog.min.css">
+    <script type="text/javascript">
+      var RootUrl = "http://www.uedk68.com"
+      var indexUrl = "http://www.uedk28.com"
+      var views = "/views/"
+    </script>
+    <!--if lt IE 9script(src='./js/html5.min.js')
+    -->
+  </head>
+  <body>
+    <header>
+      <section class="static-bar">
+        <div class="container">
+          <div class="static-left"><span class="shiqu">GMT+08:00    <span class="time side _user_time" time="1481784158584" style="display: inline;"></span></span></div>
+          <div class="static-right"><img src="./static/images/top-host.png"></div>
+          <div class="clear"></div>
+          <div class="static-right">
+            <div class="header-login _vr_unLogin" style="display: block;">
+              <form class="form-inline" role="form">
+                <input type="hidden" name="type" value="top">
+                <div class="form-group form-group-sm">
+                  <input class="form-control" id="username" type="text" name="username" tabindex="1" maxlength="16" placeholder="会员账号"><a class="tip-forget forgetNumber" href="javascript:">忘记？</a>
+                </div>
+                <div class="form-group form-group-sm">
+                  <input class="form-control" id="password" type="password" name="password" tabindex="2" maxlength="16" placeholder="密码"><a class="tip-forget forgetPwd openNewWindow" href="javascript:" data-url="commonPage/forgetPwd.html" data-shorttxt="？" title="点击找回密码" data-longtxt="忘记？">忘记？</a>
+                </div>
+                <div class="form-group form-group-sm scode _vr_captcha_box" style="display: none;">
+                  <input class="form-control" type="text" name="captcha" tabindex="3" maxlength="4" placeholder="验证码"><a class="tip-scode" href="javascript:;"><img class="_vr_captcha_code" data-code="loginTop"></a>
+                </div><a class="btn btn-sm btn-default _vr_login" type="button">登录</a><a class="btn btn-sm btn-primary" type="button" href="/views/register.html">注册</a><a class="btn btn-sm btn-success openNewWindow kefu" type="button" target="_blank" href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&amp;configID=45233&amp;jid=8622492600"><span class="gui gui-headphones"></span> 在线客服</a>
+              </form>
+            </div>
+            <div class="clear"></div>
+            <div class="header-panel _vr_loginSuccess" style="display: block;"><a class="_vr_nickname" href="/views/personalCenter.html"></a><a class="_vr_notice" href="/views/per_message.html">0</a>
+              <div class="btn-group dropdown show-on-hover _vr_balanceBox"><a class="static-btn" href="/views/personalCenter.html" name="balance_show" data-toggle="dropdown">个人中心<span class="caret"></span></a>
+                <ul class="dropdown-menu dropdown-menu-left members-dropdown">
+                  <li><span class="dropjiao"><img src="./static/images/dropjiao.png"></span><a href="/views/per_message.html">消息中心</a></li>
+                  <li><a href="/views/coupon.html">优惠券</a></li>
+                  <li><a href="/views/personalCenter.html">安全设置</a></li>
+                  <li><a href="/views/accountSettings.html">账号设置</a></li>
+                  <li><a href="/views/per_betting.html">投注记录</a></li>
+                </ul>
+              </div>
+              <div class="btn-group dropdown show-on-hover _vr_balanceBox"><a class="static-btn" href="javascript:void(0);" name="balance_show" data-toggle="dropdown">资产管理<span class="caret"></span></a>
+                <ul class="dropdown-menu dropdown-menu-left members-dropdown">
+                  <li><span class="dropjiao"><img src="./static/images/dropjiao.png"></span><a href="/views/recharge.html" target="_blank">充值</a></li>
+                  <li><a href="/views/reflect.html">提款</a></li>
+                  <li><a href="/views/transfer.html">转账</a></li>
+                  <li><a href="/views/transactionRecord.html">资金明细</a></li>
+                </ul>
+              </div><a class="reminder" href="javaScript:;">催到账</a><a class="logOut" href="javascript:;">退出</a>
+              <div class="pull-right"><a class="btn btn-sm btn-success openNewWindow kefu" type="button" href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&amp;configID=45233&amp;jid=8622492600" target="_blank"><span class="gui gui-headphones"></span> 在线客服</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <nav class="navbar navbar-default top-navbar">
+        <div class="container">
+          <div class="navbar-header"><a href="/views/index.html"><img src="./static/images/logo.png"></a></div>
+          <div class="navbar-collapse">
+            <ul class="nav navbar-nav _vr_nav">
+              <li class="nav-item"><a href="/views/index.html">首页</a></li>
+              <li class="nav-item" rel="sub-sports"><a href="/views/sports.html">体育大厅<i class="triangle"></i></a></li>
+              <li class="nav-item" rel="sub-live"><a href="/views/entertainment.html">真人视讯<i class="triangle"></i></a></li>
+              <li class="nav-item" rel="sub-chess"><a href="/views/chess.html">捕魚王<i class="triangle"></i></a></li>
+              <li class="nav-item" rel="sub-tiger"><a class="_vr_mt_check" href="/views/slotMachine.html">老虎机<i class="triangle"></i></a></li>
+              <li class="nav-item" rel="sub-lottery"><a href="/views/lottery.html">彩票<i class="triangle"></i></a></li>
+              <li class="nav-item" rel="sub-casino"><a href="http://www.uedk68.com?d=api&amp;c=game&amp;m=entergame&amp;pid=23&amp;gametype=0" target="_blank">六合彩<i class="triangle"></i></a></li>
+              <li class="nav-item tryPlay" rel="sub-tryPlay"><a href="javascript:"><i class="triangle"></i></a></li>
+              <li class="nav-item" rel="sub-client"><a href="javascript:">下载中心<i class="triangle"></i></a></li>
+              <li class="nav-item"><a href="/views/promo.html">优惠活动</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-sub">
+          <div class="sub-content" id="sub-sports" rel="sub-sports">
+            <div class="container">
+              <div class="row row-gutter-0">
+                <div class="col-5-1">
+                  <dl class="sub-box rebate">
+                    <dt><span class="num-single" num="1"></span><i class="num-dot"></i><span class="num-decimal" num="2"></span><i class="num-pre"></i></dt>
+                    <dd>
+                      <p>每周返水</p>
+                      <p>不设上限</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="col-5-4">
+                  <div class="api-games-wrap">
+                    <div class="api-games api-games-sports">
+                      <ul class="list-unstyled">
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" href="/views/sports.html" data-apitype="3" starttime="1473897600000" endtime="1473897600000"><span class="apiicon sbsportIcon"></span><i class="sbI">沙巴体育</i></a></dt>
+                            <dd>
+                              <p><span>全年提供数万场体育赛事直播</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray" data-api="4" href="/views/sports.html" starttime="1472688000000" endtime="1472688000000">进入游戏</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" starttime="1472688000000" endtime="1472688000000" target="_blank" href="http://www.uedk68.com?d=api&amp;c=game&amp;m=entergame&amp;pid=23&amp;gametype=4"><span class="apiicon bbinsportIcon"></span><i class="bbinI">BBIN体育</i></a></dt>
+                            <dd>
+                              <p><span>新生代体育赛事传播平台</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray" data-api="4" target="_blank" href="http://www.uedk68.com?d=api&amp;c=game&amp;m=entergame&amp;pid=23&amp;gametype=4" starttime="1472688000000" endtime="1472688000000">进入游戏</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-content" id="sub-live" rel="sub-live">
+            <div class="container">
+              <div class="row row-gutter-0">
+                <div class="col-5-1">
+                  <dl class="sub-box rebate">
+                    <dt><span class="num-single" num="1"></span><i class="num-dot"></i><span class="num-decimal" num="2"></span><i class="num-pre"></i></dt>
+                    <dd>
+                      <p>天天返水</p>
+                      <p>最高可达</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="col-5-4">
+                  <div class="api-games-wrap">
+                    <div class="api-games api-games-live">
+                      <ul class="list-unstyled">
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="10" target="_blank" href="http://www.uedk68.com?d=api&amp;c=game&amp;m=entergame&amp;pid=23&amp;gametype=1&amp;gameTitle=BBIN娱乐城" data-apitype="1"><span class="apiicon i-bb"></span><i>BBIN娱乐城</i></a></dt>
+                            <dd>
+                              <p><span>最创新、最具特色的娱乐城平台</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" target="_blank" data-api="10" href="http://www.uedk68.com?d=api&amp;c=game&amp;m=entergame&amp;pid=23&amp;gametype=1&amp;gameTitle=BBIN娱乐城" data-apitype="1">立即游戏</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="9" href="/views/game.html?d=api&amp;c=game&amp;m=entergame&amp;pid=18&amp;gametype=0&amp;gameTitle=AG娱乐城" data-apitype="1"><span class="apiicon i-ag"></span><i>AG娱乐城</i></a></dt>
+                            <dd>
+                              <p><span>市场占有率最高的娱乐城</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="9" href="/views/game.html?d=api&amp;c=game&amp;m=entergame&amp;pid=18&amp;gametype=0&amp;gameTitle=AG娱乐城" data-apitype="1">立即游戏</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="5" href="/views/game.html?d=api&amp;c=game&amp;m=entergame&amp;pid=22&amp;gametype=0&amp;gameTitle=MG娱乐城" data-apitype="1"><span class="apiicon i-mg"></span><i>MG娱乐城</i></a></dt>
+                            <dd>
+                              <p><span>14桌、7画面下注、最奢华视觉</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="5" href="/views/game.html?d=api&amp;c=game&amp;m=entergame&amp;pid=22&amp;gametype=0&amp;gameTitle='MG娱乐城'" data-apitype="1">立即游戏</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="9" href="/views/game.html?d=api&amp;c=game&amp;m=entergame&amp;pid=9&amp;gametype=bal&amp;gameTitle=PT娱乐城" data-apitype="1"><span class="apiicon i-pt"></span><i>PT娱乐城</i></a></dt>
+                            <dd>
+                              <p><span>全球顶尖公司才能使用的热门平台</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="9" href="/views/game.html?d=api&amp;c=game&amp;m=entergame&amp;pid=9&amp;gametype=bal&amp;gameTitle=PT娱乐城" data-apitype="1">立即游戏</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-content" id="sub-tiger" rel="sub-tiger">
+            <div class="container">
+              <div class="row row-gutter-0">
+                <div class="col-5-1">
+                  <dl class="sub-box rebate">
+                    <dt><span class="num-single" num="2"></span><i class="num-dot"></i><span class="num-decimal" num="0"></span><i class="num-pre"></i></dt>
+                    <dd>
+                      <p>天天返水</p>
+                      <p>最高可达</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="col-5-4">
+                  <div class="api-games-wrap">
+                    <div class="api-games api-games-tiger">
+                      <ul class="list-unstyled">
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="3" href="/views/slotMachine.html?type=pt" data-apitype="2" data-href="" data-mt-ic="_vr_mt_casino_3"><span class="apiicon c-pt"></span><i>PT</i></a></dt>
+                            <dd>
+                              <p><span>全球最佳PT平台，每周至少有两个30A奖池大奖诞生</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="3" href="/views/slotMachine.html?type=pt" data-apitype="2">立即游戏</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="6" href="/views/slotMachine.html?type=xin" data-apitype="2" data-mt-ic="_vr_mt_casino_6" starttime="1473120000000" endtime="1473120000000"><span class="apiicon c-xin"></span><i>XIN</i></a></dt>
+                            <dd>
+                              <p><span>专注老虎机的金牌平台</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="6" href="/views/slotMachine.html?type=xin" data-apitype="2" starttime="1473120000000" endtime="1473120000000">立即游戏</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="9" href="/views/slotMachine.html?type=mg" data-apitype="2" data-mt-ic="_vr_mt_casino_9"><span class="apiicon c-mg"></span><i>MG</i></a></dt>
+                            <dd>
+                              <p><span>首款覆盖全平台老虎机游戏</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="9" href="/views/slotMachine.html?type=mg" data-apitype="2">立即游戏</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-content" id="sub-lottery" rel="sub-lottery">
+            <div class="container">
+              <div class="row row-gutter-0">
+                <div class="col-5-1">
+                  <dl class="sub-box rebate">
+                    <dt><span class="num-single" num="1"></span><i class="num-dot"></i><span class="num-decimal" num="0"></span><i class="num-pre"></i></dt>
+                    <dd>
+                      <p>天天返水</p>
+                      <p>最高可达</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="col-5-4">
+                  <dl class="sub-box api-item">
+                    <dt><a class="_vr_mt_check" data-api="10" style="display:block; height:125px;" href="http://www.uedk68.com?d=api&amp;c=game&amp;m=entergame&amp;pid=23&amp;gametype=3" target="_blank" data-apitype="3" starttime="1473811200000" endtime="1473811200000"><i>BBIN彩票</i></a></dt>
+                    <dd>
+                      <p><span>冬日寒冷，躲在被窝玩bbin彩票，暖暖的，很贴心</span></p>
+                      <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="10" href="http://www.uedk68.com?d=api&amp;c=game&amp;m=entergame&amp;pid=23&amp;gametype=3" target="_blank" data-apitype="3" starttime="1473811200000" endtime="1473811200000">立即游戏</a></p>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-content" id="sub-casino" rel="sub-casino">
+            <div class="container">
+              <div class="row row-gutter-0">
+                <div class="col-5-1">
+                  <dl class="sub-box rebate">
+                    <dt><span class="num-single" num="1"></span><i class="num-dot"></i><span class="num-decimal" num="0"></span><i class="num-pre"></i></dt>
+                    <dd>
+                      <p>业内第一</p>
+                      <p>每天返水</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="col-5-4">
+                  <dl class="sub-box api-item">
+                    <dt><a class="_vr_mt_check" data-api="10" style="display:block; height:125px;" href="http://www.uedk68.com?d=api&amp;c=game&amp;m=entergame&amp;pid=23&amp;gametype=0" target="_blank" data-apitype="3" starttime="1473811200000" endtime="1473811200000"><i>六合彩</i></a></dt>
+                    <dd>
+                      <p><span>冬日寒冷，躲在被窝玩bbin彩票，暖暖的，很贴心</span></p>
+                      <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="10" href="http://www.uedk68.com?d=api&amp;c=game&amp;m=entergame&amp;pid=23&amp;gametype=0" data-apitype="3" target="_blank" starttime="1473811200000" endtime="1473811200000">立即游戏</a></p>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-content" id="sub-chess" rel="sub-chess">
+            <div class="container">
+              <div class="row row-gutter-0">
+                <div class="col-5-1">
+                  <dl class="sub-box rebate">
+                    <dt><span class="num-single" num="1"></span><i class="num-dot"></i><span class="num-decimal" num="0"></span><i class="num-pre"></i></dt>
+                    <dd>
+                      <p>天天返水</p>
+                      <p>最高可达</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="col-5-4">
+                  <dl class="sub-box api-item">
+                    <dt><a class="_vr_mt_check" data-api="10" href="/views/game.html?type=ag" data-apitype="3" starttime="1473811200000" endtime="1473811200000"><i>AG捕鱼王</i></a></dt>
+                    <dd>
+                      <p><span>最流畅的交互、最一流的界面设计，让您尽情畅游海底金钱帝国</span></p>
+                      <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="10" href="/views/game.html?type=ag" data-apitype="3" starttime="1473811200000" endtime="1473811200000">立即游戏</a></p>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-content" id="sub-client" rel="sub-client">
+            <div class="container">
+              <div class="row row-gutter-0">
+                <div class="col-5-1">
+                  <dl class="sub-box rebate">
+                    <dt><span class="num-single" num="4"></span><i class="num-dot"></i><span class="num-decimal" num="0"></span><i class="num-pre"></i></dt>
+                    <dd>
+                      <p>天天返水</p>
+                      <p>最高可达</p>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="col-5-4">
+                  <div class="api-games-wrap">
+                    <div class="api-games api-games-client">
+                      <ul class="list-unstyled">
+                        <li class="pcdownbox">
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="3" href="javaScript:;" data-apitype="2" data-href="casino.html?apiType=2&amp;apiId=3&amp;gameTag=hot_game" data-mt-ic="_vr_mt_casino_3"><span class="apiicon pcdown"></span><i>PC客户端下载</i></a></dt>
+                            <dd>
+                              <p><span>提供最全最in的游戏平台客户端，让您一键开启最爱的游戏体验。</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="3" href="javaScript:;" data-apitype="2">立即下载</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li class="phonedownbox">
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="6" href="javaScript:;" data-apitype="2" data-mt-ic="_vr_mt_casino_6" starttime="1473120000000" endtime="1473120000000"><span class="apiicon phonedownbtn"></span><i>手机端下载</i></a></dt>
+                            <dd>
+                              <p><span>独家提供苹果／安卓版手机客户端，您可以通过手机客户端完成任何游戏操作</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="6" href="javaScript:;" data-apitype="2" starttime="1473120000000" endtime="1473120000000">立即下载</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-content" id="sub-tryPlay" rel="sub-tryPlay">
+            <div class="container">
+              <div class="row row-gutter-0">
+                <div class="col-5-5">
+                  <div class="api-games-wrap">
+                    <div class="api-games api-games-try">
+                      <ul class="list-unstyled">
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="3" href="/views/trygame.html?d=api&amp;c=game&amp;m=trygame&amp;pid=18" data-apitype="2" data-href="" data-mt-ic="_vr_mt_casino_3"><span class="apiicon"></span><i>AG真人</i></a></dt>
+                            <dd>
+                              <p><span>试玩AG真人游戏可领取体验金2000元</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="3" href="/views/trygame.html?d=api&amp;c=game&amp;m=trygame&amp;pid=18" data-apitype="2">立即试玩</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="6" href="/views/trygame.html?d=api&amp;c=game&amp;m=trygame&amp;pid=19" data-apitype="2" data-mt-ic="_vr_mt_casino_6" starttime="1473120000000" endtime="1473120000000"><span class="apiicon"></span><i>XIN老虎机</i></a></dt>
+                            <dd>
+                              <p><span>专注老虎机的金牌平台</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="6" href="/views/trygame.html?d=api&amp;c=game&amp;m=trygame&amp;pid=19" data-apitype="2" starttime="1473120000000" endtime="1473120000000">立即试玩</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="3" href="/views/slotMachine.html?type=mg" data-apitype="2" data-href="" data-mt-ic="_vr_mt_casino_3"><span class="apiicon"></span><i>MG老虎机</i></a></dt>
+                            <dd>
+                              <p><span>试玩可即刻领取体验金2000元</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="3" href="/views/slotMachine.html?type=mg" data-apitype="2">立即试玩</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="3" href="/views/slotMachine.html?type=pt" data-apitype="2" data-href="" data-mt-ic="_vr_mt_casino_3"><span class="apiicon"></span><i>PT老虎机</i></a></dt>
+                            <dd>
+                              <p><span>试玩可即刻领取体验金2000元</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="3" href="/views/slotMachine.html?type=pt" data-apitype="2">立即试玩</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl class="sub-box api-item">
+                            <dt><a class="_vr_mt_check" data-api="9" href="/views/trygame.html?d=api&amp;c=game&amp;m=trygame&amp;pid=24" data-apitype="2" data-mt-ic="_vr_mt_casino_9"><span class="apiicon"></span><i>捕鱼王</i></a></dt>
+                            <dd>
+                              <p><span>试玩可即刻领取体验金200000元</span></p>
+                              <p><a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="9" href="/views/trygame.html?d=api&amp;c=game&amp;m=trygame&amp;pid=24" data-apitype="2">立即试玩</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="navbor"></div>
+    </header>
+    <link rel="stylesheet" href="./static/styles/ued-index.css">
+    <section class="index-slide">
+      <div class="slide-inner">
+        <div class="sl_img _vr_carousels_check banner1" style="background:url(./static/images/banner4.jpg) 50% 50% no-repeat;" starttime="1474267757000" endtime="33031209599000" showindex="1"></div>
+        <div class="sl_img _vr_carousels_check banner2" style="background:url(./static/images/banner2.jpg) 50% 50% no-repeat;" starttime="1473861507000" endtime="33032159999000" showindex="2"></div>
+        <div class="sl_img _vr_carousels_check banner3" style="background:url(./static/images/banner3.jpg) 50% 50% no-repeat;" starttime="1473861614000" endtime="33032159999000" showindex="3"></div>
+      </div>
+      <div class="slide-indicators">
+        <div class="_vr_carousels_check sl_icon" style="background:url(./static/images/index-ban-icon-02.png);" starttime="1482723906000" endtime="33031209599000">
+          <input class="ctc_btn" type="text">
+        </div>
+        <div class="_vr_carousels_check sl_icon" style="background:url(./static/images/index-ban-icon-03.png);" starttime="1473861507000" endtime="33032159999000">
+          <input class="ctc_btn" type="text">
+        </div>
+        <div class="_vr_carousels_check sl_icon" style="background:url(./static/images/index-ban-icon-01.png);" starttime="1473861614000" endtime="33032159999000">
+          <input class="ctc_btn" type="text">
+        </div>
+      </div>
+    </section>
+    <section class="notice index-notice">
+      <div class="container">
+        <div class="notice-list">
+          <ul class="list-unstyled noticeList"></ul>
+        </div>
+      </div>
+    </section>
+    <script id="tpl" type="text/template">
+      <% _(data).each(function (v, k) { %>
+      <li class="noticeTit" data-content="<%=v.get('content')%>">
+      <a href="javascript:void(0)">
+      <%=v.get( 'title')%>
+      </a>
+      </li>
+      <% }) %>
+    </script>
+    <script type="text/javascript">
+      window.onload = function() {
+      getNotice()
+      }
+    </script>
+    <section class="index-screen-01">
+      <div class="container">
+        <div class="row row-guttery-0">
+          <div class="index_l">
+            <div class="screen-item">
+              <div class="cc_title">
+                <div class="cct_img ccti_l"></div>
+              </div>
+              <div class="cc_item1">
+                <div class="cci_title">存款到账</div>
+                <div class="cci_avg">平均时间</div>
+                <div class="cci_unit">秒</div>
+                <div class="cci_num" id="deposit_num">25</div>
+                <div class="cci_load">
+                  <div class="load_s"></div>
+                  <div class="load_e">
+                    <div class="load_rate" id="deposit"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="cc_item1">
+                <div class="cci_title">取款到账</div>
+                <div class="cci_avg">平均时间</div>
+                <div class="cci_unit">分</div>
+                <div class="cci_num" id="take_num">2'57</div>
+                <div class="cci_load">
+                  <div class="load_s"></div>
+                  <div class="load_e">
+                    <div class="load_rate" id="take"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="cc_item1">
+                <div class="cci_title">便捷的银行服务</div>
+                <div class="cci_visa"></div>
+                <div class="cci_mscd"></div>
+                <div class="cci_agcy">目前我们支付机构有：</div>
+                <div class="cci_unit2">家</div>
+                <div class="cci_num2" id="bank_num">34</div>
+              </div>
+              <div class="cci_scoll">
+                <div id="deposit_s">
+                  <div></div>
+                </div>
+                <div id="take_s">
+                  <div></div>
+                </div>
+                <div id="bank_s">
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="index_m">
+            <div class="screen-item">
+              <div class="cc_title">
+                <div class="cct_img ccti_c"></div>
+              </div>
+              <div class="cc_item1">
+                <div class="cci_title">手机客户端</div>
+                <div class="cci_name">MOBILE</div>
+                <div class="cci_txt">独家提供苹果/安卓客户端，您可以通过手机客户端<br>完成任何游戏操作。</div>
+              </div>
+              <div class="cc_item1">
+                <div class="cci_title">全自动优惠活动</div>
+                <div class="cci_name">PROMOTION</div>
+                <div class="cci_txt">全球首款全自动优惠活动体系，打造属于用户自己的最佳优惠方案，你想要的优惠这里应有尽有。</div>
+              </div>
+              <div class="cc_item1">
+                <div class="cci_title">大牌游戏合作方</div>
+                <div class="cci_name">PARTNER</div>
+                <div class="cci_txt">聚焦行业顶尖金牌游戏公司，以用户体验、品牌诚信为原则，为你打造最优良的博彩环境。</div>
+              </div>
+            </div>
+          </div>
+          <div class="index_r">
+            <div class="screen-item" style="background: none;">
+              <div class="ff_title">
+                <div class="fft_img ffti_l"></div>
+              </div>
+              <div class="cc_item2">
+                <div id="user-experience" ons="1" style="display: none;">
+                  <div id="ue-inner">
+                    <div id="ue-limgs">
+                      <div id="ue-limgs-inner"></div>
+                    </div>
+                    <div id="ue-rimgs">
+                      <div id="ue-rimgs-inner"></div>
+                    </div>
+                  </div>
+                </div>
+                <div id="rocket" ons="2" style="display: none;">
+                  <div id="rk-cloud"></div>
+                  <div id="rk-main"></div>
+                  <div id="rk-earth"></div>
+                  <div id="rk-hill"></div>
+                </div>
+                <div class="move" id="services" ons="3">
+                  <div id="s-inner">
+                    <div id="s-gugong"></div>
+                    <div id="s-b1">
+                      <div id="s-qq"></div>
+                      <div id="s-lm"></div>
+                      <div id="s-green"></div>
+                      <div id="s-white"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cci_chag">
+                  <div class="ccic_icon idx1 uslt" onclick="changeAnm(1)"></div>
+                  <div class="ccic_icon idx2 uslt" onclick="changeAnm(2)"></div>
+                  <div class="ccic_icon idx3 slt" onclick="changeAnm(3)"></div>
+                </div>
+              </div>
+              <div class="cc_item1">
+                <div id="anmTxt1" style="display: none;">
+                  <div class="cci_title">极致用户体验</div>
+                  <div class="cci_txt2">UED=User Experience Design，中文简称“用户<br>体验设计”。重新定义各个元素、倾听每个用户心<br>声，竭力寻求最出色。</div>
+                </div>
+                <div id="anmTxt2" style="display: none;">
+                  <div class="cci_title">颠覆性产品</div>
+                  <div class="cci_txt2">每一款全新上线的UEDbet产品都是经过大量测<br>试后证实最符合亚洲人的产品，这是一个对既定<br>现状做出强势挑战的创新团队。</div>
+                </div>
+                <div id="anmTxt3">
+                  <div class="cci_title">接地气本土服务</div>
+                  <div class="cci_txt2">青春洋溢的UED团队通过最贴近生活的方式设计<br>出一款款高端、大气的产品，为用户带来最为接<br>地气的个性化本土定制服务。<br></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="index-screen-02">
+      <div class="container">
+        <div class="row">
+          <div class="col-3-1">
+            <div class="screen-item">
+              <div class="ff_title">
+                <div class="fft_img ffti_about"></div>
+              </div>
+              <div class="tiaogui show">
+                <p>UEDbet是注册于菲律宾Manila的合法公司，在进行网站注册或游戏前，请确保您已满18周岁并且遵循当地的法律法规。</p><a href="/views/help/duty.html">18 + 条规</a>
+              </div>
+              <div class="copyright">Copyright ©</div>
+            </div>
+          </div>
+          <div class="col-3-1 parden">
+            <div class="screen-item">
+              <div class="ff_title">
+                <div class="fft_img ffti_c"></div>
+              </div>
+              <div class="ff_pt show"><a class="ff_pti ea" href="http://www.entwinetech.com/" target="_blank" style="display:none;"></a><a class="ff_pti pt" href="http://www.playtech.com/html/" target="_blank"></a><a class="ff_pti liao" href="/" target="_blank"></a><a class="ff_pti gd" href="http://www.golddeluxephil.com/" target="_blank"></a><a class="ff_pti eig"></a><a class="ff_pti gam" href="http://www.gamcare.org.uk/" target="_blank"></a><a class="ff_pti gicc" target="_blank"></a><a class="ff_pti tha" href="http://www.thawte.com/" target="_blank"></a><a class="ff_pti keno" href="/" target="_blank"></a></div>
+            </div>
+          </div>
+          <div class="col-3-1 howto">
+            <div class="screen-item">
+              <div class="ff_title">
+                <div class="fft_img ffti_r"></div>
+              </div>
+              <div class="ff_help show"><a class="ffh_item" href="/views/help/deposit.html">
+                  <div class="ffh_arrow arr1"></div>
+                  <div class="ffhi_a">如何存款</div></a><a class="ffh_item" href="/views/help/agent.html" target="_blank">
+                  <div class="ffh_arrow arr2"></div>
+                  <div class="ffhi_a">合营伙伴</div></a><a class="ffh_item" href="/views/help/contactus.html">
+                  <div class="ffh_arrow arr3"></div>
+                  <div class="ffhi_a">联系我们</div></a><a class="ffh_item" href="/views/help/withdrawal.html">
+                  <div class="ffh_arrow arr4"></div>
+                  <div class="ffhi_a">如何提款</div></a><a class="ffh_item" href="/views/help/duty.html">
+                  <div class="ffh_arrow arr5"></div>
+                  <div class="ffhi_a">责任条款</div></a><a class="ffh_item" href="/views/help/conditions.html">
+                  <div class="ffh_arrow arr6"></div>
+                  <div class="ffhi_a">规则与条款</div></a></div>
+              <div class="ff_brow">
+                <div class="ffb_title">推荐浏览器：</div>
+                <div class="ffb_all show"><a class="ffb_item js" href="http://chrome.360.cn/" target="_blank" title="360急速">
+                    <div class="ffb_icon"></div>
+                    <div class="ffb_vsion">7.0</div></a><a class="ffb_item ie" href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie" target="_blank" title="IE9">
+                    <div class="ffb_icon"></div>
+                    <div class="ffb_vsion">9.0</div></a><a class="ffb_item cm" href="https://www.google.com/intl/zh-CN/chrome/browser/" target="_blank" title="谷歌">
+                    <div class="ffb_icon"></div>
+                    <div class="ffb_vsion">13.0</div></a><a class="ffb_item fx" href="http://firefox.com.cn/download/" target="_blank" title="火狐">
+                    <div class="ffb_icon"></div>
+                    <div class="ffb_vsion">12.0</div></a></div>
+              </div>
+              <div class="ff_shall">
+                <div class="ffs_title">喜欢就分享我们：</div>
+                <div class="ffs_all show"><a class="ffs_item xl" href="javascript" target="_blank" title="新浪微博">
+                    <div class="ffs_icon"></div>
+                    <div class="ffs_txt">微博</div></a><a class="ffs_item tx" href="/views/help/contactus" target="_blank" title="腾讯微博">
+                    <div class="ffs_icon"></div>
+                    <div class="ffs_txt">腾讯</div></a><a class="ffs_item wx" href="/views/help/contactus" title="微信">
+                    <div class="ffs_icon"></div>
+                    <div class="ffs_txt">微信</div></a><a class="ffs_item qq" href="/views/help/contactus" title="QQ">
+                    <div class="ffs_icon"></div>
+                    <div class="ffs_txt">QQ</div></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="loginpob success pob">
+      <h3>
+        <p>消息</p><span class="close"></span>
+        <div class="clear"></div>
+      </h3>
+      <dl>
+        <dt></dt>
+        <dd></dd>
+      </dl><a class="loginsure success">确定</a>
+    </div>
+    <div class="pob accountNumber">
+      <h3>
+        <p>找回用户名</p><span class="close"></span>
+        <div class="clear"></div>
+      </h3>
+      <h5>请按照以下步骤找回用户名：</h5>
+      <div class="step">
+        <ul class="stepfont">
+          <li class="fulfill">联系客服</li>
+          <li>核对资料</li>
+          <li>审核通过</li>
+          <li class="stepLast">完成</li>
+        </ul>
+        <div class="clear"></div>
+        <ul class="stepbg">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <div class="toKefu">
+        <p>客服人员将根据您提供的信息，在核实您身份之后，告知您的账号。</p><a class="online_kefu" target="_blank" href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&amp;configID=45233&amp;jid=8622492600">立即联系</a>
+      </div>
+    </div>
+    <div class="pob findpassword">
+      <h3>
+        <p>找回密码</p><span class="close"></span>
+        <div class="clear"></div>
+      </h3>
+      <h5>请按照以下步骤找回密码：</h5>
+      <div class="step">
+        <ul class="stepfont">
+          <li class="fulfill">输入用户名</li>
+          <li>身份验证</li>
+          <li>修改密码</li>
+          <li class="stepLast">完成</li>
+        </ul>
+        <div class="clear"></div>
+        <ul class="stepbg">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <div class="formcont form1">
+        <div class="findusername"><span>用户名：</span>
+          <input id="findUsername" type="text" name="">
+          <p class="clear"></p><span class="error"></span>
+        </div>
+        <div class="findcode"><span>验证码：</span>
+          <input id="findCode" type="text" name=""><span id="verificationCode"><img src=""></span><span class="noSee">看不清</span>
+          <p class="clear"></p><span class="error"></span>
+        </div><a class="nextstep" href="javascript:;">下一步</a>
+      </div>
+      <div class="formcont form2">
+        <p>请选择找回密码的方式：</p>
+        <ul class="chooseType">
+          <li class="activeType emailType"><i></i><span>通过绑定邮箱找回</span></li>
+          <li class="questionType"><i></i><span>通过安全问题找回</span></li>
+          <li class="securitycode"><i></i><span>通过资金密码找回</span></li>
+          <li class="kefu"><a href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&amp;configID=45233&amp;jid=8622492600" target="_blank"><i></i><span>联系在线客服</span></a></li>
+        </ul>
+        <div class="clear"></div><a class="nextstep" href="javascript:;">下一步</a>
+      </div>
+      <div class="formcont form3">
+        <div class="emailBox formBox">
+          <p class="emailTips"></p>
+          <div class="safeemail"><span>邮箱：</span>
+            <input id="emailaddr" type="text" name="">
+            <p class="clear"></p>
+          </div>
+          <div class="emailCode"><span>验证码：</span>
+            <input id="emailCode" type="text" name="">
+            <button id="getCode">获取验证码</button>
+            <p class="clear"></p>
+            <p class="err"></p>
+          </div>
+          <ul class="gostep">
+            <li class="prestep">返回上一步</li>
+            <li class="nextstep">下一步</li>
+          </ul>
+        </div>
+        <div class="questionBox formBox">
+          <div class="forminput"><span>安全问题：</span>
+            <select id="questionName"></select>
+            <p class="clear"></p>
+          </div>
+          <div class="forminput"><span>答案：</span>
+            <input id="answer" placeholder="请输入问题的答案">
+            <p class="clear"></p>
+            <p class="err"></p>
+          </div>
+          <ul class="gostep">
+            <li class="prestep">返回上一步</li>
+            <li class="nextstep">下一步</li>
+          </ul>
+        </div>
+        <div class="securitycodeBox formBox">
+          <div class="forminput"><span>资金密码：</span>
+            <input id="securitycode" type="password" name="">
+            <p class="clear"></p>
+          </div>
+          <ul class="gostep">
+            <li class="prestep">返回上一步</li>
+            <li class="nextstep">下一步</li>
+          </ul>
+        </div>
+      </div>
+      <div class="formcont form4">
+        <div class="findNewpassword"><span>设置新密码：</span>
+          <input id="setNeword" type="password" name="">
+          <p class="error"></p>
+          <p class="clear"></p>
+        </div>
+        <div class="proNewpassword"><span>确认新密码：</span>
+          <input id="prosetNeword" type="password" name="">
+          <p class="error"></p>
+          <p class="clear"></p>
+        </div><a class="nextstep" href="javascript:;">下一步</a>
+      </div>
+      <div class="formcont form5">
+        <dl>
+          <dt></dt>
+          <dd></dd>
+        </dl><a class="closepob" href="javascript:;">关闭</a>
+      </div>
+    </div>
+    <div class="mask"></div>
+    <footer class="footer-bar">
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-3-1 footer-item"><a class="bds-jt-logo pull-left" href="http://www.realbetisbalompie.es/es/" target="_blank"></a>
+            <p>2015-2016赛季西甲联赛赞助商</p><a class="bds-jt-title" href="http://www.realbetisbalompie.es/es/" target="_blank"></a>
+            <ul class="list-inline">
+              <li><a href="help/surport.html" target="_blank">赞助信息</a></li>
+              <li><a href="help/odds.html" target="_blank">赔率收录</a></li>
+              <li><a href="http://baike.baidu.com/view/1010521.htm?fromtitle=%E7%9A%87%E5%AE%B6%E8%B4%9D%E8%92%82%E6%96%AF&amp;fromid=1345560&amp;type=syn" target="_blank">皇家贝蒂斯百科</a></li>
+            </ul>
+          </div>
+          <div class="col-3-1 footer-item"><a class="htf-jt-logo pull-left" href="http://www.getafecf.com/" target="_blank"></a>
+            <p>2014-2015赛季西甲联赛赞助商</p><a class="htf-jt-title" href="http://www.getafecf.com/" target="_blank"></a>
+            <ul class="list-inline">
+              <li><a href="help/surport.html" target="_blank">赞助信息</a></li>
+              <li><a href="help/poloshirt.html" target="_blank">球衣发布</a></li>
+              <li><a href="help/banner.html" target="_blank">祝皇马.巴萨踢出真爱</a></li>
+            </ul>
+          </div>
+          <div class="col-3-1 footer-item none-bg"><a href="javascript:void(0);" target="_blank">
+              <div class="live-jt-logo"></div>
+              <div class="live-jt-title"></div></a>
+            <div>提供西甲、西乙、日职联、K联赛等数万场高清体育直播<br>唯一有实力赞助西甲并提供手机体育直播的亚洲顶级公司</div>
+            <ul class="list-inline">
+              <li><a class="ft_liveevent" href="help/sports.html" target="_blank">五大联赛投注</a></li>
+              <li><a href="help/sports.html" target="_blank">欧冠投注</a></li>
+              <li><a href="help/sports.html" target="_blank">世界杯外围预选赛</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="loadingGif"><img src="./static/images/loading.gif"></div>
+    </footer>
+    <div class="floatr">
+      <ul>
+        <li class="right_online"><a target="_blank" href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&amp;configID=45233&amp;jid=8622492600">客服</a></li>
+        <li class="right_qq">QQ</li>
+        <li class="right_phone">电话</li>
+        <li class="qqBox"></li>
+        <li class="phoneBox"></li>
+      </ul>
+      <p class="right_line"></p>
+    </div>
+    <script id="question" type="text/template">
+      <% _(data).each(function (v, k) { %>
+      <option data-id="<%=v.get('id')%>">
+      <%=v.get( 'title')%>
+      </option>
+      <%})%>
+    </script>
+    <script>
+      if (typeof module === 'object') {
+      window.module = module;
+      module = undefined;
+      }
+    </script>
+    <script src="./static/scripts/jquery-1.11.3.min.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    <script src="./static/scripts/underscore-min.js"></script>
+    <script src="./static/scripts/backbone-min.js"></script>
+    <script src="./static/scripts/gui-base.js"></script>
+    <script src="./static/scripts/bootstrap-dialog.min.js"></script>
+    <script src="./static/scripts/jquery.validate.js"></script>
+    <script src="./static/scripts/jquery.super-marquee.js"></script>
+    <script src="./static/scripts/public.js"></script>
+    <script src="./static/scripts/login.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-91754458-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="./static/scripts/gui-ued.min.js"></script>
+    <script src="./static/scripts/jquery.knob.min.js"></script>
+    <script src="./static/scripts/jquery.validate.extend.msites.js"></script>
+    <script src="./static/scripts/ued-index.js"></script>
+  </body>
+</html>

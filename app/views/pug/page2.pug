@@ -1,0 +1,66 @@
+extends layout
+block append header
+    //block header
+    //    | @@includes('./_header.html', "首页2")
+    link(rel="stylesheet" href="../static/styles/sun-skin-page2.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+block body-middle
+    section.index-slide
+        .slide-inner
+            .sl_img._vr_carousels_check.banner1(style='background:url(../static/images/banner4.jpg) 50% 50% no-repeat;', starttime='1474267757000', endtime='33031209599000', showindex='1')
+    section.notice.index-notice
+        .container
+            .notice-list
+                ul.list-unstyled.noticeList
+    script#tpl(type='text/template').
+        <% _(data).each(function (v, k) { %>
+        <li class="noticeTit" data-content="<%=v.get('content')%>">
+        <a href="javascript:void(0)">
+        <%=v.get( 'title')%>
+        </a>
+        </li>
+        <% }) %>
+    script(type='text/javascript').
+        window.onload = function() {
+        getNotice()
+        }
+    section.index-screen-01
+        .container
+            .row.row-guttery-0
+                .index_l.p2-left-box
+                    .p2-item
+                        .p2-block.p2-pt
+                            a.rule(href="#rule")
+                            a.start(href="#start")
+                        .p2-block.p2-mg
+                            a.rule(href="#rule")
+                            a.start(href="#start")
+                .index_m.p2-center-box
+                    .p2-item
+                        .p2-block.p2-ag
+                            a.rule(href="#rule")
+                            a.start(href="#start")
+                        .p2-block.p2-bbin
+                            a.rule(href="#rule")
+                            a.start(href="#start")
+                .index_r.p2-right-box
+                    .p2-item
+                        .p2-block.p2-experience
+                            img(src="../static/images/p2_experience_banner.gif")
+                        .p2-block.p2-promotion
+                            .more 
+                                a(href="#") 
+                                    | 更多優惠活動
+                                    i.fa.fa-caret-right
+                            ul
+                                li 
+                                    a.hover-anime 試玩遊戲
+                                li.minor 
+                                    a.hover-anime 下載客戶端
+                                    .date 2017/2/28
+                                li.minor 
+                                    a.hover-anime 開戶首存
+                                    .date 2017/2/28
+                                li.minor  
+                                    a.hover-anime 開戶首存
+                                    .date 2017/2/28

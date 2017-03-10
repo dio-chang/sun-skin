@@ -1,0 +1,1085 @@
+.cci_load,.cci_scoll,.load_e {
+  overflow: hidden;
+}
+
+.ff_cprt a,.tiaogui a {
+  text-decoration: underline;
+}
+
+.cci_title,.client-list h3,.ff_cprt,.ffhi_a {
+  white-space: nowrap;
+}
+
+.ff_brow,.ff_help {
+  border-bottom: 1px solid #dde1e3;
+}
+
+body {
+  background-color: #270307;
+}
+
+.cc_title {
+  width: 100%;
+  height: 45px;
+  margin: 40px 0;
+}
+
+.cct_img {
+  width: 180px;
+  height: 45px;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) no-repeat;
+}
+
+.ccti_l {
+  background-position: 0 -100px;
+}
+
+.ccti_c {
+  background-position: 0 -150px;
+}
+
+.ccti_r {
+  background-position: 0 -200px;
+}
+
+.cc_item1 {
+  width: 260px;
+  height: 105px;
+  position: relative;
+}
+
+.cci_avg,.cci_load,.cci_num,.cci_title,.cci_unit {
+  position: absolute;
+}
+
+.index_m .cc_item1 {
+  width: 274px;
+}
+
+.index_m .cc_item1 .cci_name {
+  right: 4px;
+}
+
+.cci_title {
+  width: 120px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  color: #333;
+  font-size: 18px;
+  line-height: 18px;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.cci_unit {
+  width: 40px;
+  height: 32px;
+  color: #dbdbdb;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+.cci_num {
+  width: 80px;
+  height: 28px;
+  color: #666;
+  font-size: 44px;
+  line-height: 32px;
+  text-align: right;
+  top: 0;
+  right: 40px;
+}
+
+.cci_agcy,.cci_avg {
+  line-height: 12px;
+  color: #999;
+  font-size: 12px;
+}
+
+.cci_avg {
+  width: 60px;
+  height: 12px;
+  left: 0;
+  top: 24px;
+}
+
+.cci_load {
+  width: 260px;
+  height: 10px;
+  left: 0;
+  top: 45px;
+  background: url(http://www.uedk28.com/static/images/load.png) no-repeat;
+}
+
+.load_s {
+  width: 5px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(http://www.uedk28.com/static/images/load.png) 0 -10px no-repeat;
+}
+
+.load_e,.load_rate {
+  width: 255px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+}
+
+.load_e {
+  left: 5px;
+}
+
+.load_rate {
+  left: -99%;
+  background: url(http://www.uedk28.com/static/images/load.png) -5px -10px no-repeat;
+}
+
+.cci_mscd,.cci_visa {
+  height: 16px;
+  top: 24px;
+  position: absolute;
+  width: 50px;
+}
+
+.cci_visa {
+  left: 0;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) -250px -760px no-repeat;
+}
+
+.cci_mscd {
+  left: 60px;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) -320px -760px no-repeat;
+}
+
+.cci_agcy {
+  width: 140px;
+  height: 12px;
+  position: absolute;
+  left: 0;
+  top: 46px;
+}
+
+.cci_unit2 {
+  width: 40px;
+  height: 32px;
+  color: #dbdbdb;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  position: absolute;
+  top: 26px;
+  right: 0;
+}
+
+.cci_name,.cci_num2 {
+  position: absolute;
+  text-align: right;
+}
+
+.cci_num2 {
+  width: 80px;
+  height: 28px;
+  color: #666;
+  font-size: 44px;
+  line-height: 32px;
+  top: 24px;
+  right: 40px;
+}
+
+.cci_name {
+  width: 90px;
+  height: 22px;
+  top: 0;
+  right: 0;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.cci_txt,.cci_txt2 {
+  width: 100%;
+  position: absolute;
+  font-size: 12px;
+  color: #555;
+  left: 0;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.cci_txt {
+  height: 45px;
+  top: 32px;
+}
+
+.cci_txt2 {
+  height: 50px;
+  top: 30px;
+}
+
+.cc_item2 {
+  width: 260px;
+  height: 120px;
+  margin-bottom: 22px;
+  margin-top: -20px;
+  position: relative;
+}
+
+.cci_chag,.ccic_icon {
+  height: 6px;
+  position: absolute;
+}
+
+.cci_chag {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.ccic_icon {
+  width: 6px;
+  top: 0;
+  cursor: pointer;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) no-repeat;
+}
+
+.slt {
+  background-position: -24px -874px;
+}
+
+.uslt {
+  background-position: -44px -874px;
+}
+
+.idx1 {
+  left: 89px;
+}
+
+.idx2 {
+  left: 109px;
+}
+
+.idx3 {
+  left: 129px;
+}
+
+.cci_scoll {
+  width: 0;
+  height: 0;
+}
+
+.cci_scoll div {
+  width: 10px;
+  height: 10px;
+  overflow: scroll;
+}
+
+#rocket,#services,.ff_brow,.ff_shall {
+  overflow: hidden;
+}
+
+.cci_scoll div div {
+  width: 10px;
+  height: 9999px;
+}
+
+.client-list {
+  margin: -7px 0 0 -7px;
+  height: 300px;
+  position: relative;
+}
+
+.client-list .l1,.client-list .l2,.client-list .l3 {
+  position: absolute;
+  top: -20px;
+}
+
+.client-list .l2,.client-list .l3 {
+  display: none;
+}
+
+.client-list li {
+  margin-bottom: 28px;
+}
+
+.client-list .i-logo {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) no-repeat;
+}
+
+.client-list .i-ued {
+  background-position: 0 -450px;
+}
+
+.client-list .i-sport {
+  background-position: 0 -550px;
+}
+
+.client-list .i-keno {
+  background-position: 0 -650px;
+}
+
+.client-list .i-ag {
+  background-position: -100px -450px;
+}
+
+.client-list .i-pt {
+  background-position: -100px -550px;
+}
+
+.client-list .i-gd {
+  background-position: -100px -650px;
+}
+
+.client-list .i-kimpi {
+  background-position: -200px -450px;
+}
+
+.client-list .i-betsoft {
+  background-position: -100px -550px;
+}
+
+.client-list .i-main {
+  margin-left: 92px;
+}
+
+.client-list h3 {
+  margin-bottom: 15px;
+  padding-top: 6px;
+  color: #333;
+  font-size: 18px;
+  line-height: 18px;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.client-list p,.copyright,.ff_cpr,.ff_cprt,.tiaogui,.tiaogui a {
+  font-size: 12px;
+}
+
+.client-list p {
+  color: #555;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.client-list a:hover h3 {
+  color: #555;
+}
+
+.client-list a:hover p {
+  color: #777;
+}
+
+.client-list>div>ul>li:hover .i-logo {
+  opacity: .9;
+  filter: alpha(opacity=90);
+}
+
+.nav1 {
+  position: relative;
+}
+
+.nav1 .i {
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) -44px -874px no-repeat;
+}
+
+.eig,.gicc {
+  cursor: default;
+  opacity: 0;
+}
+
+.nav1 .i1 {
+  left: 119px;
+}
+
+.nav1 .i2 {
+  left: 139px;
+}
+
+.nav1 .i3 {
+  left: 159px;
+}
+
+.nav1 .on {
+  background-position: -24px -874px;
+}
+
+.ff_title {
+  width: 100%;
+  height: 45px;
+  margin: 40px 0;
+}
+
+.fft_img {
+  width: 180px;
+  height: 45px;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) no-repeat;
+}
+
+.ffti_l {
+  background-position: 0 -250px;
+}
+
+.ffti_c {
+  background-position: 0 -300px;
+}
+
+.ffti_r {
+  background-position: 0 -350px;
+}
+
+.ffti_about {
+  background-position: -269px -391px;
+}
+
+.ff_abtu {
+  width: 300px;
+  height: 150px;
+  position: relative;
+}
+
+.ff_cpr,.ff_cprt,.ff_pt {
+  position: absolute;
+}
+
+.ff_logo_b {
+  width: 100px;
+  height: 100px;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) 0 -550px no-repeat;
+}
+
+.ff_cpr {
+  width: 100px;
+  height: 14px;
+  left: 0;
+  top: 115px;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.ff_cprt {
+  width: 170px;
+  height: 150px;
+  top: -7px;
+  left: 130px;
+  line-height: 24px;
+  color: #555;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.ff_cprt a {
+  color: #555;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.ff_pt {
+  width: 260px;
+  height: 200px;
+}
+
+.ff_pti {
+  width: 130px;
+  height: 26px;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) no-repeat;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.ea {
+  background-position: -200px -100px;
+  -webkit-transform: translate(-20px,0);
+  opacity: 0;
+}
+
+.pt {
+  background-position: -200px -280px;
+  -webkit-transform: translate(20px,0);
+  opacity: 0;
+}
+
+.liao {
+  background-position: -200px -220px;
+  -webkit-transform: translate(-20px,0);
+  opacity: 0;
+}
+
+.gd {
+  background-position: -200px -250px;
+  -webkit-transform: translate(20px,0);
+  opacity: 0;
+}
+
+.eig {
+  background-position: -200px -160px;
+  -webkit-transform: translate(-20px,0);
+}
+
+.gam {
+  background-position: -200px -310px;
+  -webkit-transform: translate(20px,0);
+  opacity: 0;
+}
+
+.gicc {
+  background-position: -200px -130px;
+  -webkit-transform: translate(-20px,0);
+}
+
+.tha {
+  background-position: -200px -340px;
+  -webkit-transform: translate(20px,0);
+  opacity: 0;
+}
+
+.keno {
+  background-position: -200px -190px;
+  -webkit-transform: translate(-20px,0);
+  opacity: 0;
+}
+
+.tiaogui {
+  padding-left: 143px;
+  padding-right: 50px;
+  color: #555;
+  line-height: 20px;
+  background: url(http://www.uedk28.com/static/images/navbar-sub-sprite.png) -941px -917px no-repeat;
+}
+
+.tiaogui p {
+  margin: 0;
+}
+
+.tiaogui a {
+  color: #555;
+}
+
+.copyright {
+  color: #b2b2b3;
+  padding-top: 30px;
+  padding-left: 12px;
+}
+
+.show .ea,.show .eig,.show .gam,.show .gd,.show .gicc,.show .keno,.show .liao,.show .pt,.show .tha {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.show .ea {
+  transition: all .5s ease-out 0s;
+}
+
+.show .liao {
+  transition: all .5s ease-out .2s;
+}
+
+.show .eig {
+  transition: all .5s ease-out .4s;
+}
+
+.show .gicc {
+  transition: all .5s ease-out .6s;
+}
+
+.show .keno {
+  transition: all .5s ease-out .8s;
+}
+
+.show .pt {
+  transition: all .5s ease-out 1s;
+}
+
+.show .gd {
+  transition: all .5s ease-out 1.2s;
+}
+
+.show .gam {
+  transition: all .5s ease-out 1.4s;
+}
+
+.show .tha {
+  transition: all .5s ease-out 1.6s;
+}
+
+.ff_help {
+  width: 285px;
+  height: 60px;
+}
+
+.ffh_arrow,.ffh_item,.ffhi_a {
+  height: 16px;
+  float: left;
+}
+
+.ffh_item {
+  width: 94px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.ffh_arrow {
+  width: 17px;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) -59px -760px no-repeat;
+  transform: scale(0,0);
+}
+
+.show .ffh_arrow {
+  transform: scale(1,1);
+}
+
+.show .arr1 {
+  transition: transform .3s ease-out 0s;
+}
+
+.show .arr2 {
+  transition: transform .3s ease-out .15s;
+}
+
+.show .arr3 {
+  transition: transform .3s ease-out .3s;
+}
+
+.show .arr4 {
+  transition: transform .3s ease-out .45s;
+}
+
+.show .arr5 {
+  transition: transform .3s ease-out .6s;
+}
+
+.show .arr6 {
+  transition: transform .3s ease-out .75s;
+}
+
+.show .js .ffb_icon,.show .xl .ffs_icon {
+  transition: transform .4s ease-out 0s;
+}
+
+.ffh_item:hover .ffh_arrow {
+  background: url(http://www.uedk28.com/static/images/ued-img.png) -59px -784px no-repeat;
+}
+
+.ffhi_a {
+  width: 59px;
+  color: #555;
+  margin-left: 5px;
+  line-height: 16px;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.ff_brow {
+  width: 285px;
+  height: 76px;
+}
+
+.ffb_title,.ffs_title {
+  width: 100%;
+  height: 14px;
+  line-height: 14px;
+  margin-top: 16px;
+  color: #1b1b1c;
+}
+
+.ffb_vsion,.ffs_txt {
+  color: #555;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.ffb_all,.ffs_all {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.ffb_item {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.ffb_all .js {
+  left: 0;
+}
+
+.ffb_all .ie {
+  left: 75px;
+}
+
+.ffb_all .cm {
+  left: 150px;
+}
+
+.ffb_all .fx {
+  left: 225px;
+}
+
+.ffb_icon {
+  width: 21px;
+  height: 20px;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) no-repeat;
+  float: left;
+  transform: scale(0,0);
+}
+
+.show .ffb_icon {
+  transform: scale(1,1);
+}
+
+.js .ffb_icon {
+  background-position: -39px -900px;
+}
+
+.ie .ffb_icon {
+  background-position: -69px -900px;
+}
+
+.cm .ffb_icon {
+  background-position: -99px -900px;
+}
+
+.fx .ffb_icon {
+  background-position: -129px -900px;
+}
+
+.show .ie .ffb_icon {
+  transition: transform .4s ease-out .2s;
+}
+
+.show .cm .ffb_icon {
+  transition: transform .4s ease-out .4s;
+}
+
+.show .fx .ffb_icon {
+  transition: transform .4s ease-out .6s;
+}
+
+.js:hover .ffb_icon {
+  background-position: -159px -900px;
+}
+
+.ie:hover .ffb_icon {
+  background-position: -189px -900px;
+}
+
+.cm:hover .ffb_icon {
+  background-position: -219px -900px;
+}
+
+.fx:hover .ffb_icon {
+  background-position: -249px -900px;
+}
+
+.ffb_vsion {
+  width: 30px;
+  height: 20px;
+  float: left;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 5px;
+}
+
+.ff_shall {
+  width: 285px;
+  height: 90px;
+}
+
+.ffs_icon,.ffs_item,.ffs_txt {
+  height: 20px;
+  top: 0;
+  position: absolute;
+}
+
+.ffs_item {
+  width: 80px;
+  display: block;
+}
+
+.ffs_icon {
+  width: 21px;
+  left: 0;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) no-repeat;
+  transform: scale(0,0);
+}
+
+.ffs_txt {
+  width: 50px;
+  left: 25px;
+}
+
+#rk-cloud,#rk-earth {
+  height: 56px;
+  bottom: 0;
+}
+
+#s-b1,#s-inner,#ue-inner,#ue-limgs-inner,#ue-rimgs-inner {
+  width: 100%;
+  height: 100%;
+}
+
+#rocket,#services,#user-experience {
+  position: relative;
+  height: 100px;
+  cursor: pointer;
+}
+
+.ffs_all .xl {
+  left: 0;
+}
+
+.ffs_all .tx {
+  left: 75px;
+}
+
+.ffs_all .wx {
+  left: 150px;
+}
+
+.ffs_all .qq {
+  left: 225px;
+}
+
+#s-lm,.move #rk-cloud {
+  left: 0;
+}
+
+.xl .ffs_icon {
+  background-position: -39px -930px;
+}
+
+.tx .ffs_icon {
+  background-position: -99px -930px;
+}
+
+.wx .ffs_icon {
+  background-position: -129px -930px;
+}
+
+.qq .ffs_icon {
+  background-position: -39px -960px;
+}
+
+.show .ffs_icon {
+  transform: scale(1,1);
+}
+
+.show .tx .ffs_icon {
+  transition: transform .4s ease-out .2s;
+}
+
+.show .wx .ffs_icon {
+  transition: transform .4s ease-out .4s;
+}
+
+.show .qq .ffs_icon {
+  transition: transform .4s ease-out .6s;
+}
+
+.xl:hover .ffs_icon {
+  background-position: -159px -930px;
+}
+
+.tx:hover .ffs_icon {
+  background-position: -219px -930px;
+}
+
+.wx:hover .ffs_icon {
+  background-position: -249px -930px;
+}
+
+.qq:hover .ffs_icon {
+  background-position: -159px -960px;
+}
+
+#user-experience {
+  overflow: hidden;
+  width: 199px;
+}
+
+#user-experience div {
+  position: absolute;
+  bottom: 0;
+}
+
+#ue-limgs {
+  left: 0;
+  width: 90px;
+  height: 89px;
+  background: url(http://www.uedk28.com/static/images/1step-left.png) 0 -534px no-repeat;
+  z-index: 1;
+}
+
+#ue-rimgs {
+  left: 54px;
+  width: 126px;
+  height: 69px;
+  background: url(http://www.uedk28.com/static/images/1step-right.png) 0 -345px no-repeat;
+  z-index: 2;
+}
+
+#ue-limgs-inner {
+  background: url(http://www.uedk28.com/static/images/1step-left.png) 0 100px no-repeat;
+}
+
+#ue-rimgs-inner {
+  background: url(http://www.uedk28.com/static/images/1step-right.png) 0 100px no-repeat;
+}
+
+.move #ue-inner {
+  animation: fadeOutDown .2s linear .1s both;
+}
+
+.move #ue-limgs {
+  animation: Down2 .2s linear .5s both;
+}
+
+.move #ue-limgs-inner {
+  animation: changeBGposition1 1s step-end .9s both;
+}
+
+.move #ue-rimgs {
+  animation: Down2 .2s linear 2s both;
+}
+
+.move #ue-rimgs-inner {
+  animation: changeBGposition2 1s step-end 2.4s both;
+}
+
+#rocket {
+  width: 200px;
+}
+
+#rocket div {
+  position: absolute;
+  transition: all 1s ease 0s;
+}
+
+#rk-cloud {
+  left: 4px;
+  width: 142px;
+  background: url(http://www.uedk28.com/static/images/2cloud.png) no-repeat;
+  z-index: 3;
+}
+
+#rk-main {
+  bottom: -92px;
+  left: 86px;
+  width: 49px;
+  height: 169px;
+  background: url(http://www.uedk28.com/static/images/2rocket.png) no-repeat;
+  z-index: 1;
+}
+
+#rk-earth {
+  right: 3px;
+  width: 60px;
+  background: url(http://www.uedk28.com/static/images/2earth.png) no-repeat;
+  z-index: 1;
+}
+
+#rk-hill {
+  bottom: 0;
+  right: 0;
+  width: 123px;
+  height: 19px;
+  background: url(http://www.uedk28.com/static/images/2hill.png) no-repeat;
+  z-index: 2;
+}
+
+.move #rk-main {
+  animation: rocketUp .7s ease-out .2s both;
+}
+
+.move #rk-earth {
+  right: 0;
+}
+
+#services {
+  width: 200px;
+}
+
+#services div {
+  position: absolute;
+}
+
+#s-qq {
+  left: 50px;
+  bottom: 0;
+  width: 45px;
+  height: 52px;
+  background: url(http://www.uedk28.com/static/images/3qq.png) no-repeat;
+}
+
+#s-gugong {
+  right: 0;
+  bottom: 0;
+  width: 91px;
+  height: 72px;
+  background: url(http://www.uedk28.com/static/images/3gugong.png) no-repeat;
+}
+
+#s-lm {
+  bottom: 0;
+  width: 65px;
+  height: 61px;
+  background: url(http://www.uedk28.com/static/images/3lm.png) no-repeat;
+}
+
+#s-green {
+  bottom: 0;
+  left: 79px;
+  width: 51px;
+  height: 41px;
+  background: url(http://www.uedk28.com/static/images/3wechat-green.png) no-repeat;
+}
+
+#s-white {
+  bottom: 0;
+  left: 107px;
+  width: 36px;
+  height: 26px;
+  background: url(http://www.uedk28.com/static/images/3wechat-white.png) no-repeat;
+}
+
+.move #s-inner {
+  animation: fadeOutDown .3s ease-in 0s both;
+}
+
+.move #s-green,.move #s-gugong,.move #s-lm,.move #s-qq,.move #s-white {
+  animation: Down .2s ease both;
+}
+
+.move #s-qq {
+  animation-delay: .5s;
+}
+
+.move #s-green {
+  animation-delay: .7s;
+}
+
+.move #s-white {
+  animation-delay: .9s;
+}
+
+.move #s-lm {
+  animation-delay: 1.1s;
+}
+
+.move #s-gugong {
+  animation-delay: 1.6s;
+}
+
+.move #s-b1 {
+  animation: Jump .2s ease 1.9s both;
+}

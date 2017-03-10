@@ -1,0 +1,3310 @@
+.floatr,.loadingGif {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+select,textarea {
+  -webkit-appearance: none;
+}
+
+._vr_captcha_code,.button,.findcode .noSee,.focus-slide>.pnBtn,.index-slide>.slide-indicators .sl_icon,.nextstep,.pageList td,.pagelist li,.pob a,.prestep,.promo-item .item-box .sidePromo dt,.right_phone,.right_qq,a {
+  cursor: pointer;
+}
+
+.loadingGif {
+  margin-left: -18px;
+  margin-top: -18px;
+  z-index: 17;
+  display: none;
+}
+
+.floatr {
+  width: 57px;
+  margin-top: -92px;
+  margin-left: 610px;
+  z-index: 100;
+}
+
+.floatr li {
+  float: left;
+  width: 57px;
+  text-align: center;
+  line-height: 57px;
+  height: 57px;
+  color: #fff;
+  margin-bottom: 6px;
+  position: relative;
+  z-index: 6;
+}
+
+.floatr .phoneBox,.floatr .qqBox {
+  height: 57px;
+  width: 0;
+  text-align: left;
+  left: 0;
+  background: url(http://www.uedk28.com/static/images/kefuhover.png) no-repeat;
+}
+
+.floatr .phoneBox,.floatr .qqBox,.right_line {
+  z-index: 5;
+  position: absolute;
+}
+
+.floatr .qqBox {
+  top: 63px;
+  text-indent: 40px;
+}
+
+.floatr .phoneBox {
+  top: 126px;
+  text-indent: 10px;
+}
+
+input,select,textarea {
+  text-indent: 4px;
+}
+
+.right_online {
+  background: url(http://www.uedk28.com/static/images/dekefubg.png) no-repeat;
+}
+
+.right_online a {
+  display: block;
+  height: 100%;
+  color: #fff;
+}
+
+.right_qq {
+  background: url(http://www.uedk28.com/static/images/qqbg.png) no-repeat;
+}
+
+.right_phone {
+  background: url(http://www.uedk28.com/static/images/phonebg.png) no-repeat;
+}
+
+.right_line {
+  width: 2px;
+  height: 76px;
+  background: #227eed;
+  left: 50%;
+  margin-left: -1px;
+  top: 56px;
+}
+
+input {
+  border: none;
+  border: 1px solid #c9d1d6;
+}
+
+select {
+  background: url(http://www.uedk28.com/static/images/arrows-2-d.png) 96% center no-repeat #fff;
+  margin-right: 4px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.footer-item>ul>li>a,.notice-list a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #f7f7f8;
+}
+
+.font-sm {
+  font-size: 12px;
+}
+
+.navbar-default {
+  margin-bottom: 0;
+}
+
+.sports-page .navbar-collapse {
+  margin-top: 0;
+}
+
+.navbar-default .navbar-header {
+    padding-bottom: 5px;
+    margin-top: -30px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #8b4040;
+  height: 65px;
+  line-height: 65px;
+  padding: 0 18px;
+  transition: all .6s;
+  min-width: 77px;
+}
+
+.navbar-default .navbar-nav>li>a>.triangle {
+    position: absolute;
+    display: block;
+    height: 65px;
+    width: 10px;
+    bottom: 0;
+    right: 0;
+
+  transition: all .4s ease 0s;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAEAQMAAAB4CLc+AAAABlBMVEUAAADOzs4X8xfyAAAAAXRSTlMAQObYZgAAABBJREFUCNdjOMaQw2DBIAAACEYBezBAvPEAAAAASUVORK5CYII=) 50% 50% no-repeat;
+}
+
+.navbar-default .navbar-nav>li>a:hover .triangle {
+  transform: rotate(180deg);
+}
+
+.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.activenav>a,.navbar-default .navbar-nav>li>a:hover {
+  color: #EEE;
+  /*
+  border-right-color: #d6d8dd;
+  border-left-color: #bcbfc3;
+  background-color: #e3e6eb;*/
+}
+
+.navbar-default .navbar-nav>.activenav.live>a,.navbar-default .navbar-nav>.live>a {
+  background-repeat: no-repeat;
+  background-position: 50% 2px;
+  background-image: url(http://www.uedk28.com/static/images/nav-item-live.gif);
+}
+
+.navbar-default .navbar-nav>.activenav.hot>a,.navbar-default .navbar-nav>.hot>a {
+  background-repeat: no-repeat;
+  background-position: 50% 2px;
+  background-image: url(http://www.uedk28.com/static/images/nav-item-hot.gif);
+}
+
+.navbar-default .navbar-brand {
+  height: auto;
+}
+
+.phoneDown {
+}
+
+.navbar-default .navbar-nav>.phoneDown>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.phoneDown.active>a,.navbar-default .navbar-nav>.phoneDown.active>a:hover,.navbar-default .navbar-nav>.phoneDown>a:hover {
+  color: #fff;
+}
+
+.navbar-sub {
+  width: 100%;
+  position: absolute;
+  z-index: 99;
+}
+
+.navbar-sub>.sub-content {
+  height: 130px;
+/*
+  background: url(http://www.uedk28.com/static/images/navbar-sub-sprite.png) 0 -1050px repeat-x;
+  border-bottom: 1px solid #c9c9c9;
+  overflow: hidden;
+*/
+}
+
+.navbar-sub>.sub-content>.container {
+  /*background: url(http://www.uedk28.com/static/images/sub-item-bg.png) 50% 130px no-repeat;*/
+ overflow:inherit;
+}
+
+.api-item {
+  border-right: 1px solid #e7e8e9;
+  border-right: 1px solid rgba(170,170,170,0);
+}
+
+.api-item:hover {
+  background: url(http://www.uedk28.com/static/images/navbar-sub-sprite.png) -900px 0 no-repeat;
+  border-color: rgba(170,170,170,.2);
+}
+
+.sub-box {
+  text-align: center;
+}
+
+.sub-box>dt {
+  height: 130px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sub-box>dt>a>i {
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+}
+
+.api-games-wrap,.apiicon {
+  position: relative;
+}
+
+.sub-box>dd {
+  height: 68px;
+  overflow: hidden;
+  padding-top: 8px;
+}
+
+.sub-box>dd>p>span {
+  color: #969696;
+  font-size: 12px;
+}
+
+.sub-box>dd>p,.sub-box>dd>p>a,.sub-box>dt>a {
+  line-height: 26px;
+  margin: 0;
+  font-size: 14px;
+  color: #222;
+  text-shadow: 0 1px 0 #fff;
+}
+
+#sub-chess .col-5-4 dt:hover a,#sub-lottery .col-5-4 dt:hover a,.api-games>ul>li:hover a,.api-item:hover>dd>p>a,.sub-box>dd>p>a:hover,.sub-box>dt>a:hover {
+  color: #08f;
+}
+
+.rebate dt {
+  padding-top: 20px;
+}
+
+.api-games-sports .sub-box>dd>p>a {
+  margin-right: 6px;
+}
+
+.apiicon {
+  width: 280px;
+  height: 130px;
+  display: inline-block;
+  background: url(http://www.uedk28.com/static/images/navbar-sub-sprite.png) no-repeat;
+}
+
+.apiicon.i-ag,.apiicon.i-bb,.apiicon.i-mg,.apiicon.i-pt {
+  width: 100px;
+  height: 100px;
+}
+
+.apiicon.i-ag {
+  background-position: 0 -200px;
+}
+
+.apiicon.i-bb {
+  background-position: -402px -200px;
+}
+
+.apiicon.i-mg {
+  background-position: -202px -200px;
+}
+
+.apiicon.i-pt {
+  background-position: -602px -200px;
+}
+
+.apiicon.ssc {
+  width: 850px;
+  background-position: 0 -910px;
+}
+
+.apiicon.s-im {
+  background-position: -391px -306px;
+}
+
+.apiicon.s-hg {
+  background-position: -1px -306px;
+}
+
+.apiicon.s-bb {
+  background-position: -560px -310px;
+}
+
+.apiicon.c-bb {
+  background-position: -280px -460px;
+}
+
+.apiicon.c-ag {
+  background-position: -840px -460px;
+}
+
+.apiicon.c-nyx {
+  background-position: 0 -610px;
+}
+
+.apiicon.c-hb {
+  background-position: -280px -610px;
+}
+
+.apiicon.l-chq {
+  background-position: 0 -760px;
+}
+
+.apiicon.l-bb {
+  background-position: -280px -760px;
+}
+
+.apiicon.l-kg {
+  background-position: -560px -760px;
+}
+
+.apiicon.s-sb {
+  background-position: -752px -324px;
+}
+
+.apiicon.c-pt {
+  background-position: 18px -462px;
+}
+
+.apiicon.c-xin {
+  background-position: -282px -472px;
+}
+
+.apiicon.c-mg {
+  background-position: -602px -474px;
+}
+
+.sub-content {
+  display: none;
+}
+
+.api-games {
+  overflow: hidden;
+}
+
+.api-games>ul {
+  font-size: 0;
+}
+
+.api-games>ul>li {
+  width: 282px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.api-games-tiger>ul>li {
+  width: 320px;
+}
+
+.api-games.api-games-sports>ul>li {
+  width: 50%;
+}
+
+.api-games.api-games-sports .apiicon {
+  width: 100%;
+  background: 0 0;
+}
+
+#sub-lottery .apiicon {
+  width: 960px;
+}
+
+#sub-lottery .row-gutter-0 {
+  background: url(http://www.uedk28.com/static/images/lotteryNavbg.png) 194px 0 no-repeat;
+}
+
+#sub-chess .row-gutter-0 {
+  background: url(http://www.uedk28.com/static/images/chessNavbg.png) 174px 0 no-repeat;
+}
+
+.api-games.api-games-sports .sub-box,.api-games.api-games-sports .sub-box>dt>a:hover>dd>p>a:hover {
+  color: #222;
+}
+
+.navbar-default .navbar-nav>.tryPlay>a,.navbar-default .navbar-nav>.tryPlay>a:hover {
+  color: #fff;
+}
+
+.api-games-sports {
+  background: url(http://www.uedk28.com/static/images/sportbg.png) center 2px no-repeat;
+}
+
+#sub-casino .row-gutter-0 {
+  background: url(http://www.uedk28.com/static/images/casinoNavbg.png) 210px 2px no-repeat;
+}
+
+.api-games.api-games-live {
+  width: 100%;
+  overflow: hidden;
+}
+
+.api-games.api-games-live>ul {
+  font-size: 0;
+}
+
+.api-games.api-games-live>ul>li {
+  width: 240px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.api-games.api-games-ssc {
+  width: 850px;
+  overflow: hidden;
+}
+
+.api-games.api-games-ssc>ul {
+  font-size: 0;
+}
+
+.api-games.api-games-ssc>ul>li {
+  width: 850px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.api-btn-next,.api-btn-prev {
+  position: absolute;
+  width: 32px;
+  top: 52px;
+  display: none;
+}
+
+.api-btn-prev {
+  left: 0;
+}
+
+.api-btn-next {
+  right: 0;
+  text-align: right;
+}
+
+.api-games-wrap:hover .api-btn-next,.api-games-wrap:hover .api-btn-prev {
+  display: block;
+}
+
+.api-next,.api-prev {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  position: relative;
+  display: inline-block;
+  background: url(http://www.uedk28.com/static/images/navbar-sub-sprite.png) no-repeat #e5e5e5;
+}
+
+.api-next:hover,.api-prev:hover {
+  background-color: #eee;
+}
+
+.api-prev {
+  background-position: -800px -100px;
+}
+
+.api-next {
+  background-position: -825px -100px;
+}
+
+.api-games.api-games-client>ul>li {
+  width: 480px;
+}
+
+.api-games.api-games-try>ul>li {
+  width: 20%;
+}
+
+#sub-tryPlay .row-gutter-0 {
+  background: url(http://www.uedk28.com/static/images/tryPlaybg.png) no-repeat;
+}
+
+#sub-tryPlay .apiicon {
+  background: 0 0;
+}
+
+.pcdownbox .sub-box>dt>a>i {
+  left: -222px;
+}
+
+.phonedownbox .sub-box>dt>a>i {
+  left: -236px;
+}
+
+.sub-box>dt>a>.sbI {
+  left: -115px;
+  bottom: 50px;
+}
+
+.sub-box>dt>a>.bbinI {
+  left: -160px;
+  bottom: 50px;
+}
+
+.phonedownbox .sub-box>dt {
+  background: url(http://www.uedk28.com/static/images/navphone.png) 70px 0 no-repeat;
+}
+
+.pcdown {
+  background: url(http://www.uedk28.com/static/images/pcbg.png) no-repeat;
+  margin-left: 182px;
+}
+
+.phonedownbtn {
+  background: 0 0;
+}
+
+.navbar-nav>.tryPlay.activenav>a,.tryPlay,.tryPlay.activenav {
+}
+
+.tryPlay a:hover {
+}
+.tryPlay img {
+margin-top:-4px;
+}
+
+.num-decimal,.num-dot,.num-pre,.num-single {
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  background: url(http://www.uedk28.com/static/images/navbar-sub-sprite.png) no-repeat;
+}
+
+.num-dot {
+  width: 12px;
+  background-position: -800px 0;
+}
+
+.num-pre {
+  width: 32px;
+  background-position: -812px 0;
+}
+
+.num-single {
+  width: 75px;
+}
+
+.num-decimal {
+  width: 60px;
+}
+
+.num-single[num="1"] {
+  width: 60px;
+  background-position: 0 0;
+}
+
+.num-single[num="2"] {
+  background-position: -80px 0;
+}
+
+.num-single[num="3"] {
+  background-position: -160px 0;
+}
+
+.num-single[num="4"] {
+  background-position: -240px 0;
+}
+
+.num-single[num="5"] {
+  background-position: -320px 0;
+}
+
+.num-single[num="6"] {
+  background-position: -400px 0;
+}
+
+.num-single[num="7"] {
+  background-position: -480px 0;
+}
+
+.num-single[num="8"] {
+  background-position: -560px 0;
+}
+
+.num-single[num="9"] {
+  background-position: -640px 0;
+}
+
+.num-single[num="0"] {
+  background-position: -720px 0;
+}
+
+.num-decimal[num="1"] {
+  width: 48px;
+  background-position: 0 -100px;
+}
+
+.num-decimal[num="2"] {
+  background-position: -80px -100px;
+}
+
+.num-decimal[num="3"] {
+  background-position: -160px -100px;
+}
+
+.num-decimal[num="4"] {
+  background-position: -240px -100px;
+}
+
+.num-decimal[num="5"] {
+  background-position: -320px -100px;
+}
+
+.num-decimal[num="6"] {
+  background-position: -400px -100px;
+}
+
+.num-decimal[num="7"] {
+  background-position: -480px -100px;
+}
+
+.num-decimal[num="8"] {
+  background-position: -560px -100px;
+}
+
+.num-decimal[num="9"] {
+  background-position: -640px -100px;
+}
+
+.num-decimal[num="0"] {
+  background-position: -720px -100px;
+}
+
+.static-bar {
+  height: 32px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.static-bar>.container {
+  overflow: visible;
+}
+
+.static-left {
+  float: left;
+  height: 32px;
+  line-height: 32px;
+  text-shadow: 0 1px 0 #000;
+  display: none;
+}
+
+.static-left>a {
+  color: #ccc;
+  margin-left: 10px;
+}
+
+.static-left>a:hover {
+  color: #eee;
+}
+
+.static-left>.time {
+  font-family: Tahoma;
+  margin-left: 10px;
+}
+
+.static-right {
+  float: right;
+}
+
+.static-right .header-login {
+  padding-top: 3px;
+  float: right;
+}
+
+.header-login .form-group {
+  position: relative;
+  margin-right: 7px;
+}
+
+a.tip-forget,a.tip-scode {
+  position: absolute;
+  display: inline-block;
+}
+
+.header-login .form-control {
+  width: 180px;
+  height: 26px;
+  line-height: 12px;
+  background-color: #592323;
+  text-shadow: 0 0px 0 #d6d6d6;
+  border-radius: 1px;
+  border: 1px solid #8a3e3e;
+  box-sizing: border-box;
+}
+
+.scode .form-control {
+  width: 130px;
+}
+
+a.tip-forget {
+    right: 4px;
+    top: 4px;
+    padding: 0 6px;
+    height: 18px;
+    line-height: 16px;
+    text-align: center;
+    color: #eee;
+    border-radius: 2px;
+    text-decoration: underline;
+}
+
+a.tip-scode {
+  right: 1px;
+  top: 1px;
+  height: 26px;
+}
+
+a.tip-scode img {
+  max-height: 24px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.static-right .btn {
+  padding: 3px 10px;
+  border-color: #5c5c5c;
+  border-radius: 3px;
+}
+
+.static-right ._vr_login {
+    color: #fff;
+    background: url(../images/btn.png);
+    background-size: cover;
+    border: 0px;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 26px;
+	margin-right:7px;
+}
+
+.static-right ._vr_login:hover {
+  background-color: #fff;
+}
+
+
+.static-right .kefu {
+  width: 89px;
+  background: url(http://www.uedk28.com/static/images/ued-img.png) -283px -851px no-repeat;
+  border: none;
+  text-indent: 18px;
+}
+
+.static-right .header-panel {
+  line-height: 32px;
+}
+
+.header-panel>a,.static-btn {
+  color: #863d3d;
+  margin: 0 10px;
+  text-shadow: 0 1px 0 #000;
+}
+
+.header-panel>._vr_nickname {
+  background: url(http://www.uedk28.com/static/images/bankxuanzhong.png) 0 -102px no-repeat;
+  padding-left: 20px;
+  margin-right: 0;
+}
+
+.header-panel>._vr_notice {
+  width: 18px;
+  height: 18px;
+  background: url(http://www.uedk28.com/static/images/bankxuanzhong.png) 0 -129px no-repeat;
+  display: inline-block;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-left: 0;
+  color: #fff;
+}
+
+.bds-jt-logo,.bds-jt-title,.htf-jt-logo,.htf-jt-title,.show-on-hover:hover>ul.dropdown-menu {
+  display: block;
+}
+
+.header-panel>a:hover,.static-btn:hover {
+  color: #eee;
+}
+
+.header-panel .label {
+  border-radius: 30px;
+}
+
+.header-panel .text-money {
+  color: #2293fc;
+  font-size: 12px;
+}
+
+.header-panel .static-btn .text-money {
+  color: #fff;
+}
+
+.header-panel .members-dropdown {
+  margin-top: -1px;
+  padding: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: none;
+}
+
+.header-panel .members-dropdown>li {
+  margin: 3px 0;
+  font-size: 12px;
+}
+
+.header-panel .members-dropdown>li .gui {
+  color: #2293fc;
+}
+
+.header-panel .members-dropdown>li>a:focus,.header-panel .members-dropdown>li>a:hover {
+  color: #fff;
+  background-color: #a6cbf7;
+  background-color: rgba(33,125,235,.4);
+}
+
+.show-on-hover {
+  vertical-align: top;
+}
+
+header {
+  position: relative;
+    background: url(../images/header-line.png);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.navbor {
+  height: 4px;
+  width: 100%;
+  background: url(http://www.uedk28.com/static/images/nav_bbg.png) top center;
+  position: absolute;
+  bottom: -4px;
+  z-index: 16;
+}
+
+.footer-bar {
+  padding-top: 10px;
+  height: 110px;
+  background: url(http://www.uedk28.com/static/images/footer_shadow.png) repeat-x #6e6d71;
+  font-size: 12px;
+}
+
+.footer-bar,.footer-bar a {
+  color: #999;
+  color: rgba(255,255,255,.3);
+}
+
+.footer-bar a:hover {
+  color: #aaa;
+  color: rgba(255,255,255,.4);
+}
+
+.footer-item {
+  padding-top: 10px;
+  background: url(http://www.uedk28.com/static/images/footer-item-bg.png) 95% no-repeat;
+}
+
+.footer-item.none-bg,.sports-page .footer-bar {
+  background: 0 0;
+}
+
+.footer-item>ul>li+li:before {
+  content: "/";
+}
+
+.footer-item>ul {
+  margin-left: 0;
+}
+
+.footer-item>ul>li {
+  padding-left: 0;
+}
+
+.footer-item>ul>li+li>a {
+  padding-left: 10px;
+}
+
+.bds-jt-logo {
+  width: 80px;
+  height: 70px;
+  background: url(http://www.uedk28.com/static/images/footer-sprite.png);
+}
+
+.bds-jt-logo:hover,.footer-item:hover .bds-jt-logo {
+  background-position: -80px 0;
+}
+
+.bds-jt-title {
+  width: 235px;
+  height: 30px;
+  margin: 10px 0 0 80px;
+  background: url(http://www.uedk28.com/static/images/footer-sprite.png) 0 -140px;
+}
+
+.bds-jt-title:hover,.footer-item:hover .bds-jt-title {
+  background-position: 0 -170px;
+}
+
+.htf-jt-logo {
+  width: 65px;
+  height: 70px;
+  background: url(http://www.uedk28.com/static/images/footer-sprite.png) -160px 0;
+}
+
+.footer-item:hover .htf-jt-logo,.htf-jt-logo:hover {
+  background-position: -240px 0;
+}
+
+.htf-jt-title {
+  width: 235px;
+  height: 30px;
+  margin: 10px 0 0 64px;
+  background: url(http://www.uedk28.com/static/images/footer-sprite.png) 0 -200px;
+}
+
+.live-jt-logo,.live-jt-title {
+  height: 21px;
+  display: inline-block;
+}
+
+.footer-item:hover .htf-jt-title,.htf-jt-title:hover {
+  background-position: 0 -230px;
+}
+
+.live-jt-logo {
+  width: 21px;
+  background: url(http://www.uedk28.com/static/images/footer-sprite.png) -309px 0;
+}
+
+.footer-item:hover .live-jt-logo,.live-jt-logo:hover {
+  background-position: -309px -30px;
+}
+
+.live-jt-title {
+  width: 160px;
+  margin-left: 5px;
+  background: url(http://www.uedk28.com/static/images/footer-sprite.png) 0 -80px;
+}
+
+.footer-item:hover .live-jt-title,.live-jt-title:hover {
+  background-position: 0 -110px;
+}
+
+.notice {
+  width: 100%;
+  position: relative;
+  z-index: 15;
+  background: url(http://www.uedk28.com/static/images/notice_bg.png) repeat-x;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+
+.notice,.notice .notice-list {
+  overflow: hidden;
+}
+
+.notice .notice-list>ul {
+  height: 35px;
+}
+
+.notice,.notice .notice-list,.notice .notice-list>ul>li {
+  height: 35px;
+  line-height: 35px;
+}
+
+.notice .notice-list>ul>li {
+  padding-right: 300px;
+  float: left;
+}
+
+.notice .title {
+  float: left;
+  padding-right: 18px;
+  color: #fff;
+}
+
+.notice .notice-list {
+  float: right;
+  width: 940px;
+}
+
+.notice-list,.notice-list a {
+  color: #96c6ff;
+  font-size: 12px;
+}
+
+.index-notice {
+    background: url(../images/noticebg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	margin-top:-35px;
+}
+
+
+.game-page .static-bar {
+  height: 40px;
+  background: #f5f5f5;
+}
+
+.game-page .static-bar .slogo img {
+  max-height: 40px;
+}
+
+.game-page .static-bar .static-right .header-login {
+  padding-top: 7px;
+}
+
+.game-page .static-bar .static-right .header-panel {
+  line-height: 40px;
+}
+
+.game-page .static-bar .static-right .header-panel>a,.game-page .static-bar .static-right .static-btn {
+  color: #666;
+  text-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
+
+.game-page .static-bar .static-btn:hover,.game-page .static-bar .static-right .header-panel>a:hover {
+  color: #444;
+}
+
+.game-page .static-bar .static-right .header-panel .static-btn .text-money {
+  color: #2293fc;
+}
+
+.game-page main {
+  background: url(http://www.uedk28.com/static/images/blue-bg.jpg) 50% 0 no-repeat #13386c;
+}
+
+.game-page .GameBody {
+  position: relative;
+  display: block;
+  left: auto;
+  margin: 0 auto;
+  min-height: 150px;
+  padding: 0 5%;
+  z-index: 1;
+}
+
+.game-page .GameContainer {
+  position: relative;
+  display: block;
+  border: 0;
+  margin: 0 auto;
+  background: #d7e3f0;
+}
+
+.loading {
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  width: 100%;
+}
+
+.shadow {
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0,0,0,.3),0 0 20px rgba(0,0,0,.1) inset;
+}
+
+.shadow::after,.shadow::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  height: 20%;
+  box-shadow: 0 10px 10px rgba(0,0,0,.4);
+  transform: rotate(-3deg);
+}
+
+.shadow::after {
+  right: 10px;
+  left: auto;
+  transform: rotate(3deg);
+}
+
+.index-screen-01 .row-guttery-0 {
+  margin: 0;
+}
+
+.index-screen-01 .index_l {
+  width: 364px;
+  float: left;
+}
+
+.index-screen-01 .index_m {
+  width: 460px;
+  float: left;
+}
+
+.index-screen-01 .index_r {
+  width: 376px;
+  float: left;
+}
+
+.index-screen-01 {
+  border-bottom: 1px solid #dde1e3;
+  margin-bottom: 40px;
+}
+
+.index-rows-01 {
+    height: 198px;
+    background-position: center center;
+    background: url(../images/screen-01-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2px;
+}
+
+.index-screen-01 .screen-item {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: url(http://www.uedk28.com/static/images/line_home.gif) right 2px no-repeat;
+}
+
+.index-screen-01 .index_m .screen-item {
+  padding-left: 98px;
+}
+
+.index-screen-01 .index_r .screen-item {
+  padding-left: 114px;
+}
+
+.index-screen-01 .screen-item.nonebg {
+  background: 0 0;
+}
+
+
+.index-rows-01 .link:before {
+    content: ' ';
+    display: table;
+    display: block;
+    width: 220px;
+    height: 196px;
+}
+.index-rows-01 .link:hover:before {
+    background: #fff;
+	opacity: 0.1;
+}
+
+.index-rows-01 .link-1 {
+    background: url(../images/index-s1.png);
+    width: 220px;
+    height: 200px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+	float:left;
+	margin: 0 35px;
+
+}
+.index-rows-01 .link-2 {
+    background: url(../images/index-s2.png);
+    width: 220px;
+    height: 200px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+	float:left;
+	margin: 0 35px;
+}
+.index-rows-01 .link-3 {
+    background: url(../images/index-s3.png);
+    width: 220px;
+    height: 200px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+	float:left;
+	margin: 0 35px;
+}
+.index-rows-01 .link-4 {
+    background: url(../images/index-s4.png);
+    width: 220px;
+    height: 178px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+	float:left;
+	margin: 0 35px;
+}
+
+.index-rows-02 {
+    height: 217px;
+    background-position: center center;
+    background: url(../images/screen-02-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 2px;
+}
+
+.index-screen-02 .screen-item {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+}
+
+.index-slide,.index-slide>.slide-inner {
+  height: 420px;
+  position: relative;
+}
+
+.index-screen-02 .parden .screen-item {
+  padding-left: 58px;
+}
+
+.index-screen-02 .howto .screen-item {
+  padding-left: 110px;
+}
+
+.index-slide>.slide-inner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.index-slide>.slide-inner .sl_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.index-slide>.slide-indicators {
+  width: 40px;
+  min-height: 40px;
+  overflow: hidden;
+  position: absolute;
+  top: 35px;
+  right: 8%;
+  z-index: 2;
+}
+
+.index-slide>.slide-indicators .sl_icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.live-list {
+  height: 723px;
+  padding-top: 35px;
+  background: 50% 0 no-repeat;
+}
+
+.live-list .item {
+  position: relative;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.live-list .item>a {
+  display: block;
+}
+
+.live-list .item>h3 {
+  position: absolute;
+  content: "111";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-shadow: 1px 2px 1px #333;
+  transition: all .3s;
+}
+
+.live-list .item:hover>h3 {
+  color: #2293fc;
+  content: "进入游戏";
+  bottom: 5px;
+}
+
+.liveicon {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  background: url(http://www.uedk28.com/static/images/live-sprite.png) no-repeat;
+}
+
+.liveicon.ag {
+  background-position: 0 0;
+}
+
+.liveicon.bb,.liveicon.bbin {
+  background-position: -200px 0;
+}
+
+.liveicon.dw {
+  background-position: -400px 0;
+}
+
+.liveicon.ds {
+  background-position: -600px 0;
+}
+
+.liveicon.gd {
+  background-position: 0 -250px;
+}
+
+.liveicon.og {
+  background-position: -200px -250px;
+}
+
+.liveicon.sa {
+  background-position: -400px -250px;
+}
+
+.liveicon.ebet {
+  background-position: -600px -250px;
+}
+
+.sports-page {
+  background: url(http://www.uedk28.com/static/images/blue-bg.jpg) 50% 90px no-repeat #13386c;
+}
+
+.sports-page main {
+  background-color: transparent;
+}
+
+.sports-box {
+  width: 1023px;
+  margin: 0 auto;
+  height: 768px;
+  display: block;
+  position: relative;
+  background: url(http://www.uedk28.com/static/images/uedloading.gif) center no-repeat #fff;
+}
+
+.sports-box.hg {
+  width: 1148px;
+}
+
+.quick-promo {
+  position: absolute;
+  width: 74px;
+  height: 161px;
+  text-align: center;
+  top: 10px;
+  right: -78px;
+}
+
+.quick-promo .promo-links {
+  width: 74px;
+  height: 131px;
+  display: inline-block;
+  background: url(http://www.uedk28.com/static/images/sports-promo.png) 50% 0 no-repeat;
+}
+
+.quick-promo a {
+  opacity: .9;
+  filter: opacity(90);
+  color: #eee;
+  transition: all .3s;
+  text-align: center;
+}
+
+.quick-promo a:hover {
+  opacity: 1;
+  filter: opacity(100);
+}
+
+.sports-ued-tabs {
+  list-style: none;
+  position: absolute;
+  width: 76px;
+  top: 0;
+  left: -125px;
+}
+
+.sports-ued-tabs li {
+  width: 76px;
+  height: 108px;
+  padding: 9px 0 0;
+  text-align: center;
+  background: url(http://www.uedk28.com/static/images/sports-promo.png) 50% -50px no-repeat;
+  opacity: .6;
+  filter: opacity(60);
+}
+
+.sports-ued-tabs li>a>.gui {
+  color: #193d6c;
+  display: block;
+  font-size: 2em;
+  line-height: 70px;
+  margin-bottom: 9px;
+}
+
+.sports-ued-tabs li>a {
+  color: #001932;
+  text-decoration: none;
+}
+
+.sports-ued-tabs li:hover {
+  opacity: .8;
+  filter: opacity(80);
+}
+
+.sports-ued-tabs li.active {
+  opacity: 1;
+  filter: opacity(100);
+}
+
+.sports-ued-tabs li.active a {
+  color: #b3cbeb;
+}
+
+.bulk-frame {
+  position: relative;
+}
+
+.sports-hg-fix {
+  position: absolute;
+  display: none;
+  width: 100px;
+  height: 25px;
+  background: #493721;
+  top: 98px;
+  left: 137px;
+}
+
+.sports-box.hg .sports-hg-fix {
+  display: none;
+}
+
+.page-ban {
+  position: relative;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+.page-ban>.casino-ban-foot-wrap,.page-ban>.casino-ban-foot-wrap>.casino-ban-foot {
+  height: 20px;
+  display: block;
+  background-image: url(http://www.uedk28.com/static/images/casino-ban-bg.png);
+}
+
+.page-ban>.casino-ban-foot-wrap {
+  width: 100%;
+  background-position: 50% 0;
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-ban>.casino-ban-foot-wrap>.casino-ban-foot {
+  width: 1140px;
+  margin: 0 auto;
+  background-position: 50% -30px;
+  background-repeat: no-repeat;
+}
+
+.casino {
+  background: #0a2946;
+}
+
+.casino .casino-box {
+  background: #faf7f7;
+}
+
+.api-tabs {
+  border-color: #6c77a2;
+  background-color: #08f;
+  padding-bottom: 0;
+}
+
+.api-tabs>li {
+  text-shadow: none;
+}
+
+.api-tabs>li+li,.api-tabs>li.active,.api-tabs>li:first-child.active,.api-tabs>li:last-child.active {
+  border-color: #4cabff;
+  border-color: rgba(255,255,255,.3);
+}
+
+.api-tabs>li.active {
+  background-color: #faf7f7;
+  /background: linear-gradient(to bottom,#fff 0,#faf7f7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#faf7f7', GradientType=0);
+}
+
+.api-tabs>li>a:link,.api-tabs>li>a:visited {
+  color: #fff;
+}
+
+.api-tabs>li>a:hover {
+  color: rgba(255,255,255,.6);
+}
+
+.api-tabs>li.active a {
+  color: #333;
+}
+
+.casino-tabs {
+  height: 60px;
+  border: none;
+  margin-bottom: 0;
+}
+
+.casino-sorts {
+  height: 41px;
+}
+
+.casino-sorts .nav-tabs {
+  float: left;
+  border: none;
+  margin-left: 10px;
+}
+
+.casino-sorts .nav-tabs>li>a {
+  color: #08f;
+  padding: 8px 15px;
+}
+
+.casino-sorts .nav-tabs>li.active>a,.casino-sorts .nav-tabs>li>a:hover {
+  color: #fff;
+  background-color: #08f;
+  border-color: #08f;
+}
+
+.casino-sorts .search {
+  width: 235px;
+  margin-top: 5px;
+}
+
+.casino-sorts .form-control {
+  width: 160px;
+  float: left;
+  margin-right: 10px;
+  border-color: #aaa;
+}
+
+.casino-sorts .search .btn {
+  border-radius: 3px;
+}
+
+.casino-list {
+  padding: 10px 20px 0;
+}
+
+.casino-item {
+  display: inline-block;
+  width: 204px;
+  height: 220px;
+  margin-top: 5px;
+}
+
+.casino-item .item {
+  width: 204px;
+  height: 143px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: #312d52;
+}
+
+.casino-item .item .game-img {
+  width: 204px;
+  height: 143px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.casino-item .item .game-img img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.casino-item .item .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+  display: none;
+}
+
+.casino-item .item .cover .cover-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .85;
+  background: #76cca1;
+  background: linear-gradient(to bottom,#76cca1 12%,#44ce89 88%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#76cca1', endColorstr='#44ce89', GradientType=0);
+}
+
+.casino-item .item .cover .cover-name {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  margin-top: 60px;
+  line-height: 20px;
+  color: #111;
+  text-align: center;
+  z-index: 2;
+  text-shadow: 0 1px 0 #eee;
+}
+
+.casino-item .item canvas {
+  width: 204px;
+  height: 143px;
+  position: absolute;
+  z-index: 10;
+}
+
+.casino-item .title {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.casino-item .title a {
+  display: block;
+  color: #111;
+}
+
+.casino-item .title a:hover {
+  color: #333;
+}
+
+.btn-play {
+  color: #eee!important;
+  margin-top: 6px;
+  text-align: center;
+  display: inline-block;
+  background: #1988fa;
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  line-height: 30px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.5);
+  transition: background .3s;
+}
+
+.btn-play:hover {
+  color: #fff!important;
+  background: #0b58f8;
+}
+
+.casino-item:hover {
+  background: #fff;
+}
+
+.casino-item .title .btn-play {
+  display: none;
+}
+
+.casino-item:hover .title .btn-play {
+  display: inline-block;
+}
+
+.btn-more {
+  width: 200px;
+}
+
+.focus-slide,.lottery {
+  width: 100%;
+  position: relative;
+}
+
+.lottery {
+  background-color: #187aa5;
+  background-image: linear-gradient(-225deg,#162774,#0ea7ad);
+}
+
+.focus-slide {
+  min-width: 1050px;
+  height: 750px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.focus-slide>.slide-inner {
+  width: 1050px;
+  position: absolute;
+  left: 50%;
+  margin-left: -525px;
+}
+
+.focus-slide>.slide-inner li {
+  width: 1050px;
+  overflow: hidden;
+  position: relative;
+}
+
+.focus-slide>.slide-inner li .item-btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 56px;
+}
+
+.focus-slide>.slide-inner li .item-btn a {
+  width: 200px;
+  height: 42px;
+  display: inline-block;
+  line-height: 42px;
+  color: #fff;
+  background: rgba(255,255,255,.21);
+  border: 1px solid rgba(255,255,255,.44);
+}
+
+.focus-slide>.slide-inner li .item-btn a:hover {
+  background-position: -240px -70px;
+}
+
+.focus-slide>.slide-inner li img {
+  display: block;
+  width: 1050px;
+}
+
+.focus-slide .tempWrap {
+  overflow: visible!important;
+}
+
+.focus-slide .tempWrap ul {
+  margin-left: -1050px!important;
+}
+
+.focus-slide>.slide-indicators {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  height: 12px;
+  bottom: 30px;
+  text-align: center;
+}
+
+.focus-slide>.slide-indicators li {
+  display: inline-block;
+  zoom: 1;
+  width: 14px;
+  height: 12px;
+  line-height: 99px;
+  overflow: hidden;
+  background: url(http://www.uedk28.com/static/images/lottery-sprite.png) -260px 0 no-repeat;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.focus-slide>.slide-indicators li:hover {
+  background-position: -280px 0;
+}
+
+.focus-slide>.slide-indicators li.active,.focus-slide>.slide-indicators li.active:hover {
+  background-position: -240px 0;
+}
+
+.focus-slide>.pnBtn {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 750px;
+}
+
+.focus-slide>.prev {
+  left: -50%;
+  margin-left: -525px;
+}
+
+.focus-slide>.next {
+  left: 50%;
+  margin-left: 525px;
+}
+
+.focus-slide>.pnBtn .blackBg {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 750px;
+  background: #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+
+.focus-slide>.pnBtn .arrow {
+  display: none;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 60px;
+  height: 750px;
+}
+
+.focus-slide>.pnBtn .arrow:hover {
+  filter: alpha(opacity=60);
+  opacity: .6;
+}
+
+.focus-slide>.prev .arrow {
+  right: 0;
+  background: url(http://www.uedk28.com/static/images/lottery-sprite.png) -120px 0 no-repeat;
+}
+
+.focus-slide>.next .arrow {
+  left: 0;
+  background: url(http://www.uedk28.com/static/images/lottery-sprite.png) no-repeat;
+}
+
+.promo {
+  min-height: 400px;
+  background: url(http://www.uedk28.com/static/images/promo-bg.gif) center bottom repeat-x fixed;
+}
+
+.promo .promo-box {
+  background: url(http://www.uedk28.com/static/images/time_line.png) 140px 0 repeat-y;
+  margin: 20px auto 0;
+  position: relative;
+  z-index: 2;
+  width: 1050px;
+}
+
+.promo .promo-sorts {
+  margin: 35px 0 35px 200px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.promo .promo-sorts li {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  display: inline-block;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  background: url(http://www.uedk28.com/static/images/promo-sorts.png) no-repeat;
+}
+
+.promo .promo-sorts li:hover {
+  background-position: 0 -60px;
+}
+
+.promo .promo-sorts li a {
+  display: block;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.promo .promo-sorts li.active {
+  position: absolute;
+  left: 99px;
+  margin-top: 0;
+  top: -15px;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  background-position: -100px 0;
+}
+
+.promo .promo-sorts li.active a {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.promo .promo-item {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.promo-item .time {
+  position: absolute;
+  width: 130px;
+  top: -10px;
+  text-align: right;
+  font-size: 20px;
+  color: #08f;
+}
+
+.promo-item .time span {
+  font-size: 40px;
+  color: #08f;
+  line-height: 1em;
+  font-weight: 400;
+  display: block;
+}
+
+.promo-item .point {
+  position: absolute;
+  left: 136px;
+  top: -5px;
+  width: 14px;
+  height: 14px;
+  font-size: 1px;
+  background: url(http://www.uedk28.com/static/images/promo-sorts.png) -100px -100px no-repeat;
+}
+
+.promo-item .item-box {
+  position: relative;
+  margin-left: 155px;
+  width: 890px;
+  margin-top: -20px;
+}
+
+.promo-item .item-box .item-top {
+  width: 890px;
+  height: 20px;
+  background: url(http://www.uedk28.com/static/images/box_top.png) no-repeat;
+  margin-top: 5px;
+}
+
+.promo-item .item-box .item-foot {
+  width: 890px;
+  height: 30px;
+  background: url(http://www.uedk28.com/static/images/box_foot.png) no-repeat;
+}
+
+.promo-item .item-box .sidePromo {
+  width: 890px;
+  padding: 20px 40px 20px 50px;
+  background: url(http://www.uedk28.com/static/images/box_body.png) repeat-y;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.promo-item .item-box .sidePromo dt h3 {
+  margin-top: 0;
+}
+
+.promo-item .item-box .sidePromo dt img {
+  width: 100%;
+  max-width: 800px;
+}
+
+.promo-item .item-box .item-status {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  display: block;
+  background: url(http://www.uedk28.com/static/images/promo-sorts.png) 0 -120px no-repeat;
+  right: -4px;
+  top: -4px;
+}
+
+.promo-item.over .item-box .item-status {
+  background-position: 0 -260px;
+}
+
+.promo-item .item-box .promo-btns {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.accountNumber .toKefu a,.accountNumber .toKefu p,.hp-article .subject,.hp-article td,.pageList td,.pagelist li,.pob a,.pob dd,.stepfont li {
+  text-align: center;
+}
+
+.promo-item .item-box .promo-btns .btn {
+  border-radius: 30px;
+  margin-left: 10px;
+  color: #08f;
+  border-color: #08f;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: transparent;
+  transition: all .3s;
+}
+
+.promo-item .item-box .promo-btns .btn:hover {
+  color: #fff;
+  background-color: #08f;
+}
+
+.promo-content {
+  width: 800px;
+  border-top: 1px dashed #e5e5e5;
+  margin-top: 10px;
+}
+
+.promo-content h4 {
+  color: #08f;
+  font-weight: 700;
+}
+
+.promo-content table {
+  min-width: 50%;
+  margin: 15px 0;
+}
+
+.promo-content table td,.promo-content table th {
+  border: 1px solid #99cfff;
+  padding: 8px 20px;
+  text-align: center;
+}
+
+.promo-content table th {
+  color: #08f;
+}
+
+.register-box {
+  min-height: 610px;
+  width: 1000px;
+  margin: 50px auto;
+  border: 1px solid #e0e3e6;
+  background: #fbfbfb;
+}
+
+.register-box form {
+  padding-bottom: 30px;
+}
+
+.register legend {
+  color: #08f;
+  padding: 20px 30px 10px;
+  font-size: 24px;
+  border-style: dashed;
+}
+
+.register legend span {
+  margin: 10px 0;
+  color: #666;
+  display: block;
+  font-size: 12px;
+}
+
+.register legend .hasnumber a,.register legend span i {
+  color: #08f;
+}
+
+.register legend .hasnumber {
+  margin-top: 24px;
+}
+
+.register .input-group img {
+  max-height: 38px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.register .form-group .form-control {
+  height: 38px;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.register .form-group .btn {
+  border-radius: 3px;
+}
+
+lable.error {
+  font-size: 12px;
+  color: red;
+}
+
+.help li,.help ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.help-box {
+  position: relative;
+  margin: 20px auto;
+  border: 1px solid #d3d3d3;
+}
+
+.help .hp-nav .triangle {
+  margin-right: 30px;
+  width: 9px;
+  height: 100%;
+  display: block;
+  float: right;
+  background: url(http://www.uedk28.com/static/images/help/arrows-1-r.png) center no-repeat;
+}
+
+.help .li-2 .triangle {
+  float: left;
+  margin-left: 5px;
+  background: url(http://www.uedk28.com/static/images/help/arrows-2-r.png) center no-repeat;
+}
+
+.help .li-1 a.over .triangle {
+  background: url(http://www.uedk28.com/static/images/help/arrows-1-d.png) center no-repeat;
+}
+
+.help .li-2 a.over .triangle {
+  background: url(http://www.uedk28.com/static/images/help/arrows-2-d.png) center no-repeat;
+}
+
+.help .hp-nav a {
+  color: #666;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.help .hp-nav .nav-1 .active,.help .hp-nav a:hover {
+  color: #097eeb;
+}
+
+.help .nav-1 a {
+  display: block;
+  height: 49px;
+  line-height: 49px;
+}
+
+.help .nav-1 .li-1 {
+  background: url(http://www.uedk28.com/static/images/help/button.gif) no-repeat;
+}
+
+.help .nav-2 a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: none;
+  overflow: hidden;
+}
+
+.help .nav-2 a:hover {
+  background: #e1ecf9;
+}
+
+.help .hp-nav .nav-2 .active,.help .hp-nav .nav-2 .active:hover {
+  color: #097eeb;
+  background: #F7F7F7;
+}
+
+.help .nav-2 {
+  background: #FFF;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.help .hp-nav .hp {
+  background: url(http://www.uedk28.com/static/images/help/help.png) 15px 50% no-repeat;
+}
+
+.help .hp-nav .sport {
+  background: url(http://www.uedk28.com/static/images/help/sport.png) 15px 50% no-repeat;
+}
+
+.help .hp-nav .casino {
+  background: url(http://www.uedk28.com/static/images/help/casino.png) 15px 50% no-repeat;
+}
+
+.help .hp-nav .keno {
+  background: url(http://www.uedk28.com/static/images/help/keno.png) 15px 50% no-repeat;
+}
+
+.help .hp-nav .promotion {
+  background: url(http://www.uedk28.com/static/images/help/promotion.png) 15px 50% no-repeat;
+}
+
+.help .hp-nav .contact {
+  background: url(http://www.uedk28.com/static/images/help/contact.png) 15px 50% no-repeat;
+}
+
+.help .hp-nav .affairs {
+  background: url(http://www.uedk28.com/static/images/help/affairs.png) 15px 50% no-repeat;
+}
+
+.help .t1 {
+  padding-left: 55px;
+  font-weight: 700;
+}
+
+.help .t2 {
+  float: left;
+  padding-left: 55px;
+  white-space: nowrap;
+}
+
+.help .t3 {
+  padding-left: 70px;
+  background: url(http://www.uedk28.com/static/images/help/dot.png) 60px 50% no-repeat;
+}
+
+.help .sub-nav li {
+  float: left;
+  margin-right: 10px;
+}
+
+.help .hp-content {
+  min-height: 700px;
+  padding: 1px 0;
+  background: url(http://www.uedk28.com/static/images/help/uedbet-bg.jpg) right 0 no-repeat #FFF;
+  border-left: 1px solid #D3D3D3;
+}
+
+.help .ft {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  margin: 20px 0 10px;
+  width: 100%;
+  height: 18px;
+  background: url(http://www.uedk28.com/static/images/help/footer-bg.jpg) center no-repeat;
+}
+
+.hp-article {
+  margin: 0 auto;
+  min-height: 600px;
+  font-size: 14px;
+  color: #333;
+}
+
+.hp-article .subject,.hp-article h3 {
+  font-weight: 700;
+}
+
+.hp-article .subject {
+  padding-top: 40px;
+}
+
+.hp-article .main-bd {
+  margin: 20px 60px 40px;
+}
+
+.hp-article .main-bd a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.hp-article .main-bd img {
+  max-width: 100%;
+}
+
+.hp-article .main-bd h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+.hp-article .ul-1,.hp-article .ul-2,.hp-article p {
+  margin: 20px 0;
+}
+
+.hp-article p {
+  color: #333;
+}
+
+.hp-article .ul-1,.hp-article .ul-1-disc {
+  margin-left: 50px;
+  list-style-type: decimal;
+}
+
+.hp-article .ul-1-disc {
+  list-style-type: disc;
+}
+
+.hp-article .ul-2,.hp-article .ul-2-disc {
+  margin-top: 10px;
+  margin-left: 40px;
+  list-style-type: lower-alpha;
+}
+
+.hp-article .ul-2-disc {
+  list-style-type: disc;
+}
+
+.hp-article li {
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+
+.hp-article .tabletit {
+  background: #999;
+  font-weight: 700;
+}
+
+.hp-article .trcontent {
+  background: #e5e5e5;
+}
+
+.float-services {
+  position: fixed;
+  z-index: 2000;
+}
+
+.float-services li {
+  width: 160px;
+  background-repeat: no-repeat;
+}
+
+.float-services li a {
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: alpha(opacity:0);
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.float-services li a:hover {
+  opacity: 1;
+}
+
+.pagelist li {
+  margin: 12px;
+}
+
+.pageList {
+  position: absolute;
+  bottom: -62px;
+  right: 60px;
+}
+
+.pageList td,.pagelist li {
+  font-size: 14px;
+  width: 72px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 5px;
+  color: #79a8da;
+  margin-left: 6px;
+  display: block;
+  float: left;
+}
+
+.mask,.pob {
+  position: fixed;
+  display: none;
+}
+
+.pageList td input,.pagelist li input {
+  width: 72px;
+  border: none;
+  color: #333;
+  background: 0 0;
+}
+
+.pageList td:hover,.pagelist li:hover {
+  background: #eee;
+  color: #23527c;
+}
+
+.mask {
+  background: #000;
+  opacity: .7;
+  left: 0;
+  top: 0;
+  z-index: 16;
+  width: 100%;
+  height: 100%;
+}
+
+.pob {
+  top: 50%;
+  left: 50%;
+  width: 365px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -182px;
+  z-index: 17;
+  background: #fff;
+}
+
+.accountNumber h3,.findpassword h3 {
+  margin: 0;
+  padding: 14px 0 38px 34px;
+}
+
+.pob h3 div {
+  margin-bottom: 0;
+}
+
+.pob h3 p {
+  float: left;
+  color: #08f;
+  font-size: 20px;
+  margin: 0;
+}
+
+.pob h3 span {
+  float: right;
+  color: #aaa;
+  padding: 16px 12px 0 13px;
+  display: block;
+}
+
+.pob dl {
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+.pob dt {
+  height: 35px;
+  background: url(http://www.uedk28.com/static/images/successicon.png) 166px 0 no-repeat;
+}
+
+.pob .failed {
+  background: url(http://www.uedk28.com/static/images/ic-error.png) 166px -6px no-repeat;
+}
+
+.pob dd {
+  padding-top: 10px;
+  color: #000;
+  height: 58px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.pob a {
+  display: block;
+  height: 28px;
+  width: 85px;
+  border-bottom: 1px solid #185cac;
+  border-radius: 2px;
+  background: #207be8;
+  margin-left: 140px;
+  color: #fff;
+  line-height: 28px;
+}
+
+.kefu a {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: 0 0;
+  line-height: 40px;
+  margin-left: 0;
+  color: #555;
+}
+
+.pob .close {
+  background: url(http://www.uedk28.com/static/images/mingxicon.png) no-repeat;
+  opacity: .8;
+}
+
+.pob .close:hover {
+  opacity: 1;
+}
+
+.success h3 p {
+  padding-left: 14px;
+}
+
+.accountNumber,.findpassword {
+  display: none;
+  width: 816px;
+  height: 470px;
+  margin-left: -408px;
+  margin-top: -235px;
+}
+
+.accountNumber h5,.findpassword h5 {
+  padding-left: 34px;
+}
+
+.accountNumber ul,.findpassword ul {
+  padding: 25px 0 10px 14px;
+  margin-bottom: 0;
+}
+
+.accountNumber .stepfont,.accountNumber ul li,.findpassword .stepfont,.findpassword ul li {
+  float: left;
+}
+
+.stepfont li {
+  width: 80px;
+  color: #666;
+  font-size: 12px;
+  margin-right: 153px;
+}
+
+.stepfont .stepLast {
+  margin-right: 0;
+}
+
+.stepfont li.fulfill {
+  color: #98c2f3;
+}
+
+.step {
+  height: 87px;
+  background-color: #f9fafd;
+  border-top: 1px solid #ebecec;
+  border-bottom: 1px solid #ebecec;
+}
+
+.accountNumber .stepbg,.findpassword .stepbg {
+  height: 16px;
+  padding: 0;
+  background: url(http://www.uedk28.com/static/images/findpasswordbg.png) 46px 0 no-repeat;
+}
+
+.accountNumber .stepbg.step1,.findpassword .stepbg.step1 {
+  background-position: 46px -16px;
+}
+
+.accountNumber .stepbg.step1,.findpassword .stepbg.step2 {
+  background-position: 46px -32px;
+}
+
+.accountNumber .stepbg.step1,.findpassword .stepbg.step3 {
+  background-position: 46px -48px;
+}
+
+.accountNumber .toKefu {
+  padding-top: 70px;
+}
+
+.accountNumber .toKefu p {
+  font-size: 14px;
+  padding: 12px;
+}
+
+.accountNumber .toKefu a {
+  width: 120px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 2px;
+  background: #3bb281;
+  margin-left: 318px;
+  border-bottom: 1px solid #2c8d65;
+}
+
+.findcode span,.findusername span {
+  margin: 0;
+  line-height: 33px;
+  height: 33px;
+  font-size: 14px;
+  float: left;
+}
+
+.findusername span {
+  width: 68px;
+  color: #333;
+  text-align: left;
+}
+
+.findusername input {
+  float: left;
+  width: 250px;
+  height: 33px;
+  border: 1px solid #c9d1d6;
+  border-radius: 1px;
+}
+
+.findcode span {
+  width: 68px;
+}
+
+.findcode input {
+  float: left;
+  height: 33px;
+  border: 1px solid #c9d1d6;
+  border-radius: 1px;
+  width: 110px;
+}
+
+#verificationCode {
+  width: 78px;
+  height: 33px;
+  border: 1px solid #8e979d;
+  margin: 0 10px;
+}
+
+#verificationCode img {
+  width: 100%;
+  height: 30px;
+}
+
+.findcode .noSee {
+  width: 50px;
+  color: #088bff;
+  font-size: 14px;
+  text-decoration: underline;
+  line-height: 34px;
+}
+
+.form1 {
+  margin: 40px 0 0 248px;
+}
+
+.findpassword .nextstep {
+  width: 172px;
+  margin-left: 70px;
+}
+
+.form2 {
+  display: none;
+}
+
+.form2 p {
+  padding-top: 48px;
+  color: #333;
+  font-size: 14px;
+  padding-left: 34px;
+}
+
+.form2 ul {
+  padding-left: 34px;
+  padding-top: 0;
+}
+
+.form2 ul li {
+  width: 165px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #d3d3d3;
+  margin-right: 27px;
+}
+
+.form2 ul li.activeType {
+  border: 1px solid #08f;
+  background: url(http://www.uedk28.com/static/images/bankxuanzhong.png) 143px -58px no-repeat;
+}
+
+.form2 ul li i {
+  margin: 13px 12px 0 5px;
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: url(http://www.uedk28.com/static/images/bankxuanzhong.png) no-repeat;
+}
+
+.form2 ul li.activeType i {
+  background-position: 0 -30px;
+}
+
+.form2 ul li span {
+  display: inline-block;
+  float: left;
+  line-height: 40px;
+}
+
+.chooseType li,.form3,.form4,.form5,.formBox {
+  display: none;
+}
+
+.form2 .nextstep {
+  margin-top: 24px;
+  margin-left: 322px;
+}
+
+.form3 .emailTips {
+  height: 24px;
+  background: #fff;
+  text-align: center;
+  color: #85bea3;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.forminput span,.safeemail span {
+  font-size: 14px;
+  color: #333;
+  line-height: 40px;
+  text-align: right;
+  float: left;
+}
+
+.safeemail {
+  margin-left: 242px;
+}
+
+.safeemail span {
+  margin: 0;
+  width: 68px;
+}
+
+.safeemail input {
+  float: left;
+  width: 250px;
+  height: 33px;
+  border: 1px solid #c9d1d6;
+  border-radius: 1px;
+}
+
+.questionBox,.securitycodeBox {
+  margin-top: 40px;
+}
+
+.questionBox .forminput,.securitycodeBox .forminput {
+  margin-left: 212px;
+}
+
+.forminput span {
+  margin: 0;
+  width: 68px;
+}
+
+.forminput input,.forminput select {
+  float: left;
+  width: 250px;
+  height: 33px;
+  border: 1px solid #c9d1d6;
+  border-radius: 1px;
+}
+
+.questionBox .forminput span,.securitycodeBox .forminput span {
+  width: 98px;
+}
+
+.formcont .err {
+  height: 16px;
+  line-height: 16px;
+  color: red;
+  font-size: 12px;
+  padding-left: 100px;
+}
+
+.emailCode {
+  margin-left: 242px;
+}
+
+.emailCode span {
+  margin: 0;
+  float: left;
+  width: 68px;
+  font-size: 14px;
+  color: #333;
+  text-align: right;
+  line-height: 40px;
+}
+
+.emailCode input {
+  width: 110px;
+  float: left;
+  height: 33px;
+  border: 1px solid #c9d1d6;
+  border-radius: 1px;
+}
+
+.emailCode button {
+  width: 127px;
+  height: 28px;
+  line-height: 28px;
+  color: #fff;
+  background: #207ce9;
+  border: none;
+  border-bottom: 1px solid #185cac;
+  margin: 4px 0 0 12px;
+}
+
+.emailCode .disabled {
+  background: #c9d1d6;
+  color: #000;
+  border-color: #c1d1d6;
+}
+
+.gostep {
+  margin-left: 257px;
+}
+
+.gostep li {
+  float: left;
+  height: 34px;
+  line-height: 34px;
+  background: #207be9;
+  color: #fff;
+  border-radius: 2px;
+  border-bottom: 1px solid #185cac;
+  text-align: center;
+}
+
+.form3 .prestep {
+  width: 112px;
+  margin-right: 26px;
+}
+
+.form3 .nextstep {
+  width: 172px;
+  margin-left: 0;
+}
+
+.form4 {
+  margin: 30px 0 0 222px;
+}
+
+.form4 span {
+  margin: 0;
+  float: left;
+  width: 96px;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+  line-height: 40px;
+}
+
+.form4 input {
+  width: 250px;
+  float: left;
+  height: 33px;
+  border: 1px solid #c9d1d6;
+  border-radius: 1px;
+}
+
+.form4 .nextstep {
+  margin-left: 98px;
+}
+
+.form5 dl dt {
+  background-position: 390px 0;
+  margin-top: 36px;
+}
+
+.form5 dl dd {
+  padding-top: 16px;
+}
+
+.form5 .closepob {
+  margin-left: 322px;
+  width: 172px;
+}
+
+.chooseType .kefu {
+  display: block;
+}
+
+.disabled {
+  background: #c9d1d6;
+  color: #000;
+  border-color: #c1d1d6;
+}
+
+.findpassword .error {
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: red;
+  padding-left: 68px;
+  display: block;
+  float: none;
+  width: 100%;
+}
+
+.bootstrap-dialog-message {
+  text-align: center;
+}
+
+.container {
+  margin-top: -1px;
+}
+
+.navbar-collapse {
+  margin: 0 0 5px 0;
+}
+.top-bar-box {
+    line-height: 40px;
+    height: 40px;
+
+}
+.top-bar-box img{
+    margin-top: -4px;
+}
+
+.top-bar-box .top-host{
+	padding-right:30px;
+}
+
+.top-bar-box img,.top-bar-box a{
+	display:inline;
+}
+
+.top-bar-box a{
+    color: #8b4040;
+    padding: 0 10px;
+    transition: all .6s;
+}
+
+.top-bar-box a:hover{
+    color: #EEE;
+}
+
+
+
+.user-info-box {margin-top:25px;margin-right:5px;}
+.float-left {float:left;}
+.index-rows-02 .float-left{
+	width: 600px;
+    display: block;
+    height: 217px;
+    position: relative;
+}
+.index-rows-02 .float-left .super-money{
+background: url(../images/super-money.png);
+    background-repeat: no-repeat;
+    height: 28px;
+    /* line-height: 91px; */
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.index-rows-02 .float-left .super-number{
+background: url(../images/super-number.png);
+    background-repeat: no-repeat;
+    height: 34px;
+    /* line-height: 91px; */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.index-rows-02 .float-left .free-play{
+background: url(../images/free-play.png);
+    background-repeat: no-repeat;
+    height: 28px;
+    /* line-height: 91px; */
+    margin-top: 50px;
+    margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.index-rows-02 .float-left .play-1{
+	background: url(../images/fp1.jpg);
+    background-repeat: no-repeat;
+    width: 171px;
+    height: 89px;
+	display:inline-block;
+	margin-left:30px;
+}
+.index-rows-02 .float-left .play-1:hover{
+	background: url(../images/fp11.jpg);
+}
+.index-rows-02 .float-left .play-2:hover{
+	background: url(../images/fp22.jpg);
+}
+.index-rows-02 .float-left .play-3:hover{
+	background: url(../images/fp33.jpg);
+}
+
+.index-rows-02 .float-left .play-2{
+	background: url(../images/fp2.jpg);
+    background-repeat: no-repeat;
+    width: 171px;
+    height: 89px;
+	display:inline-block;
+	margin-left:10px;
+}
+
+.index-rows-02 .float-left .play-3{
+	background: url(../images/fp3.jpg);
+    background-repeat: no-repeat;
+    width: 171px;
+    height: 89px;
+	display:inline-block;
+	margin-left:10px;
+}
+
+._vr_nav .active {
+    background: url(../images/menu-active.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: inherit;
+}
+
+
+.sub-client {
+	background: url(../images/menu-download.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 336px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    right: 0;
+}
+.sub-client .link1 {
+    width: 172px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-client .link1:hover {
+	background: url(../images/menu-download-active.png);
+    background-repeat: no-repeat;
+    background-position: 9px -25px;
+}
+
+.sub-client .link2 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-client .link2:hover {
+	background: url(../images/menu-download-active.png);
+    background-repeat: no-repeat;
+    background-position: -166px -25px;
+}
+
+
+
+
+.sub-sports {
+	background: url(../images/menu-sport.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 345px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 325px;
+}
+.sub-sports .link1 {
+    width: 172px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-sports .link1:hover {
+	background: url(../images/menu-sport-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+.sub-sports .link2 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-sports .link2:hover {
+	background: url(../images/menu-sport-active.png);
+    background-repeat: no-repeat;
+    background-position: -176px -25px;
+}
+
+
+
+
+
+.sub-live {
+	background: url(../images/menu-live.png);
+    background-repeat: no-repeat;
+    background-position: 0px -19px;
+    width: 627px;
+    height: 180px;
+    margin-top: -18px;
+	position: absolute;
+    left: 275px;
+}
+.sub-live .link1 {
+    width: 172px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-live .link1:hover {
+	background: url(../images/menu-live-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+.sub-live .link2 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-live .link2:hover {
+	background: url(../images/menu-live-active.png);
+    background-repeat: no-repeat;
+    background-position: -174px -25px;
+}
+
+
+.sub-live .link3 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-live .link3:hover {
+	background: url(../images/menu-live-active.png);
+    background-repeat: no-repeat;
+    background-position: -319px -25px;
+}
+
+
+.sub-live .link4 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-live .link4:hover {
+	background: url(../images/menu-live-active.png);
+    background-repeat: no-repeat;
+    background-position: -463px -25px;
+}
+
+
+
+.sub-chess {
+	background: url(../images/menu-chess.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 202px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 573px;
+}
+.sub-chess .link1 {
+    width: 202px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-chess .link1:hover {
+	background: url(../images/menu-chess-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+ 
+
+.sub-lottery {
+	background: url(../images/menu-lottery.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 202px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 722px;
+}
+.sub-lottery .link1 {
+    width: 202px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-lottery .link1:hover {
+	background: url(../images/menu-lottery-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+ 
+.sub-casino {
+	background: url(../images/menu-casino.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 202px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 806px;
+}
+.sub-casino .link1 {
+    width: 202px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-casino .link1:hover {
+	background: url(../images/menu-casino-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+.sub-tiger {
+	background: url(../images/menu-tiger.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 488px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 511px;
+}
+.sub-tiger .link1 {
+    width: 173px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-tiger .link1:hover {
+	background: url(../images/menu-tiger-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+.sub-tiger .link2 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+
+}
+.sub-tiger .link2:hover {
+	background: url(../images/menu-tiger-active.png);
+    background-repeat: no-repeat;
+    background-position: -176px -25px;
+}
+
+
+.sub-tiger .link3 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-tiger .link3:hover {
+	background: url(../images/menu-tiger-active.png);
+    background-repeat: no-repeat;
+    background-position: -320px -25px;
+}
+
+
+
+
+
+
+
+
+
+.sub-tryPlay {
+	background: url(../images/menu-tryplay.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+    width: 774px;
+    height: 186px;
+    margin-top: -18px;
+	position: absolute;
+    left: 460px;
+}
+.sub-tryPlay .link1 {
+    width: 173px;
+    height: 186px;
+    display: inline-block;
+}
+.sub-tryPlay .link1:hover {
+	background: url(../images/menu-tryplay-active.png);
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+
+.sub-tryPlay .link2 {
+    width: 140px;
+    height: 186px;
+    display: inline-block;
+
+
+}
+.sub-tryPlay .link2:hover {
+	background: url(../images/menu-tryplay-active.png);
+    background-repeat: no-repeat;
+    background-position: -176px -25px;
+}
+
+
+.sub-tryPlay .link3 {
+    width: 139px;
+    height: 186px;
+    display: inline-block;
+	
+}
+.sub-tryPlay .link3:hover {
+	background: url(../images/menu-tryplay-active.png);
+    background-repeat: no-repeat;
+    background-position: -320px -25px;
+}
+
+
+.sub-tryPlay .link4 {
+    width: 139px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-tryPlay .link4:hover {
+	background: url(../images/menu-tryplay-active.png);
+    background-repeat: no-repeat;
+    background-position: -463px -25px;
+}
+
+.sub-tryPlay .link5 {
+    width: 150px;
+    height: 186px;
+    display: inline-block;
+
+}
+.sub-tryPlay .link5:hover {
+	background: url(../images/menu-tryplay-active.png);
+    background-repeat: no-repeat;
+    background-position: -606px -25px;
+}

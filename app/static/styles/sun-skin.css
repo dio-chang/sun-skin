@@ -1,0 +1,123 @@
+body {background-color: #490F1B !important;}
+.hover-anime {
+    color: #8b4040;
+    transition: all .6s;
+}
+.hover-anime:hover{
+    color: #EEE;
+}
+.layout-footer {
+    width: 100%;
+    height: 1007px;
+    background-image: url(../images/footer_bg.png);
+    /*background-size:     cover;*/
+    background-repeat:   repeat-x;
+}
+.footer-top {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.footer-middle {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 720px;
+    background: url(../images/footer_middle.png) no-repeat center;
+}
+.footer-bottom {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    opacity: .5;
+    font-weight: bold;
+}
+.footer-top .cell {
+    height: 240px;
+    width: 300px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 2em;
+}
+.footer-top .cell span {color: #CC9999;opacity: .3;}
+.cell.hint1 {background: url(../images/footer_1.png) no-repeat center center;}
+.cell.hint2 {background: url(../images/footer_2.png) no-repeat center center;}
+.cell.hint3 {background: url(../images/footer_3.png) no-repeat center center;}
+.cell.hint4 {background: url(../images/footer_4.png) no-repeat center center;}
+.footer-bottom ul {
+    float: left;
+    margin-left: 1em;
+}
+.footer-bottom ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.footer-bottom p {
+    float: right;
+    margin-right: 1em;
+    color: #8b4040;
+}
+
+.float-sidebar {
+    position: fixed;
+    background: url(../images/sidebar_bg.png) no-repeat right center;
+    top: 50%;
+    right: 0%;
+    margin-top: -90px;
+    width: 56px;
+    z-index: 100;
+}
+.float-sidebar ul {
+    margin-bottom: 0;
+}
+.float-sidebar a {
+    width: 56px;
+    height: 60px;
+    background-position: center center;
+    display: block;
+    position:relative;
+    z-index: 1;
+}
+.float-sidebar a:hover {
+    background-image: url(../images/sidebar_hover.png);
+}
+.float-sidebar span {
+    width: 56px;
+    height: 60px;
+    background-position: center center;
+    display: block;
+}
+.float-sidebar p {
+    width: 229px;
+    height: 60px;
+    position: absolute;
+    background: url(../images/sidebar_row.png) no-repeat left center;
+    margin-top: -60px;
+    margin-left: 0px;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    transition: opacity .3s ease-in-out;
+    opacity: 0;
+}
+.float-sidebar a:hover + p {
+    display: block;
+    margin-left: -173px;
+    opacity: 1;
+}
+.float-sidebar p:hover {
+    display: block;
+    margin-left: -173px;
+    opacity: 1;
+}
+.float-sidebar .qq {
+    background: url(../images/sidebar_qq.png) no-repeat;
+}
+.float-sidebar .wechat {
+    background: url(../images/sidebar_wechat.png) no-repeat;
+}
+.float-sidebar .cs {
+    background: url(../images/sidebar_cs.png) no-repeat;
+}
