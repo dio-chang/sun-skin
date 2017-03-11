@@ -1,0 +1,72 @@
+extends layout
+block append header
+    //block header
+    //    | @@includes('./_header.html', "首页2")
+    //link(rel="stylesheet" href="../static/styles/sun-skin-page3.css")
+    //link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    style.
+        .section_bg {background-color: #2A0000;}
+        .register_success {
+            background: url(../static/images/register_annc_bg.png) no-repeat center top;
+            background-color: #490F1B;
+            width: 1920px;
+            margin-top: -26px;
+            margin-bottom: 2em;
+        }
+        .register_success_bg {
+            background: url(../static/images/register_success_bg.png) no-repeat center top;
+            width: 1128px;
+            height: 749px;
+            margin: .5em auto 0 auto;
+        }
+        .register_success h4 {
+            text-align: center;
+            padding-top:86px;
+        }
+        .register_success h4 img {
+            display: inline-block;
+        }
+        .register_success h4 .name {
+            font-size: 2em;
+            display: inline-block;
+        }
+        .register_success div.row {
+            margin-top: 601px;
+            text-align: center;
+        }
+        .register_success a {
+            width: 233px;
+            height: 53px;
+            display: inline-block;
+        }
+        .register_success a.pay { margin: 0 160px;}
+        
+block body-middle
+    div.section_bg
+        section.notice.index-notice
+            .container
+                .notice-list
+                    ul.list-unstyled.noticeList
+        script#tpl(type='text/template').
+            <% _(data).each(function (v, k) { %>
+            <li class="noticeTit" data-content="<%=v.get('content')%>">
+            <a href="javascript:void(0)">
+            <%=v.get( 'title')%>
+            </a>
+            </li>
+            <% }) %>
+        script(type='text/javascript').
+            window.onload = function() {
+            getNotice()
+            }
+        section.register_success
+            div.register_success_bg
+                h4
+                    img(src="../static/images/register_success_text_1.png")
+                    div.name qwerty
+                    img(src="../static/images/register_success_text_2.png")
+                div.row
+                    a.bind(href="#bind")
+                    a.pay(href="#pay")
+                    a.download(href="#download")
+            
