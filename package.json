@@ -4,16 +4,17 @@
   "version": "1.0.0",
   "description": "A nice scaffolding tool for front end separate",
   "scripts": {
-    "pug": "pug -O app/views/pug/pug_options.dev.json app/views/pug -o app/views --pretty --watch",
+    "start": "concurrently \"npm run pug\" \"npm run pug:prod\"",
+    "pug": "pug -O app/views/pug/pug_options.dev.json app/views/pug -o app/views --pretty --watch -E dev.html",
     "pug:prod": "pug -O app/views/pug/pug_options.prod.json app/views/pug -o app/views --pretty --watch"
   },
-  "betterScripts":{
-    "start":{
-      "command":"node app"
+  "betterScripts": {
+    "start": {
+      "command": "node app"
     },
-    "prod":{
-      "command":"node app",
-      "env":{
+    "prod": {
+      "command": "node app",
+      "env": {
         "NODE_ENV": "production"
       }
     }
@@ -21,6 +22,7 @@
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "bower-installer": "^1.2.0",
+    "concurrently": "^3.4.0",
     "grunt": "0.4.5",
     "grunt-cdn": "^0.6.5",
     "grunt-concurrent": "^2.0.3",
@@ -32,13 +34,13 @@
     "grunt-contrib-uglify": "0.7.0",
     "grunt-filerev": "^2.3.1",
     "grunt-htmlclean": "^2.7.7",
+    "grunt-include-html": "1.1.5",
     "grunt-nodemon": "^0.4.0",
     "grunt-postcss": "^0.5.5",
     "grunt-spritesmith": "3.5.0",
     "grunt-usemin-nobody": "^1.0.1",
     "load-grunt-tasks": "^3.2.0",
-    "time-grunt": "1.0.0",
-    "grunt-include-html":"1.1.5"
+    "time-grunt": "1.0.0"
   },
   "dependencies": {
     "better-npm-run": "0.0.8",
