@@ -23,6 +23,7 @@
     </script>
     <!--if lt IE 9script(src='./js/html5.min.js')
     -->
+    <script type="text/javascript" src="../static/scripts/login_dialog.js"></script>
     <!--block header-->
     <!--    | @@includes('./_header.html', "首页2")-->
     <link rel="stylesheet" href="../static/styles/sun-skin-page2.css">
@@ -30,7 +31,20 @@
   </head>
   <body>
     <header>
-      <section class="static-bar">
+      <div class="login_dialog"><a class="close" onclick="toggle_login_dialog()"></a>
+        <div class="head_padding"></div>
+        <div class="row">
+          <input class="username" placeholder="请输入用户名"><a class="help"></a>
+        </div>
+        <div class="row">
+          <input class="password" placeholder="请输入密码"><a class="help"></a>
+        </div>
+        <div class="row">
+          <button type="submit"></button>
+        </div>
+        <div class="row"><a class="register_now" placeholder="register_now"></a></div>
+      </div>
+      <section class="static-bar" style="z-index:2;">
         <div class="container">
           <div class="static-left"><span class="shiqu">GMT+08:00    <span class="time side _user_time" time="1481784158584" style="display: inline;"></span></span></div>
           <div class="static-right top-bar-box"><img class="top-host" src="../static/images/top-host.jpg"><a href="/views/sports.html">常见问题</a><a href="/views/sports.html">代理合作</a><a href="/views/sports.html">合法执照</a><a href="/views/sports.html">收藏网址</a><a href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&amp;configID=45233&amp;jid=8622492600" target="_blank"><img src="../static/images/service.jpg"></a></div>
@@ -47,7 +61,7 @@
                 </div>
                 <div class="form-group form-group-sm scode _vr_captcha_box" style="display: none;">
                   <input class="form-control" type="text" name="captcha" tabindex="3" maxlength="4" placeholder="验证码"><a class="tip-scode" href="javascript:;"><img class="_vr_captcha_code" data-code="loginTop"></a>
-                </div><a class="btn btn-sm btn-default _vr_login" type="button">立即登录</a><a class="btn btn-sm btn-primary _vr_login" type="button" href="/views/register.html">立即开户</a>
+                </div><a class="btn btn-sm btn-default _vr_login" type="button" title="login">立即登录</a><a class="btn btn-sm btn-primary _vr_login" type="button" href="/views/register.html">立即开户</a>
               </form>
             </div>
             <div class="clear"></div>
@@ -75,7 +89,7 @@
       </section>
       <nav class="navbar navbar-default top-navbar">
         <div class="container">
-          <div class="navbar-header"><a href="/views/index.html"><img src="../static/images/logo.png"></a></div>
+          <div class="navbar-header"><a href="/views/index.html"><img src="../static/images/logo.png" onclick="toggle_login_dialog()"></a></div>
           <div class="navbar-collapse">
             <ul class="nav navbar-nav _vr_nav">
               <li class="nav-item"><a href="/views/index.html">首页</a></li>

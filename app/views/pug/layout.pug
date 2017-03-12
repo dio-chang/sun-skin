@@ -23,10 +23,24 @@ html(lang='en')
                 var views = "/views/"
             //if lt IE 9
                 script(src='./js/html5.min.js')
+            script(type='text/javascript' src="../static/scripts/login_dialog.js")
     body
         block body-top
             header
-                section.static-bar
+                div.login_dialog
+                    a.close(onclick="toggle_login_dialog()")
+                    div.head_padding
+                    div.row
+                        input.username(placeholder="请输入用户名")
+                        a.help()
+                    div.row
+                        input.password(placeholder="请输入密码")
+                        a.help()
+                    div.row
+                        button(type="submit")
+                    div.row
+                        a.register_now(placeholder="register_now")
+                section.static-bar(style="z-index:2")
                     .container
                         .static-left
                             span.shiqu
@@ -55,7 +69,7 @@ html(lang='en')
                                         input.form-control(type='text', name='captcha', tabindex='3', maxlength='4', placeholder='验证码')
                                         a.tip-scode(href='javascript:;')
                                             img._vr_captcha_code(data-code='loginTop')
-                                    a.btn.btn-sm.btn-default._vr_login(type='button') 立即登录
+                                    a.btn.btn-sm.btn-default._vr_login(type='button' title="login") 立即登录
                                     a.btn.btn-sm.btn-primary._vr_login(type='button', href='/views/register.html') 立即开户
                             .clear
                             .header-panel._vr_loginSuccess(style='display: block;')
@@ -99,7 +113,7 @@ html(lang='en')
                     .container
                         .navbar-header
                             a(href='/views/index.html')
-                                img(src='../static/images/logo.png')
+                                img(src='../static/images/logo.png' onclick="toggle_login_dialog()")
                         .navbar-collapse
                             ul.nav.navbar-nav._vr_nav
                                 li.nav-item

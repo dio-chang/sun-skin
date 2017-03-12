@@ -1,11 +1,78 @@
 body {background-color: #490F1B !important;}
+
 .hover-anime {
     color: #8b4040;
     transition: all .6s;
 }
+
 .hover-anime:hover{
     color: #EEE;
+
 }
+/* 登入提示 */
+.login_dialog {
+    position: absolute;
+    left:-webkit-calc(50% - 292px);
+    left:-moz-calc(50% - 292px);
+    left:calc(50% - 292px);
+    top: 8em;
+    display: none;
+    width: 585px;
+    height: 321px;
+    background: white url(../images/login_dialog.png) no-repeat center center;
+    z-index: 100;
+}
+.login_dialog a {
+    display: inline-block;
+}
+.login_dialog input {
+    color: black;
+    text-align: center;
+    height: 2em;
+    width: 16em;
+    border: none;
+
+}
+.login_dialog button {
+    width: 325px;
+    height: 40px;
+    border: none;
+    background: transparent;
+
+}
+.login_dialog .head_padding {
+    width: 100%;
+    height: 80px;
+
+}
+.login_dialog .row {
+    width: 100%;
+    height: 3em;
+    margin: 1em 0 1em 0;
+    text-align:center;
+}
+.login_dialog a.close {
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.login_dialog a.help {
+    width: 40px;
+    height: 1.5em;
+    margin-left: 4px;
+    margin-top:4px;
+    position: absolute;
+}
+.login_dialog a.register_now {
+    width: 50px;
+    height: 1.4em;
+    margin: 4px 0 0 72px;
+}
+
+
+/* 頁尾 */
 .layout-footer {
     width: 100%;
     height: 1007px;
