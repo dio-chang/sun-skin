@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "A nice scaffolding tool for front end separate",
   "scripts": {
-    "start": "better-npm-run start",
-    "prod": "better-npm-run prod"
+    "pug": "pug -O \"{imgpath:'..',csspath:'..',jspath:'..'}\" app/views/pug -o app/views --pretty --watch",
+    "pug:prod": "pug -O \"{imgpath:'@@imgpath',csspath:'@csspath',jspath:'@@jspath'}\" app/views/pug -o app/views --pretty --watch"
   },
   "betterScripts":{
     "start":{

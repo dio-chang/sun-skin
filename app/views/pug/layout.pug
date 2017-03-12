@@ -1,29 +1,9 @@
+include mixins
 doctype html
 html(lang='en')
     head
         block header
-            title 首页
-            meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
-            meta(http-equiv='X-UA-Compatible', content='IE=edge')
-            meta(name='viewport', content='width=device-width, initial-scale=1.0')
-            meta(name='renderer', content='webkit')
-            meta(name='keywords', content='')
-            meta(name='description', content='')
-            link(rel='bookmark', href='../static/images/favicon.ico')
-            link(rel='shortcut Icon', href='../static/images/favicon.ico')
-            link(rel='stylesheet', href='../static/styles/gui-ued.css')
-            link(rel='stylesheet', href='../static/styles/gui-skin-ued.css')
-            link(rel='stylesheet', href='../static/styles/common.css')
-            link(rel='stylesheet', href='../static/styles/keyframes.css')
-            link(rel='stylesheet', href='../static/styles/bootstrap-dialog.min.css')
-            link(rel='stylesheet', href='../static/styles/sun-skin.css')
-            script(type='text/javascript').
-                var RootUrl = "http://www.uedk68.com"
-                var indexUrl = "http://www.uedk28.com"
-                var views = "/views/"
-            //if lt IE 9
-                script(src='./js/html5.min.js')
-            script(type='text/javascript' src="../static/scripts/login_dialog.js")
+            +header("首页")
     body
         block body-top
             header
@@ -47,13 +27,13 @@ html(lang='en')
                                 | GMT+08:00    
                                 span.time.side._user_time(time='1481784158584', style='display: inline;')
                         .static-right.top-bar-box
-                            img.top-host(src='../static/images/top-host.jpg')
+                            img.top-host(src=`${imgpath}/static/images/top-host.jpg`)
                             a(href='/views/sports.html') 常见问题
                             a(href='/views/sports.html') 代理合作
                             a(href='/views/sports.html') 合法执照
                             a(href='/views/sports.html') 收藏网址
                             a(href='http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&configID=45233&jid=8622492600', target='_blank')
-                                img(src='../static/images/service.jpg')
+                                img(src=`${imgpath}/static/images/service.jpg`)
                         .clear
                         .static-right.user-info-box
                             .header-login._vr_unLogin(style='display: block')
@@ -82,7 +62,7 @@ html(lang='en')
                                     ul.dropdown-menu.dropdown-menu-left.members-dropdown
                                         li
                                             span.dropjiao
-                                                img(src='../static/images/dropjiao.png')
+                                                img(src=`#{imgpath}/static/images/dropjiao.png`)
                                             a(href='/views/per_message.html') 消息中心
                                         li
                                             a(href='/views/coupon.html') 优惠券
@@ -99,7 +79,7 @@ html(lang='en')
                                     ul.dropdown-menu.dropdown-menu-left.members-dropdown
                                         li
                                             span.dropjiao
-                                                img(src='../static/images/dropjiao.png')
+                                                img(src=`${imgpath}/static/images/dropjiao.png`)
                                             a(href='/views/recharge.html', target='_blank') 充值
                                         li
                                             a(href='/views/reflect.html') 提款
@@ -113,7 +93,7 @@ html(lang='en')
                     .container
                         .navbar-header
                             a(href='/views/index.html')
-                                img(src='../static/images/logo.png' onclick="toggle_login_dialog()")
+                                img(src=`${imgpath}/static/images/logo.png` onclick="toggle_login_dialog()")
                         .navbar-collapse
                             ul.nav.navbar-nav._vr_nav
                                 li.nav-item
@@ -144,7 +124,7 @@ html(lang='en')
                                         i.triangle
                                 li.nav-item.tryPlay(rel='sub-tryPlay')
                                     a(href='javascript:')
-                                        img(src='../static/images/tryPlay.png')
+                                        img(src=`${imgpath}/static/images/tryPlay.png`)
                                         i.triangle
                                 li.nav-item(rel='sub-client')
                                     a(href='javascript:')
@@ -197,19 +177,19 @@ html(lang='en')
                                     a.link4(href='#')
                                     a.link5(href='#')
                 .navbor
-            link(rel='stylesheet', href='../static/styles/ued-index.css')
+            link(rel='stylesheet', href=`${csspath}/static/styles/ued-index.css`)
         block body-middle
             section.index-slide
                 .slide-inner
-                    .sl_img._vr_carousels_check.banner1(style='background:url(../static/images/banner1.jpg) 50% 50% no-repeat;', starttime='1474267757000', endtime='33031209599000', showindex='1')
-                    .sl_img._vr_carousels_check.banner2(style='background:url(../static/images/banner2.jpg) 50% 50% no-repeat;', starttime='1473861507000', endtime='33032159999000', showindex='2')
-                    .sl_img._vr_carousels_check.banner3(style='background:url(../static/images/banner3.jpg) 50% 50% no-repeat;', starttime='1473861614000', endtime='33032159999000', showindex='3')
+                    .sl_img._vr_carousels_check.banner1(style='background:url(#{imgpath}/static/images/banner1.jpg) 50% 50% no-repeat;', starttime='1474267757000', endtime='33031209599000', showindex='1')
+                    .sl_img._vr_carousels_check.banner2(style='background:url(#{imgpath}/static/images/banner2.jpg) 50% 50% no-repeat;', starttime='1473861507000', endtime='33032159999000', showindex='2')
+                    .sl_img._vr_carousels_check.banner3(style='background:url(#{imgpath}/static/images/banner3.jpg) 50% 50% no-repeat;', starttime='1473861614000', endtime='33032159999000', showindex='3')
                 .slide-indicators
-                    ._vr_carousels_check.sl_icon(style='background:url(../static/images/index-ban-icon-02.png)', starttime='1482723906000', endtime='33031209599000')
+                    ._vr_carousels_check.sl_icon(style='background:url(#{imgpath}/static/images/index-ban-icon-02.png)', starttime='1482723906000', endtime='33031209599000')
                         input.ctc_btn(type='text')
-                    ._vr_carousels_check.sl_icon(style='background:url(../static/images/index-ban-icon-03.png)', starttime='1473861507000', endtime='33032159999000')
+                    ._vr_carousels_check.sl_icon(style='background:url(#{imgpath}/static/images/index-ban-icon-03.png)', starttime='1473861507000', endtime='33032159999000')
                         input.ctc_btn(type='text')
-                    ._vr_carousels_check.sl_icon(style='background:url(../static/images/index-ban-icon-01.png)', starttime='1473861614000', endtime='33032159999000')
+                    ._vr_carousels_check.sl_icon(style='background:url(#{imgpath}/static/images/index-ban-icon-01.png)', starttime='1473861614000', endtime='33032159999000')
                         input.ctc_btn(type='text')
             section.notice.index-notice
                 .container
@@ -424,18 +404,18 @@ html(lang='en')
             window.module = module;
             module = undefined;
             }
-        script(src='../static/scripts/jquery-1.11.3.min.js')
+        script(src=`${jspath}/static/scripts/jquery-1.11.3.min.js`)
         script.
             if (window.module) module = window.module;
-        script(src='../static/scripts/underscore-min.js')
-        script(src='../static/scripts/backbone-min.js')
-        script(src='../static/scripts/gui-base.js')
-        script(src='../static/scripts/bootstrap-dialog.min.js')
-        script(src='../static/scripts/jquery.validate.js')
-        script(src='../static/scripts/jquery.super-marquee.js')
-        script(src='../static/scripts/public.js')
-        script(src='../static/scripts/login.js')
-        script(src='../static/scripts/gui-ued.min.js')
-        script(src='../static/scripts/jquery.knob.min.js')
-        script(src='../static/scripts/jquery.validate.extend.msites.js')
-        script(src='../static/scripts/ued-index.js')
+        script(src=`${jspath}/static/scripts/underscore-min.js`)
+        script(src=`${jspath}/static/scripts/backbone-min.js`)
+        script(src=`${jspath}/static/scripts/gui-base.js`)
+        script(src=`${jspath}/static/scripts/bootstrap-dialog.min.js`)
+        script(src=`${jspath}/static/scripts/jquery.validate.js`)
+        script(src=`${jspath}/static/scripts/jquery.super-marquee.js`)
+        script(src=`${jspath}/static/scripts/public.js`)
+        script(src=`${jspath}/static/scripts/login.js`)
+        script(src=`${jspath}/static/scripts/gui-ued.min.js`)
+        script(src=`${jspath}/static/scripts/jquery.knob.min.js`)
+        script(src=`${jspath}/static/scripts/jquery.validate.extend.msites.js`)
+        script(src=`${jspath}/static/scripts/ued-index.js`)

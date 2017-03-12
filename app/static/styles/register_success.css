@@ -1,0 +1,35 @@
+.section_bg {background-color: #2A0000;}
+.register_success {
+    background: url(../images/register_annc_bg.png) no-repeat center top;
+    background-color: #490F1B;
+    width: 1920px;
+    margin-top: -26px;
+    margin-bottom: 2em;
+}
+.register_success_bg {
+    background: url(../images/register_success_bg.png) no-repeat center top;
+    width: 1128px;
+    height: 749px;
+    margin: .5em auto 0 auto;
+}
+.register_success h4 {
+    text-align: center;
+    padding-top:86px;
+}
+.register_success h4 img {
+    display: inline-block;
+}
+.register_success h4 .name {
+    font-size: 2em;
+    display: inline-block;
+}
+.register_success div.row {
+    margin-top: 601px;
+    text-align: center;
+}
+.register_success a {
+    width: 233px;
+    height: 53px;
+    display: inline-block;
+}
+.register_success a.pay { margin: 0 160px;}

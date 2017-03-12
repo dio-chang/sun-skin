@@ -2,15 +2,15 @@ extends layout
 block body-middle
     section.index-slide
         .slide-inner
-            .sl_img._vr_carousels_check.banner1(style='background:url(../static/images/banner1.jpg) 50% 50% no-repeat;', starttime='1474267757000', endtime='33031209599000', showindex='1')
-            .sl_img._vr_carousels_check.banner2(style='background:url(../static/images/banner2.jpg) 50% 50% no-repeat;', starttime='1473861507000', endtime='33032159999000', showindex='2')
-            .sl_img._vr_carousels_check.banner3(style='background:url(../static/images/banner3.jpg) 50% 50% no-repeat;', starttime='1473861614000', endtime='33032159999000', showindex='3')
+            .sl_img._vr_carousels_check.banner1(style=`background:url(${imgpath}/static/images/banner1.jpg) 50% 50% no-repeat;`, starttime='1474267757000', endtime='33031209599000', showindex='1')
+            .sl_img._vr_carousels_check.banner2(style=`background:url(${imgpath}/static/images/banner2.jpg) 50% 50% no-repeat;`, starttime='1473861507000', endtime='33032159999000', showindex='2')
+            .sl_img._vr_carousels_check.banner3(style=`background:url(${imgpath}/static/images/banner3.jpg) 50% 50% no-repeat;`, starttime='1473861614000', endtime='33032159999000', showindex='3')
         .slide-indicators
-            ._vr_carousels_check.sl_icon(style='background:url(../static/images/index-ban-icon-02.png)', starttime='1482723906000', endtime='33031209599000')
+            ._vr_carousels_check.sl_icon(style=`background:url(${imgpath}/static/images/index-ban-icon-02.png)`, starttime='1482723906000', endtime='33031209599000')
                 input.ctc_btn(type='text')
-            ._vr_carousels_check.sl_icon(style='background:url(../static/images/index-ban-icon-03.png)', starttime='1473861507000', endtime='33032159999000')
+            ._vr_carousels_check.sl_icon(style=`background:url(${imgpath}/static/images/index-ban-icon-03.png)`, starttime='1473861507000', endtime='33032159999000')
                 input.ctc_btn(type='text')
-            ._vr_carousels_check.sl_icon(style='background:url(../static/images/index-ban-icon-01.png)', starttime='1473861614000', endtime='33032159999000')
+            ._vr_carousels_check.sl_icon(style=`background:url(${imgpath}/static/images/index-ban-icon-01.png)`, starttime='1473861614000', endtime='33032159999000')
                 input.ctc_btn(type='text')
     section.notice.index-notice
         .container

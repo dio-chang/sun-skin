@@ -35,9 +35,9 @@ module.exports = {
             // index:"/",
 
             
-            imgpath:"",
-            csspath:"",
-            jspath:"",
+            imgpath:"..",
+            csspath:"..",
+            jspath:"..",
             index:"http://www.uedk28.com",
             helpimg:"",
             RootUrl:"http://www.uedk18.com",

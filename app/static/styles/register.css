@@ -1,0 +1,67 @@
+.register_annc {
+    background: url(../images/register_annc_bg.png) no-repeat center top;
+    background-color: #490F1B;
+    width: 1920px;
+}
+.register_annc h4 {
+    background: url(../images/register_annc.png) no-repeat center center;
+    width: 764px;
+    height: 246px;
+    margin: 0 auto 78px auto;
+}
+.register_annc h4 a {
+    display: block;
+    position: relative;
+    left: 657px;
+    top: 219px;
+    width: 2em;
+    height: 1em;
+}
+.register_annc form {
+    background: url(../images/register_dialog.png) no-repeat center center;
+    width: 1200px;
+    height: 558px;
+    margin: 0 auto 2em auto;
+}
+.register_annc form {
+    text-align: center;
+}
+.register_annc .row {
+    width: 100%;
+    margin-top: 2.2em;
+    padding-left: 44px;
+}
+.register_annc .small.row {
+    margin-top: 1.1em;
+}
+.register_annc input {
+    width: 515px;
+    height: 37px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+}
+.register_annc .inviter {
+    margin-top: 115px;
+}
+.register_annc .password_strong {
+    width: 515px;
+    height: 1em;
+    display:inline-block;
+    background-color: white;
+    border-radius: .3em;
+}
+.register_annc .captcha {
+    width: 325px;
+    display: inline-block;
+}
+.register_annc img {
+    padding: 0 10px;
+}
+.register_annc button {
+    background: url(../images/register_button.png) no-repeat center center;
+    width: 233px;
+    height: 53px;
+    border: none;
+}

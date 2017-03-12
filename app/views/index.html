@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <title>首页</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="renderer" content="webkit">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <link rel="bookmark" href="../static/images/favicon.ico">
-    <link rel="shortcut Icon" href="../static/images/favicon.ico">
-    <link rel="stylesheet" href="../static/styles/gui-ued.css">
-    <link rel="stylesheet" href="../static/styles/gui-skin-ued.css">
-    <link rel="stylesheet" href="../static/styles/common.css">
-    <link rel="stylesheet" href="../static/styles/keyframes.css">
-    <link rel="stylesheet" href="../static/styles/bootstrap-dialog.min.css">
-    <link rel="stylesheet" href="../static/styles/sun-skin.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <link rel="bookmark" href="../static/images/favicon.ico"/>
+    <link rel="shortcut Icon" href="../static/images/favicon.ico"/>
+    <link rel="stylesheet" href="../static/styles/gui-ued.css"/>
+    <link rel="stylesheet" href="../static/styles/gui-skin-ued.css"/>
+    <link rel="stylesheet" href="../static/styles/common.css"/>
+    <link rel="stylesheet" href="../static/styles/keyframes.css"/>
+    <link rel="stylesheet" href="../static/styles/bootstrap-dialog.min.css"/>
+    <link rel="stylesheet" href="../static/styles/sun-skin.css"/>
     <script type="text/javascript">
       var RootUrl = "http://www.uedk68.com"
       var indexUrl = "http://www.uedk28.com"
@@ -24,10 +24,6 @@
     <!--if lt IE 9script(src='./js/html5.min.js')
     -->
     <script type="text/javascript" src="../static/scripts/login_dialog.js"></script>
-    <!--block header-->
-    <!--    | @@includes('./_header.html', "首页2")-->
-    <link rel="stylesheet" href="../static/styles/sun-skin-page2.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
@@ -68,7 +64,7 @@
             <div class="header-panel _vr_loginSuccess" style="display: block;"><a class="_vr_nickname" href="/views/personalCenter.html"></a><a class="_vr_notice" href="/views/per_message.html">0</a>
               <div class="btn-group dropdown show-on-hover _vr_balanceBox"><a class="static-btn" href="/views/personalCenter.html" name="balance_show" data-toggle="dropdown">个人中心<span class="caret"></span></a>
                 <ul class="dropdown-menu dropdown-menu-left members-dropdown">
-                  <li><span class="dropjiao"><img src="../static/images/dropjiao.png"></span><a href="/views/per_message.html">消息中心</a></li>
+                  <li><span class="dropjiao"><img src="#{imgpath}/static/images/dropjiao.png"></span><a href="/views/per_message.html">消息中心</a></li>
                   <li><a href="/views/coupon.html">优惠券</a></li>
                   <li><a href="/views/personalCenter.html">安全设置</a></li>
                   <li><a href="/views/accountSettings.html">账号设置</a></li>
@@ -153,7 +149,20 @@
     <link rel="stylesheet" href="../static/styles/ued-index.css">
     <section class="index-slide">
       <div class="slide-inner">
-        <div class="sl_img _vr_carousels_check banner1" style="background:url(../static/images/banner4.jpg) 50% 50% no-repeat;" starttime="1474267757000" endtime="33031209599000" showindex="1"></div>
+        <div class="sl_img _vr_carousels_check banner1" style="background:url(../static/images/banner1.jpg) 50% 50% no-repeat;" starttime="1474267757000" endtime="33031209599000" showindex="1"></div>
+        <div class="sl_img _vr_carousels_check banner2" style="background:url(../static/images/banner2.jpg) 50% 50% no-repeat;" starttime="1473861507000" endtime="33032159999000" showindex="2"></div>
+        <div class="sl_img _vr_carousels_check banner3" style="background:url(../static/images/banner3.jpg) 50% 50% no-repeat;" starttime="1473861614000" endtime="33032159999000" showindex="3"></div>
+      </div>
+      <div class="slide-indicators">
+        <div class="_vr_carousels_check sl_icon" style="background:url(../static/images/index-ban-icon-02.png);" starttime="1482723906000" endtime="33031209599000">
+          <input class="ctc_btn" type="text">
+        </div>
+        <div class="_vr_carousels_check sl_icon" style="background:url(../static/images/index-ban-icon-03.png);" starttime="1473861507000" endtime="33032159999000">
+          <input class="ctc_btn" type="text">
+        </div>
+        <div class="_vr_carousels_check sl_icon" style="background:url(../static/images/index-ban-icon-01.png);" starttime="1473861614000" endtime="33032159999000">
+          <input class="ctc_btn" type="text">
+        </div>
       </div>
     </section>
     <section class="notice index-notice">
@@ -177,45 +186,160 @@
       getNotice()
       }
     </script>
-    <section class="index-screen-01">
+    <section class="index-rows-01">
+      <div class="container"><a class="link link-1" href="#"></a><a class="link link-2" href="#"></a><a class="link link-3" href="#"></a><a class="link link-4" href="#"></a></div>
+    </section>
+    <section class="index-rows-02">
       <div class="container">
-        <div class="row row-guttery-0">
-          <div class="index_l p2-left-box">
-            <div class="p2-item">
-              <div class="p2-block p2-pt"><a class="rule" href="#rule"></a><a class="start" href="#start"></a></div>
-              <div class="p2-block p2-mg"><a class="rule" href="#rule"></a><a class="start" href="#start"></a></div>
-            </div>
-          </div>
-          <div class="index_m p2-center-box">
-            <div class="p2-item">
-              <div class="p2-block p2-ag"><a class="rule" href="#rule"></a><a class="start" href="#start"></a></div>
-              <div class="p2-block p2-bbin"><a class="rule" href="#rule"></a><a class="start" href="#start"></a></div>
-            </div>
-          </div>
-          <div class="index_r p2-right-box">
-            <div class="p2-item">
-              <div class="p2-block p2-experience"><img src="../static/images/p2_experience_banner.gif"></div>
-              <div class="p2-block p2-promotion">
-                <div class="more"> <a href="#">
-                     更多優惠活動<i class="fa fa-caret-right"></i></a></div>
-                <ul>
-                  <li> <a class="hover-anime">試玩遊戲</a></li>
-                  <li class="minor"> <a class="hover-anime">下載客戶端</a>
-                    <div class="date">2017/2/28</div>
-                  </li>
-                  <li class="minor"> <a class="hover-anime">開戶首存</a>
-                    <div class="date">2017/2/28</div>
-                  </li>
-                  <li class="minor"> <a class="hover-anime">開戶首存</a>
-                    <div class="date">2017/2/28</div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div class="float-left">
+          <p class="super-money"></p>
+          <p class="super-number"></p>
+        </div>
+        <div class="float-left">
+          <p class="free-play"></p><a class="play-1" href="#"></a><a class="play-2" href="#"></a><a class="play-3" href="#"></a>
         </div>
       </div>
     </section>
+    <div class="loginpob success pob">
+      <h3>
+        <p>消息</p><span class="close"></span>
+        <div class="clear"></div>
+      </h3>
+      <dl>
+        <dt></dt>
+        <dd></dd>
+      </dl><a class="loginsure success">确定</a>
+    </div>
+    <div class="pob accountNumber">
+      <h3>
+        <p>找回用户名</p><span class="close"></span>
+        <div class="clear"></div>
+      </h3>
+      <h5>请按照以下步骤找回用户名：</h5>
+      <div class="step">
+        <ul class="stepfont">
+          <li class="fulfill">联系客服</li>
+          <li>核对资料</li>
+          <li>审核通过</li>
+          <li class="stepLast">完成</li>
+        </ul>
+        <div class="clear"></div>
+        <ul class="stepbg">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <div class="toKefu">
+        <p>客服人员将根据您提供的信息，在核实您身份之后，告知您的账号。</p><a class="online_kefu" target="_blank" href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&amp;configID=45233&amp;jid=8622492600">立即联系</a>
+      </div>
+    </div>
+    <div class="pob findpassword">
+      <h3>
+        <p>找回密码</p><span class="close"></span>
+        <div class="clear"></div>
+      </h3>
+      <h5>请按照以下步骤找回密码：</h5>
+      <div class="step">
+        <ul class="stepfont">
+          <li class="fulfill">输入用户名</li>
+          <li>身份验证</li>
+          <li>修改密码</li>
+          <li class="stepLast">完成</li>
+        </ul>
+        <div class="clear"></div>
+        <ul class="stepbg">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <div class="formcont form1">
+        <div class="findusername"><span>用户名：</span>
+          <input id="findUsername" type="text" name="">
+          <p class="clear"></p><span class="error"></span>
+        </div>
+        <div class="findcode"><span>验证码：</span>
+          <input id="findCode" type="text" name=""><span id="verificationCode"><img src=""></span><span class="noSee">看不清</span>
+          <p class="clear"></p><span class="error"></span>
+        </div><a class="nextstep" href="javascript:;">下一步</a>
+      </div>
+      <div class="formcont form2">
+        <p>请选择找回密码的方式：</p>
+        <ul class="chooseType">
+          <li class="activeType emailType"><i></i><span>通过绑定邮箱找回</span></li>
+          <li class="questionType"><i></i><span>通过安全问题找回</span></li>
+          <li class="securitycode"><i></i><span>通过资金密码找回</span></li>
+          <li class="kefu"><a href="http://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=651273&amp;configID=45233&amp;jid=8622492600" target="_blank"><i></i><span>联系在线客服</span></a></li>
+        </ul>
+        <div class="clear"></div><a class="nextstep" href="javascript:;">下一步</a>
+      </div>
+      <div class="formcont form3">
+        <div class="emailBox formBox">
+          <p class="emailTips"></p>
+          <div class="safeemail"><span>邮箱：</span>
+            <input id="emailaddr" type="text" name="">
+            <p class="clear"></p>
+          </div>
+          <div class="emailCode"><span>验证码：</span>
+            <input id="emailCode" type="text" name="">
+            <button id="getCode">获取验证码</button>
+            <p class="clear"></p>
+            <p class="err"></p>
+          </div>
+          <ul class="gostep">
+            <li class="prestep">返回上一步</li>
+            <li class="nextstep">下一步</li>
+          </ul>
+        </div>
+        <div class="questionBox formBox">
+          <div class="forminput"><span>安全问题：</span>
+            <select id="questionName"></select>
+            <p class="clear"></p>
+          </div>
+          <div class="forminput"><span>答案：</span>
+            <input id="answer" placeholder="请输入问题的答案">
+            <p class="clear"></p>
+            <p class="err"></p>
+          </div>
+          <ul class="gostep">
+            <li class="prestep">返回上一步</li>
+            <li class="nextstep">下一步</li>
+          </ul>
+        </div>
+        <div class="securitycodeBox formBox">
+          <div class="forminput"><span>资金密码：</span>
+            <input id="securitycode" type="password" name="">
+            <p class="clear"></p>
+          </div>
+          <ul class="gostep">
+            <li class="prestep">返回上一步</li>
+            <li class="nextstep">下一步</li>
+          </ul>
+        </div>
+      </div>
+      <div class="formcont form4">
+        <div class="findNewpassword"><span>设置新密码：</span>
+          <input id="setNeword" type="password" name="">
+          <p class="error"></p>
+          <p class="clear"></p>
+        </div>
+        <div class="proNewpassword"><span>确认新密码：</span>
+          <input id="prosetNeword" type="password" name="">
+          <p class="error"></p>
+          <p class="clear"></p>
+        </div><a class="nextstep" href="javascript:;">下一步</a>
+      </div>
+      <div class="formcont form5">
+        <dl>
+          <dt></dt>
+          <dd></dd>
+        </dl><a class="closepob" href="javascript:;">关闭</a>
+      </div>
+    </div>
+    <div class="mask"></div>
     <div class="layout-footer">
       <div class="container">
         <div class="row row-guttery-0">

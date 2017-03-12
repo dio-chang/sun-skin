@@ -1,13 +1,15 @@
 extends layout
+block header
+    +header("真人")
 block append header
     //block header
     //    | @@includes('./_header.html', "首页2")
-    link(rel="stylesheet" href="../static/styles/sun-skin-page2.css")
+    link(rel="stylesheet" href=`${csspath}/static/styles/sun-skin-page2.css`)
     link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
 block body-middle
     section.index-slide
         .slide-inner
-            .sl_img._vr_carousels_check.banner1(style='background:url(../static/images/banner4.jpg) 50% 50% no-repeat;', starttime='1474267757000', endtime='33031209599000', showindex='1')
+            .sl_img._vr_carousels_check.banner1(style=`background:url(${imgpath}/static/images/banner4.jpg) 50% 50% no-repeat;`, starttime='1474267757000', endtime='33031209599000', showindex='1')
     section.notice.index-notice
         .container
             .notice-list
@@ -46,7 +48,7 @@ block body-middle
                 .index_r.p2-right-box
                     .p2-item
                         .p2-block.p2-experience
-                            img(src="../static/images/p2_experience_banner.gif")
+                            img(src=`${imgpath}/static/images/p2_experience_banner.gif`)
                         .p2-block.p2-promotion
                             .more 
                                 a(href="#") 
