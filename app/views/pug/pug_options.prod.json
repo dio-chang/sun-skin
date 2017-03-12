@@ -1,0 +1,8 @@
+{
+    "imgpath": "@@imgpath", 
+    "csspath": "@@csspath", 
+    "jspath": "@@jspath", 
+    "rootUrl": "@@rootpath", 
+    "index":"@@index", 
+    "views": "@@views"
+}
